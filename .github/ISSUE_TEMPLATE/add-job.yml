@@ -1,0 +1,38 @@
+name: Suggest an internship
+description: Suggest a job for human verification
+labels: ['job-candidate']
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Official job URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: company
+    attributes:
+      label: Company and role
+    validations:
+      required: true
+  - type: dropdown
+    id: country
+    attributes:
+      label: Country
+      options: ['Japan', 'Taiwan']
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Track
+      options: ['SWE', 'MLE / AI']
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence for summer 2027 and eligibility
+      description: Quote the dates; distinguish internship dates from graduation or joining year.
+    validations:
+      required: true

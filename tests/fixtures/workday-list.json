@@ -1,0 +1,8 @@
+{
+  "total": 3,
+  "jobPostings": [
+    {"title": "Software Engineering Intern — Summer 2027", "locationsText": "Taiwan, Taipei", "externalPath": "/job/Taiwan-Taipei/Software-Engineering-Intern_JR1234567"},
+    {"title": "Machine Learning Intern — Summer 2027", "locationsText": "Tokyo, Japan", "externalPath": "/job/Tokyo/Machine-Learning-Intern_JR2345678"},
+    {"title": "Software Intern — Summer 2027", "locationsText": "Santa Clara, United States", "externalPath": "/job/Santa-Clara/Software-Intern_JR3456789"}
+  ]
+}

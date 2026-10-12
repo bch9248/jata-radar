@@ -1,0 +1,57 @@
+name: Update internship board
+on:
+  schedule:
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+    inputs:
+      no_search:
+        description: Skip optional Brave search
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: internship-board-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate and test
+        id: tests
+        run: |
+          python -m tracker doctor
+          python -m unittest discover -s tests -v
+      - name: Discover and update
+        id: sync
+        env:
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          NO_SEARCH: ${{ inputs.no_search }}
+        run: |
+          if [ "$NO_SEARCH" = "true" ]; then
+            python -m tracker sync --no-search
+          else
+            python -m tracker sync
+          fi
+      - name: Recheck due links
+        if: steps.sync.outcome == 'success'
+        run: python -m tracker check
+      - name: Commit board and source health
+        if: always() && steps.tests.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md data job-postings
+          if ! git diff --cached --quiet; then
+            git commit -m "Update internship board and source health"
+            git pull --rebase origin "${{ github.event.repository.default_branch }}"
+            git push origin "HEAD:${{ github.event.repository.default_branch }}"
+          fi

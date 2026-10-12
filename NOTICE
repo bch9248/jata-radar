@@ -1,0 +1,11 @@
+This project is inspired by the repository structure and automation concepts of
+JobRadar-AI (https://github.com/Donkey0322/JobRadar-AI), supplied as
+JobRadar-AI-main.zip by the user.
+
+Original repository: MIT License, Copyright (c) 2026 Yun-Chen Lee.
+That copyright and license are retained in LICENSE for attribution.
+The Python implementation, regional configurations and documentation in this
+package are newly authored for this tracker and made available under MIT.
+
+Third-party employer postings and community datasets are not licensed by this
+NOTICE; their respective rights and platform terms continue to apply.

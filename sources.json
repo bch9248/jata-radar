@@ -1,0 +1,38 @@
+[
+  {
+    "id": "nvidia", "company": "NVIDIA", "type": "workday", "enabled": true,
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite",
+    "search_terms": ["intern"],
+    "note": "Taiwan/Japan location filter; detailed descriptions fetched through CXS. Dynamic endpoint, not a guaranteed public API."
+  },
+  {
+    "id": "rakuten", "company": "Rakuten", "type": "workday", "enabled": true,
+    "url": "https://rakuten.wd1.myworkdayjobs.com/RakutenInc",
+    "search_terms": ["intern", "インターン"],
+    "note": "Do not interpret 2027 entry year or 2028 graduate cohort as summer 2027."
+  },
+  {
+    "id": "sony-japan", "company": "Sony", "type": "workday", "enabled": true,
+    "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyJapanCareers",
+    "search_terms": ["intern", "インターン"],
+    "note": "Research internships often have flexible dates; retained in review until summer 2027 is confirmed."
+  },
+  {
+    "id": "speedyapply-international", "type": "community", "enabled": true,
+    "url": "https://raw.githubusercontent.com/speedyapply/2027-SWE-College-Jobs/main/INTERN_INTL.md",
+    "note": "Third-party discovery only; fetch actual detail before automatic confirmation. No age=0d filter."
+  },
+  {
+    "id": "dreamwork-taiwan", "type": "community", "enabled": true,
+    "url": "https://raw.githubusercontent.com/dreamworkhq/Tech-Internships-2027/main/international/taiwan.md",
+    "note": "Taiwan-specific community list; schema may change and is monitored."
+  },
+  {
+    "id": "your-greenhouse-board", "type": "greenhouse", "company": "CHANGE_ME", "enabled": false,
+    "board": "CHANGE_ME", "note": "Optional. Use a verified employer board token; see docs/SOURCES.md."
+  },
+  {
+    "id": "your-lever-board", "type": "lever", "company": "CHANGE_ME", "enabled": false,
+    "board": "CHANGE_ME", "note": "Optional. Use a verified employer site identifier; see docs/SOURCES.md."
+  }
+]

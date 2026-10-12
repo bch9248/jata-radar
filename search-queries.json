@@ -1,0 +1,122 @@
+[
+  {
+    "id": "tw-swe",
+    "country_code": "TW",
+    "query": "{year} summer software engineering intern Taiwan Taipei"
+  },
+  {
+    "id": "tw-ml",
+    "country_code": "TW",
+    "query": "{year} summer machine learning AI research intern Taiwan"
+  },
+  {
+    "id": "tw-cn-swe",
+    "country_code": "TW",
+    "query": "{year} 暑期 實習 軟體 工程師 台灣"
+  },
+  {
+    "id": "tw-cn-ai",
+    "country_code": "TW",
+    "query": "{year} 暑期 實習 人工智慧 機器學習 台灣"
+  },
+  {
+    "id": "104-swe",
+    "country_code": "TW",
+    "query": "site:104.com.tw/job/ {year} 實習 軟體"
+  },
+  {
+    "id": "104-ai",
+    "country_code": "TW",
+    "query": "site:104.com.tw/job/ {year} 實習 AI 機器學習"
+  },
+  {
+    "id": "cake",
+    "country_code": "TW",
+    "query": "site:cake.me/companies/ {year} internship Taiwan software AI"
+  },
+  {
+    "id": "yourator",
+    "country_code": "TW",
+    "query": "site:yourator.co/companies/ {year} 暑期 實習 軟體 AI"
+  },
+  {
+    "id": "google-tw",
+    "country_code": "TW",
+    "query": "site:google.com/about/careers/applications/jobs/results/ {year} intern summer Taiwan"
+  },
+  {
+    "id": "line-tw",
+    "country_code": "TW",
+    "query": "site:careers.linecorp.com {year} intern Taipei software"
+  },
+  {
+    "id": "amazon-tw",
+    "country_code": "TW",
+    "query": "site:amazon.jobs {year} intern Taiwan software"
+  },
+  {
+    "id": "taiwan-companies",
+    "country_code": "TW",
+    "query": "{year} summer intern software AI Taiwan Microsoft MediaTek TSMC Appier Trend Micro"
+  },
+  {
+    "id": "jp-swe",
+    "country_code": "JP",
+    "query": "{year} summer software engineering intern Japan Tokyo"
+  },
+  {
+    "id": "jp-ml",
+    "country_code": "JP",
+    "query": "{year} summer machine learning AI research intern Japan"
+  },
+  {
+    "id": "jp-local-swe",
+    "country_code": "JP",
+    "query": "{year} 夏季 サマー インターン ソフトウェア エンジニア 日本"
+  },
+  {
+    "id": "jp-local-ml",
+    "country_code": "JP",
+    "query": "{year} 夏 インターン 機械学習 人工知能 日本"
+  },
+  {
+    "id": "mercari",
+    "country_code": "JP",
+    "query": "site:careers.mercari.com {year} internship engineering"
+  },
+  {
+    "id": "pfn",
+    "country_code": "JP",
+    "query": "site:preferred.jp {year} internship summer"
+  },
+  {
+    "id": "rakuten",
+    "country_code": "JP",
+    "query": "site:rakuten.com {year} TECH Camp internship summer"
+  },
+  {
+    "id": "sony",
+    "country_code": "JP",
+    "query": "site:sony.com {year} internship Japan research software"
+  },
+  {
+    "id": "wantedly",
+    "country_code": "JP",
+    "query": "site:wantedly.com/projects/ {year} インターン 機械学習 ソフトウェア"
+  },
+  {
+    "id": "japan-dev",
+    "country_code": "JP",
+    "query": "site:japan-dev.com/jobs/ internship summer {year}"
+  },
+  {
+    "id": "tokyodev",
+    "country_code": "JP",
+    "query": "site:tokyodev.com/jobs/ internship summer {year}"
+  },
+  {
+    "id": "jp-global",
+    "country_code": "JP",
+    "query": "{year} summer intern Japan Google Microsoft Amazon Woven research software"
+  }
+]

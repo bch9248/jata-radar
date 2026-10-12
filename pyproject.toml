@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "japan-taiwan-intern-2027"
+version = "1.0.0"
+description = "2027 summer SWE and MLE/AI internships in Japan and Taiwan"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["tracker*"]
