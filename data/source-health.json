@@ -1,1 +1,55 @@
-{}
+{
+  "started_at": "2026-10-14T01:03:55+00:00",
+  "sources": [
+    {
+      "id": "nvidia",
+      "status": "ok",
+      "candidates": 9,
+      "error": ""
+    },
+    {
+      "id": "rakuten",
+      "status": "ok",
+      "candidates": 0,
+      "error": ""
+    },
+    {
+      "id": "sony-japan",
+      "status": "ok",
+      "candidates": 9,
+      "error": ""
+    },
+    {
+      "id": "speedyapply-international",
+      "status": "ok",
+      "candidates": 23,
+      "error": ""
+    },
+    {
+      "id": "dreamwork-taiwan",
+      "status": "ok",
+      "candidates": 36,
+      "error": ""
+    }
+  ],
+  "search_queries": [
+    {
+      "id": "brave",
+      "status": "skipped",
+      "error": "BRAVE_API_KEY not set",
+      "candidates": 0
+    }
+  ],
+  "detail_errors": [
+    {
+      "id": "b656732ed39d55b5",
+      "error": "robots.txt disallows page fetching"
+    }
+  ],
+  "finished_at": "2026-10-14T01:05:35+00:00",
+  "requests": 87,
+  "new_jobs": 74,
+  "detail_candidates": 74,
+  "details_attempted": 74,
+  "details_deferred": 0
+}

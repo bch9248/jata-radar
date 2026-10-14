@@ -26,7 +26,7 @@ With no API keys, configured ATS and community-list sources still run. Broad reg
 
 ## SWE — Software Engineering
 
-[Full list](job-postings/swe.md) · 0 listings
+[Full list](job-postings/swe.md) · 2 listings
 
 ### Japan
 
@@ -38,7 +38,8 @@ With no API keys, configured ATS and community-list sources still run. Broad reg
 
 | Company | Role | Location | Year / season | Eligibility hints | Status | Apply | First seen |
 |---|---|---|---|---|---|---|---|
-| — | No confirmed listings yet | — | — | — | — | — | — |
+| NVIDIA | System Software Engineering Intern, GPU and SOC - Summer 2027 | Taiwan, Taipei | 2027 / summer | Unknown — read JD | open | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Taiwan-Taipei/System-Software-Engineering-Intern--GPU-and-SOC---Summer-2027_JR2026406) | 2026-10-14 |
+| Nvidia | System Software Engineering Intern, GPU and SOC - Summer 2027 | Taiwan, Taipei, TW | 2027 / summer | Unknown — read JD | open | [Apply](https://www.dreamworkhq.com/job/ac2dc067-93ab-4253-afdf-5829a71a5aa1) | 2026-10-14 |
 
 ## MLE / AI — Machine Learning & AI
 
@@ -58,14 +59,20 @@ With no API keys, configured ATS and community-list sources still run. Broad reg
 
 ## Needs review
 
-0 candidates · [Review queue](job-postings/review.md). Unknown year, summer dates, location or page structure is never silently approved.
+71 candidates · [Review queue](job-postings/review.md). Unknown year, summer dates, location or page structure is never silently approved.
 
 ## Source health
 
 | Source | Last result | Candidates | Note |
 |---|---|---|---|
+| nvidia | ok | 9 | — |
+| rakuten | ok | — | — |
+| sony-japan | ok | 9 | — |
+| speedyapply-international | ok | 23 | — |
+| dreamwork-taiwan | ok | 36 | — |
+| brave | skipped | — | BRAVE_API_KEY not set |
 
-Last sync: Not run yet · requests: 0
+Last sync: 2026-10-14T01:05:35+00:00 · requests: 87
 
 Only a successful job-detail fetch marks a listing open. Source absence, HTTP 403/429 and network failures do not mark it closed. Run `check` weekly; dynamic closed-page messages can still require manual review.
 
