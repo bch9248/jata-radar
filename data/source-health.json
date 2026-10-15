@@ -1,10 +1,10 @@
 {
-  "started_at": "2026-10-14T01:03:55+00:00",
+  "started_at": "2026-10-15T00:24:07+00:00",
   "sources": [
     {
       "id": "nvidia",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 8,
       "error": ""
     },
     {
@@ -22,13 +22,13 @@
     {
       "id": "speedyapply-international",
       "status": "ok",
-      "candidates": 23,
+      "candidates": 24,
       "error": ""
     },
     {
       "id": "dreamwork-taiwan",
       "status": "ok",
-      "candidates": 36,
+      "candidates": 35,
       "error": ""
     }
   ],
@@ -46,10 +46,10 @@
       "error": "robots.txt disallows page fetching"
     }
   ],
-  "finished_at": "2026-10-14T01:05:35+00:00",
-  "requests": 87,
-  "new_jobs": 74,
-  "detail_candidates": 74,
-  "details_attempted": 74,
+  "finished_at": "2026-10-15T00:24:24+00:00",
+  "requests": 17,
+  "new_jobs": 2,
+  "detail_candidates": 5,
+  "details_attempted": 5,
   "details_deferred": 0
 }

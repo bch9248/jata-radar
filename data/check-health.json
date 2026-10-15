@@ -1,11 +1,5 @@
 {
-  "finished_at": "2026-10-14T01:05:35+00:00",
-  "checks": [
-    {
-      "id": "b656732ed39d55b5",
-      "status": "unknown",
-      "error": "robots.txt disallows page fetching"
-    }
-  ],
+  "finished_at": "2026-10-15T00:24:24+00:00",
+  "checks": [],
   "deferred": 0
 }
