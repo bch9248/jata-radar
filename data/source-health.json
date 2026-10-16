@@ -1,10 +1,10 @@
 {
-  "started_at": "2026-10-15T00:24:07+00:00",
+  "started_at": "2026-10-16T00:13:40+00:00",
   "sources": [
     {
       "id": "nvidia",
       "status": "ok",
-      "candidates": 8,
+      "candidates": 7,
       "error": ""
     },
     {
@@ -28,7 +28,7 @@
     {
       "id": "dreamwork-taiwan",
       "status": "ok",
-      "candidates": 35,
+      "candidates": 39,
       "error": ""
     }
   ],
@@ -46,10 +46,10 @@
       "error": "robots.txt disallows page fetching"
     }
   ],
-  "finished_at": "2026-10-15T00:24:24+00:00",
-  "requests": 17,
-  "new_jobs": 2,
-  "detail_candidates": 5,
-  "details_attempted": 5,
+  "finished_at": "2026-10-16T00:13:58+00:00",
+  "requests": 19,
+  "new_jobs": 4,
+  "detail_candidates": 7,
+  "details_attempted": 7,
   "details_deferred": 0
 }
