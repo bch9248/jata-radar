@@ -59,7 +59,7 @@ With no API keys, configured ATS and community-list sources still run. Broad reg
 
 ## Needs review
 
-78 candidates · [Review queue](job-postings/review.md). Unknown year, summer dates, location or page structure is never silently approved.
+79 candidates · [Review queue](job-postings/review.md). Unknown year, summer dates, location or page structure is never silently approved.
 
 ## Source health
 
@@ -72,7 +72,7 @@ With no API keys, configured ATS and community-list sources still run. Broad reg
 | dreamwork-taiwan | ok | 39 | — |
 | brave | skipped | — | BRAVE_API_KEY not set |
 
-Last sync: 2026-10-17T00:16:41+00:00 · requests: 19
+Last sync: 2026-10-17T23:55:37+00:00 · requests: 19
 
 Only a successful job-detail fetch marks a listing open. Source absence, HTTP 403/429 and network failures do not mark it closed. Run `check` weekly; dynamic closed-page messages can still require manual review.
 

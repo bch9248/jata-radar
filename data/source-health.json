@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-17T00:16:23+00:00",
+  "started_at": "2026-10-17T23:55:19+00:00",
   "sources": [
     {
       "id": "nvidia",
@@ -50,7 +50,7 @@
       "error": "robots.txt disallows page fetching"
     }
   ],
-  "finished_at": "2026-10-17T00:16:41+00:00",
+  "finished_at": "2026-10-17T23:55:37+00:00",
   "requests": 19,
   "new_jobs": 1,
   "detail_candidates": 8,
