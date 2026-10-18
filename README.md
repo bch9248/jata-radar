@@ -26,7 +26,7 @@ With no API keys, configured ATS and community-list sources still run. Broad reg
 
 ## SWE — Software Engineering
 
-[Full list](job-postings/swe.md) · 2 listings
+[Full list](job-postings/swe.md) · 1 listings
 
 ### Japan
 
@@ -38,8 +38,7 @@ With no API keys, configured ATS and community-list sources still run. Broad reg
 
 | Company | Role | Location | Year / season | Eligibility hints | Status | Apply | First seen |
 |---|---|---|---|---|---|---|---|
-| NVIDIA | System Software Engineering Intern, GPU and SOC - Summer 2027 | Taiwan, Taipei | 2027 / summer | Unknown — read JD | open | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Taiwan-Taipei/System-Software-Engineering-Intern--GPU-and-SOC---Summer-2027_JR2026406) | 2026-10-14 |
-| Nvidia | System Software Engineering Intern, GPU and SOC - Summer 2027 | Taiwan, Taipei, TW | 2027 / summer | Unknown — read JD | open | [Apply](https://www.dreamworkhq.com/job/ac2dc067-93ab-4253-afdf-5829a71a5aa1) | 2026-10-14 |
+| NVIDIA | System Software Engineering Intern, GPU and SOC - Summer 2027 | Taiwan, Taipei | 2027 / summer | Unknown — read JD | open | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/System-Software-Engineering-Intern--GPU-and-SOC---Summer-2027_JR2026406) | 2026-10-14 |
 
 ## MLE / AI — Machine Learning & AI
 
@@ -59,20 +58,20 @@ With no API keys, configured ATS and community-list sources still run. Broad reg
 
 ## Needs review
 
-79 candidates · [Review queue](job-postings/review.md). Unknown year, summer dates, location or page structure is never silently approved.
+99 candidates · [Review queue](job-postings/review.md). Unknown year, summer dates, location or page structure is never silently approved.
 
 ## Source health
 
 | Source | Last result | Candidates | Note |
 |---|---|---|---|
-| nvidia | ok | 7 | — |
-| rakuten | ok | — | — |
+| nvidia | truncated | 74 | Pagination limit reached; increase max_pages |
+| rakuten | truncated | 0 | Pagination limit reached; increase max_pages |
 | sony-japan | ok | 9 | — |
 | speedyapply-international | ok | 25 | — |
 | dreamwork-taiwan | ok | 39 | — |
-| brave | skipped | — | BRAVE_API_KEY not set |
+| brave | skipped | 0 | BRAVE_API_KEY not set |
 
-Last sync: 2026-10-17T23:55:37+00:00 · requests: 19
+Last sync: 2026-10-18T05:41:56+00:00 · requests: 82
 
 Only a successful job-detail fetch marks a listing open. Source absence, HTTP 403/429 and network failures do not mark it closed. Run `check` weekly; dynamic closed-page messages can still require manual review.
 

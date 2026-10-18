@@ -1,17 +1,17 @@
 {
-  "started_at": "2026-10-17T23:55:19+00:00",
+  "started_at": "2026-10-18T05:40:20+00:00",
   "sources": [
     {
       "id": "nvidia",
-      "status": "ok",
-      "candidates": 7,
-      "error": ""
+      "status": "truncated",
+      "candidates": 74,
+      "error": "Pagination limit reached; increase max_pages"
     },
     {
       "id": "rakuten",
-      "status": "ok",
+      "status": "truncated",
       "candidates": 0,
-      "error": ""
+      "error": "Pagination limit reached; increase max_pages"
     },
     {
       "id": "sony-japan",
@@ -40,20 +40,11 @@
       "candidates": 0
     }
   ],
-  "detail_errors": [
-    {
-      "id": "b656732ed39d55b5",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "a029289e32679a42",
-      "error": "robots.txt disallows page fetching"
-    }
-  ],
-  "finished_at": "2026-10-17T23:55:37+00:00",
-  "requests": 19,
-  "new_jobs": 1,
-  "detail_candidates": 8,
-  "details_attempted": 8,
+  "detail_errors": [],
+  "finished_at": "2026-10-18T05:41:56+00:00",
+  "requests": 82,
+  "new_jobs": 49,
+  "detail_candidates": 49,
+  "details_attempted": 49,
   "details_deferred": 0
 }
