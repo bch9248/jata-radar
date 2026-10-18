@@ -125,7 +125,8 @@ def parse_page(raw, candidate, c=None):
             if link:
                 out['employer_url'] = link
         return out
-    return dict(candidate, title=''.join(p.title).strip() or candidate.get('title', 'Unverified listing'),
+    # A listing's own title beats the page <title>, which carries site suffixes ("… | Dreamwork").
+    return dict(candidate, title=candidate.get('title') or ''.join(p.title).strip() or 'Unverified listing',
                 description=text(raw)[:18000], trusted_detail=False, detail_method='html', live=True)
 
 def workday_parts(url):

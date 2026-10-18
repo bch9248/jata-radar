@@ -401,6 +401,13 @@ class ReviewFixTests(unittest.TestCase):
         j, created = upsert(jobs, job(url=self.AGG, company='Nvidia', trusted_detail=False, source='dreamwork'), C)
         self.assertFalse(created)
         self.assertEqual(j['url'], canonical(self.WD))
+    def test_repeated_aggregator_copies_merge(self):
+        jobs = []
+        upsert(jobs, job(url=self.WD, source='nvidia'), C)
+        upsert(jobs, job(url=self.AGG, trusted_detail=False, source='dreamwork'), C)
+        upsert(jobs, job(url=self.AGG + '2', trusted_detail=False, source='dreamwork'), C)
+        self.assertEqual(merge_duplicates(jobs, C), 2)
+        self.assertEqual(len(jobs[0]['alias_urls']), 2)
     def test_same_host_same_title_not_merged(self):
         jobs = []
         upsert(jobs, job(url='https://example.org/jobs/1'), C)
@@ -425,6 +432,16 @@ class ReviewFixTests(unittest.TestCase):
         self.assertNotEqual(classify(job(location='Taiwan, Taipei; China, Shanghai'), C)['decision'], 'rejected')
         self.assertEqual(classify(job(location='Remote'), C)['decision'], 'review')
         self.assertEqual(classify(job(location=''), C)['decision'], 'review')
+    def test_html_fallback_keeps_listing_title(self):
+        a = parse_page('<title>Software Intern at Example | Board</title><p>hi</p>', {'url': 'https://example.org/jobs/1', 'title': 'Software Intern'})
+        self.assertEqual(a['title'], 'Software Intern')
+        self.assertEqual(parse_page('<title>Page Title</title>', {'url': 'https://example.org/jobs/2'})['title'], 'Page Title')
+    def test_summer_from_month_ranges(self):
+        for d in ('Internship period: June to August 2027.', '實習期間 2027 年 7 月～8 月', 'Jul - Sep 2027 in Tokyo'):
+            r = classify(job(title='Software Intern', description=d), C)
+            self.assertEqual((r['year'], r['season']), (2027, 'summer'), d)
+        r = classify(job(title='Software Intern 2027', description='Start in July; six-month program.'), C)
+        self.assertIsNone(r['season'])
     def test_classification_regexes(self):
         self.assertTrue(classify(job(title='Software Engineering Interns Summer 2027'), C)['internship'])
         self.assertEqual(classify(job(title='AIエンジニア インターン 2027 夏'), C)['category'], 'MLE_AI')
@@ -466,10 +483,12 @@ class ReviewFixWorkflowTests(unittest.TestCase):
             self.call('sync', '--no-search')
             self.assertGreater(first, 0)
             self.assertEqual(d.call_count, first)
-    def test_board_lists_everything_newest_first(self):
+    def test_board_lists_only_summer_internships_newest_first(self):
         jobs = []
-        upsert(jobs, job(url='https://example.org/jobs/old', title='Old Software Intern', posted_at='2026-09-01'), C)
-        upsert(jobs, job(url='https://example.org/jobs/new', title='New Software Intern', posted_at='2026-10-15T00:00:00Z'), C)
+        upsert(jobs, job(url='https://example.org/jobs/old', title='Old Software Intern Summer 2027', posted_at='2026-09-01'), C)
+        upsert(jobs, job(url='https://example.org/jobs/new', title='New Software Intern Summer 2027', posted_at='2026-10-15T00:00:00Z'), C)
+        upsert(jobs, job(url='https://example.org/jobs/jd', title='Backend Intern 2027', description='The internship runs June to August.'), C)
+        upsert(jobs, job(url='https://example.org/jobs/long', title='Backend Intern - 2027', description='Minimum duration of 6 months.'), C)
         upsert(jobs, job(url='https://example.org/jobs/out', title='Software Intern Summer 2026'), C)
         save(self.root/'data/jobs.json', jobs)
         render(self.root, C)
@@ -477,8 +496,10 @@ class ReviewFixWorkflowTests(unittest.TestCase):
         self.assertIn('>Oct 15</td>', readme)
         self.assertLess(readme.index('New Software Intern'), readme.index('Old Software Intern'))
         self.assertIn('>↳</td>', readme)  # same company collapses like JobRadar
-        self.assertIn('summer not stated', readme)  # unconfirmed roles are listed, not held back
-        self.assertNotIn('Summer 2026', readme)  # out-of-scope year stays off the board
+        self.assertIn('Backend Intern 2027', readme)  # summer read from the JD
+        self.assertNotIn('Backend Intern - 2027', readme)  # unstated season stays off the list
+        self.assertIn('Backend Intern - 2027', (self.root/'job-postings/not-summer.md').read_text())
+        self.assertNotIn('Summer 2026', readme)
         self.assertFalse((self.root/'job-postings/review.md').exists())
     def test_zero_candidates_render_as_zero(self):
         save(self.root/'data/source-health.json', {'sources':[{'id':'rakuten','status':'ok','candidates':0,'error':''}]})
