@@ -8,7 +8,7 @@
 
 <p align="center">
   <img height="20" alt="Countries: Japan / Taiwan" src="https://img.shields.io/badge/Countries-Japan%20%2F%20Taiwan-22c55e?style=flat" />
-  <img height="20" alt="Open roles: 7" src="https://img.shields.io/badge/Open%20roles-7-60a5fa?style=flat" />
+  <img height="20" alt="Open roles: 9" src="https://img.shields.io/badge/Open%20roles-9-60a5fa?style=flat" />
   <img height="20" alt="Updated: 2026-10-18" src="https://img.shields.io/badge/Updated-2026--10--18-f97316?style=flat" />
   <img height="20" alt="License: MIT" src="https://img.shields.io/badge/License-MIT-eab308?style=flat" />
 </p>
@@ -23,11 +23,11 @@
 
 ## Browse jobs by category
 
-- [SWE — Software Engineering](./job-postings/swe.md) — 3 opportunities
+- [SWE — Software Engineering](./job-postings/swe.md) — 5 opportunities
 - [MLE / AI — Machine Learning & AI](./job-postings/mle_ai.md) — 0 opportunities
 - [Other Engineering](./job-postings/other.md) — 4 opportunities
-- [Closed](./job-postings/archive.md) — 0 listings
-- [Not stated as summer 2027](./job-postings/not-summer.md) — 54 internships hidden from the list
+- [Closed](./job-postings/archive.md) — 14 listings
+- [Not stated as summer 2027](./job-postings/not-summer.md) — 83 internships hidden from the list
 
 Only roles whose title or job description states a summer 2027 internship are listed. Date is the employer's posting date when published, otherwise the day this tracker first found the role.
 
@@ -66,6 +66,20 @@ Only roles whose title or job description states a summer 2027 internship are li
       <td width="180" align="left" valign="top">🇹🇼 Taiwan, Taipei</td>
       <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/System-Software-Engineering-Intern--GPU-and-SOC---Summer-2027_JR2026406"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">HENNGE</td>
+      <td width="420" align="left" valign="top">Global Internship Program (GIP) – Full-Stack Pathway<br /><img height="18" alt="summer 2027" src="https://img.shields.io/badge/summer%202027-22c55e?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /> <img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
+      <td width="120" align="left" valign="top"><a href="https://japan-dev.com/jobs/hennge/hennge-global-internship-program-onsite-tokyo-japan-42q8i0"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Global Internship Program - Full Stack<br /><img height="18" alt="summer 2027" src="https://img.shields.io/badge/summer%202027-22c55e?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /> <img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 Shibuya-ku, Tokyo, JP</td>
+      <td width="120" align="left" valign="top"><a href="https://www.tokyodev.com/companies/hennge/jobs/global-intern"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 24</td>
     </tr>
   </tbody>
 </table>
@@ -147,20 +161,20 @@ Only roles whose title or job description states a summer 2027 internship are li
 | sony-japan | ok | 9 | — |
 | speedyapply-international | ok | 25 | — |
 | dreamwork-taiwan | ok | 39 | — |
-| tw-swe | error | — | HTTP 422 |
-| tw-ml | error | — | HTTP 422 |
-| tw-cn-swe | error | — | HTTP 422 |
-| tw-cn-ai | error | — | HTTP 422 |
-| 104-swe | error | — | HTTP 422 |
-| 104-ai | error | — | HTTP 422 |
-| cake | error | — | HTTP 422 |
-| yourator | error | — | HTTP 422 |
-| google-tw | error | — | HTTP 422 |
-| line-tw | error | — | HTTP 422 |
-| amazon-tw | error | — | HTTP 422 |
-| taiwan-companies | error | — | HTTP 422 |
+| jp-swe | ok | 4 | — |
+| jp-ml | ok | 4 | — |
+| jp-local-swe | ok | 2 | — |
+| jp-local-ml | ok | 1 | — |
+| mercari | ok | 1 | — |
+| pfn | ok | 4 | — |
+| rakuten | ok | 0 | — |
+| sony | ok | 6 | — |
+| wantedly | ok | 10 | — |
+| japan-dev | ok | 10 | — |
+| tokyodev | ok | 10 | — |
+| jp-global | ok | 6 | — |
 
-Last sync: 2026-10-18T06:47:45+00:00 · requests: 45
+Last sync: 2026-10-18T06:51:36+00:00 · requests: 117
 
 </details>
 
