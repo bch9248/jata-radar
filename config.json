@@ -5,7 +5,7 @@
   "request_delay_seconds": 1.2,
   "max_pages": 12,
   "max_detail_requests": 100,
-  "max_search_queries": 12,
+  "max_search_queries": 24,
   "search_results_per_query": 10,
   "recheck_after_days": 7,
   "close_after_missing_checks": 2,
