@@ -37,7 +37,7 @@ python3 -m tracker doctor
 python3 -m tracker sync
 ```
 
-`.env` 自動載入且不會被 Git 追蹤，無需另外 `export`。不要把 key 寫進 `config.json`。如果曾在 shell export 同名變數，shell 值優先。預設每次執行 12 組搜尋、每組最多 10 個結果；24 組查詢循環，每兩次排程涵蓋一輪。搜尋不限定近一週，避免漏掉仍開放的早期職缺。
+`.env` 自動載入且不會被 Git 追蹤，無需另外 `export`。不要把 key 寫進 `config.json`。如果曾在 shell export 同名變數，shell 值優先。預設每次執行全部 24 組搜尋（台灣與日本），每組最多 10 個結果，約每月 720 次查詢。搜尋不限定近一週，避免漏掉仍開放的早期職缺。
 
 104 / Cake / Yourator / Wantedly 等不是預設直接批量爬取的來源：透過搜尋找到個別職缺 URL，再嘗試取得公開 job detail。robots、登入、JavaScript、403 或防爬限制可能讓內容無法擷取；已知的社群候選會保留待確認，搜尋結果若連獨立頁面都抓不到則不保存搜尋摘要。可改用 `add --no-fetch` 人工加入，不繞過限制。
 
