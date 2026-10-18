@@ -73,11 +73,18 @@ def table(jobs, limit=None):
         lines.append(f'<p><sub>Showing {limit} of {len(jobs)} opportunities in this section.</sub></p>')
     return '\n'.join(lines)
 
+def summer_internship(j, c):
+    return (j.get('internship', True) and j.get('year') == c['target_year'] and j.get('season') == 'summer'
+            and j.get('country') in c['countries'])
+
 def render(root, c):
     jobs = load(root / 'data/jobs.json', [])
     health = load(root / 'data/source-health.json', {})
     # Everything found is listed; only closed and out-of-scope (rejected) postings are left out.
-    listed = newest_first([j for j in jobs if j.get('decision') != 'rejected' and j.get('status') != 'closed'])
+    open_jobs = [j for j in jobs if j.get('decision') != 'rejected' and j.get('status') != 'closed']
+    # Strict board: the title or JD must state a summer internship in the target year and country.
+    listed = newest_first([j for j in open_jobs if summer_internship(j, c)])
+    hidden = newest_first([j for j in open_jobs if not summer_internship(j, c)])
     groups = {key: [j for j in listed if (j.get('category') if j.get('category') in PAGES else None) == key] for key in PAGES}
     updated = str(health.get('finished_at', ''))[:10] or 'never'
     countries = ' / '.join(c['countries'])
@@ -95,9 +102,10 @@ def render(root, c):
             '</p>', '', '---', '', '## Browse jobs by category', '']
     for key, label in CATEGORY_LABELS.items():
         body.append(f'- [{label}](./job-postings/{PAGES[key]}.md) — {len(groups[key])} opportunities')
-    body += [f'- [Closed](./job-postings/archive.md) — {sum(j.get("status") == "closed" for j in jobs)} listings', '',
-             'Date is the employer\'s posting date when published, otherwise the day this tracker first found the role. '
-             'Yellow badges mark what a posting has not stated yet (e.g. summer dates) — check the posting before applying.', '',
+    body += [f'- [Closed](./job-postings/archive.md) — {sum(j.get("status") == "closed" for j in jobs)} listings',
+             f'- [Not stated as summer {c["target_year"]}](./job-postings/not-summer.md) — {len(hidden)} internships hidden from the list', '',
+             f'Only roles whose title or job description states a summer {c["target_year"]} internship are listed. '
+             'Date is the employer\'s posting date when published, otherwise the day this tracker first found the role.', '',
              '## The List 🚴‍♂️', '']
     for key, label in CATEGORY_LABELS.items():
         body += [f'### {label}', '', table(groups[key], README_ROWS), '']
@@ -110,6 +118,10 @@ def render(root, c):
     archive = ['# Closed listings', '', '[← Back to the main job board](../README.md)', '',
                table(newest_first([j for j in jobs if j.get('status') == 'closed']))]
     (root / 'job-postings/archive.md').write_text('\n'.join(archive) + '\n', encoding='utf-8')
+    unstated = [f'# Not stated as summer {c["target_year"]}', '', '[← Back to the main job board](../README.md)', '',
+                'Open internships whose title and job description do not state a summer period '
+                '(many are 6-month, year-long, part-time or RDSS roles). Hidden from the main list.', '', table(hidden)]
+    (root / 'job-postings/not-summer.md').write_text('\n'.join(unstated) + '\n', encoding='utf-8')
     (root / 'job-postings/review.md').unlink(missing_ok=True)
     readme = root / 'README.md'
     raw = readme.read_text(encoding='utf-8')

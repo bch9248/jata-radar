@@ -86,7 +86,10 @@ INTERN = r'\binterns?(?:hips?)?\b|\bco-?op\b|實習|实习|インターン'
 # ASCII-only boundaries so 'AIエンジニア' still matches (katakana counts as \w).
 ML = r'(?<![a-z0-9])(?:ml|mle|ai|llm|nlp)(?![a-z0-9])|machine[ -]learning|deep[ -]learning|artificial intelligence|computer vision|data scien(?:ce|tist)|機械学習|深層学習|人工知能|機器學習|深度學習|人工智慧|大語言模型|自然語言|資料科學|データサイエンス|データサイエンティスト|自然言語|大規模言語|生成ai|ディープラーニング'
 SWE = r'(?<![a-z0-9])(?:swe|software|backend|back-end|frontend|front-end|full.?stack|devops|sre)(?![a-z0-9])|ソフトウェア|バックエンド|フロントエンド|フルスタック|webエンジニア|軟體|软件|程式|platform engineer|web develop|cloud engineer'
-SUMMER = r'\bsummer\b|暑期|暑假|夏季|サマー|夏期|夏の'
+# Summer stated outright, or as a June–September period ("June to August", "7月〜9月").
+SUMMER = (r'\bsummer\b|暑期|暑假|夏季|サマー|夏期|夏の'
+          r'|\b(?:june?|july?)\b[^.\n]{0,15}?(?:-|–|—|~|\bto\b|\bthrough\b|\buntil\b)\s*(?:july?|aug(?:ust)?|sep(?:t(?:ember)?)?)\b'
+          r'|[67]\s*月[^。\n]{0,6}?[-–—~〜至到]\s*[89]\s*月')
 OTHER_SEASON = r'\b(?:winter|spring|fall|autumn)\b|寒假|寒期|冬季|春季|秋季|冬期'
 
 JAPAN = r'\bjapan\b|\bjp\b|\btokyo\b|\bosaka\b|\bkyoto\b|\bfukuoka\b|日本|東京|大阪|京都|福岡'
@@ -199,7 +202,8 @@ def dedup_key(job):
 
 def merge_duplicates(jobs, c):
     """Merge the same posting found under different hosts (employer vs aggregator).
-    Same-host records are never merged: one employer may post identical titles."""
+    Two records on the same employer host are never merged: one employer may post
+    identical titles. Aggregator copies carry no such identity and always merge."""
     def rank(j):
         return (not j.get('trusted_detail'), aggregator(j['url'], c), j.get('first_seen', ''))
     groups = {}
@@ -215,7 +219,7 @@ def merge_duplicates(jobs, c):
         hosts = {urlsplit(keep['url']).hostname} | {urlsplit(u).hostname for u in keep.get('alias_urls', [])}
         for dup in group[1:]:
             host = urlsplit(dup['url']).hostname
-            if host in hosts:
+            if host in hosts and not aggregator(dup['url'], c):
                 continue
             hosts.add(host)
             keep.setdefault('alias_urls', [])
