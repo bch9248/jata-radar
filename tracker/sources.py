@@ -5,7 +5,7 @@ import os
 import re
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, urljoin, urlencode, quote
-from .core import normalized, INTERN, country_of, canonical
+from .core import normalized, INTERN, country_of, canonical, aggregator
 from .network import FetchError
 
 class TextParser(HTMLParser):
@@ -85,7 +85,20 @@ def location_ld(loc):
         country = country.get('name', '')
     return ', '.join(str(x) for x in (a.get('addressLocality'), a.get('addressRegion'), country) if x)
 
-def parse_page(raw, candidate):
+def employer_link(posting, page_url, c):
+    """An aggregator's JSON-LD may point at the employer's own posting."""
+    for key in ('url', 'sameAs'):
+        value = posting.get(key)
+        for link in value if isinstance(value, list) else [value]:
+            try:
+                link = canonical(urljoin(page_url, str(link))) if link else ''
+            except ValueError:
+                continue
+            if link and urlsplit(link).hostname != urlsplit(page_url).hostname and not aggregator(link, c):
+                return link
+    return None
+
+def parse_page(raw, candidate, c=None):
     p = PageParser()
     p.feed(raw)
     postings = []
@@ -97,7 +110,7 @@ def parse_page(raw, candidate):
     # A multi-job search page is not a job-detail page.
     if len(postings) == 1:
         j = postings[0]
-        org = j.get('hiringOrganization', {})
+        org = j.get('hiringOrganization') or {}
         out = dict(candidate, title=j.get('title', candidate.get('title', '')),
                    company=org.get('name', '') if isinstance(org, dict) else str(org),
                    location=location_ld(j.get('jobLocation')),
@@ -105,6 +118,12 @@ def parse_page(raw, candidate):
                    employment_type=str(j.get('employmentType', '')),
                    posted_at=j.get('datePosted'), deadline=j.get('validThrough'),
                    trusted_detail=True, detail_method='jsonld', live=True)
+        if c and aggregator(candidate['url'], c):
+            # Third-party copy of a posting: keep its fields as hints only.
+            out.update(trusted_detail=False, detail_method='jsonld-aggregator')
+            link = employer_link(j, candidate['url'], c)
+            if link:
+                out['employer_url'] = link
         return out
     return dict(candidate, title=''.join(p.title).strip() or candidate.get('title', 'Unverified listing'),
                 description=text(raw)[:18000], trusted_detail=False, detail_method='html', live=True)
@@ -118,7 +137,7 @@ def workday_parts(url):
     origin = f'{u.scheme}://{u.netloc}'
     return origin, u.hostname.split('.')[0], parts[0], parts[1:]
 
-def detail(client, candidate):
+def detail(client, candidate, c=None):
     u = urlsplit(candidate['url'])
     if u.hostname and u.hostname.endswith('.myworkdayjobs.com'):
         origin, tenant, board, tail = workday_parts(candidate['url'])
@@ -128,32 +147,36 @@ def detail(client, candidate):
         if not isinstance(info, dict) or not info.get('title'):
             raise FetchError('Missing Workday jobPostingInfo')
         return dict(candidate, title=info['title'], description=text(info.get('jobDescription')),
-                    location='; '.join(str(x) for x in [info.get('location', ''), *info.get('additionalLocations', [])] if x),
+                    location='; '.join(str(x) for x in [info.get('location'), *(info.get('additionalLocations') or [])] if x),
                     trusted_detail=True, detail_method='workday', live=True,
-                    posted_at=info.get('startDate'), employment_type=info.get('timeType', ''))
-    return parse_page(client.request(candidate['url'], robots=True), candidate)
+                    posted_at=info.get('startDate'), employment_type=info.get('timeType') or '')
+    return parse_page(client.request(candidate['url'], robots=True), candidate, c)
 
 def collect_workday(client, source, c):
     origin, tenant, board, _ = workday_parts(source['url'])
     result = []
     truncated = False
     for search in source.get('search_terms', ['intern']):
+        total = None
         for page in range(c['max_pages']):
             d = client.json(f'{origin}/wday/cxs/{tenant}/{board}/jobs',
                             {'appliedFacets': {}, 'limit': 20, 'offset': page * 20, 'searchText': search})
             if not isinstance(d.get('jobPostings'), list):
                 raise FetchError('Workday response lacks jobPostings')
             rows = d['jobPostings']
+            # Workday reports the real total only on the first page; later pages say 0.
+            if total is None:
+                total = d.get('total') if isinstance(d.get('total'), int) else None
             for j in rows:
                 if not j.get('externalPath') or not re.search(INTERN, normalized(j.get('title'))):
                     continue
-                loc = j.get('locationsText', '')
+                loc = j.get('locationsText') or ''
                 # Multiple locations may include the target; keep unknown too.
                 if loc and not country_of(loc) and not re.search(r'\d+ locations', loc, re.I):
                     continue
                 result.append(dict(title=j['title'], location=loc, company=source['company'],
                                    url=f'{origin}/{board}{j["externalPath"]}', source=source['id']))
-            if not rows or (page + 1) * 20 >= d.get('total', (page + 1) * 20 + 1):
+            if len(rows) < 20 or total is not None and (page + 1) * 20 >= total:
                 break
         else:
             truncated = True
@@ -163,7 +186,7 @@ def collect_greenhouse(client, source, c):
     d = client.json(f'https://boards-api.greenhouse.io/v1/boards/{quote(source["board"], safe="")}/jobs?content=true')
     if not isinstance(d.get('jobs'), list):
         raise FetchError('Greenhouse response lacks jobs')
-    return [dict(title=j['title'], location=j.get('location', {}).get('name', ''),
+    return [dict(title=j['title'], location=(j.get('location') or {}).get('name') or '',
                  company=source['company'], url=j['absolute_url'], source=source['id'],
                  description=text(j.get('content')), trusted_detail=True, live=True,
                  detail_method='greenhouse') for j in d['jobs']
@@ -175,12 +198,13 @@ def collect_lever(client, source, c):
         raise FetchError('Lever response is not a list')
     out = []
     for j in rows:
-        cat = j.get('categories', {})
-        if re.search(INTERN, normalized(j.get('text', '') + ' ' + cat.get('commitment', ''))):
-            description = text(j.get('description', '')) + '\n' + '\n'.join(text(x.get('content')) for x in j.get('lists', []))
-            out.append(dict(title=j['text'], location=cat.get('location', ''), company=source['company'],
+        cat = j.get('categories') or {}
+        commitment = cat.get('commitment') or ''
+        if re.search(INTERN, normalized((j.get('text') or '') + ' ' + commitment)):
+            description = text(j.get('description')) + '\n' + '\n'.join(text(x.get('content')) for x in j.get('lists') or [] if isinstance(x, dict))
+            out.append(dict(title=j['text'], location=cat.get('location') or '', company=source['company'],
                             url=j['hostedUrl'], source=source['id'], description=description,
-                            employment_type=cat.get('commitment', ''), trusted_detail=True,
+                            employment_type=commitment, trusted_detail=True,
                             live=True, detail_method='lever'))
     return out, False
 

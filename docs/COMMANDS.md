@@ -21,7 +21,7 @@ Run from the extracted repository root. No installation is needed.
 | `python3 -m tracker review JOB_ID reset --reason "Re-evaluate automatically"` | Remove manual decision |
 | `python3 -m tracker check` | Recheck due records, budget-limited |
 | `python3 -m tracker check --id JOB_ID --force` | Recheck one record now |
-| `python3 -m tracker close JOB_ID closed --reason "Employer removed the position"` | Manual closure; can use open/unknown instead |
+| `python3 -m tracker close JOB_ID closed --reason "Employer removed the position"` | Sticky manual status (survives sync/check); can use open/unknown instead, or `auto` to clear the override |
 | `python3 -m tracker application JOB_ID applied --notes "Submitted CV"` | Private local state |
 | `python3 -m tracker list --applications` | Include private application status |
 | `python3 -m tracker notify --preview` | Preview notification without sending or marking sent |

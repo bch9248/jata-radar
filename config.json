@@ -9,6 +9,7 @@
   "search_results_per_query": 10,
   "recheck_after_days": 7,
   "close_after_missing_checks": 2,
+  "aggregator_hosts": ["dreamworkhq.com"],
   "ai_enabled": false,
   "ai_model": "gpt-4.1-mini"
 }

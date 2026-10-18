@@ -7,7 +7,8 @@ from urllib.parse import quote
 from .core import CATEGORIES, COUNTRIES, load, save
 
 def cell(value):
-    return html.escape(str(value or '—')).replace('|', '&#124;').replace('\n', ' ')
+    # 0 is a real count; only missing values render as a dash.
+    return html.escape(str('—' if value is None or value == '' else value)).replace('|', '&#124;').replace('\n', ' ')
 
 def table(jobs, review=False):
     lines = ['| Company | Role | Location | Year / season | Eligibility hints | Status | Apply | First seen |',
@@ -62,6 +63,6 @@ def render(root, c):
     writer.writeheader()
     for j in jobs:
         # Prevent spreadsheet formula execution from untrusted titles.
-        row = {k: ("'" + str(v) if isinstance(v, str) and v.startswith(('=', '+', '-', '@')) else v) for k, v in j.items()}
+        row = {k: ("'" + str(v) if isinstance(v, str) and v.startswith(('=', '+', '-', '@', '\t', '\r')) else v) for k, v in j.items()}
         writer.writerow(row)
     (root / 'data/jobs.csv').write_text(buf.getvalue(), encoding='utf-8')
