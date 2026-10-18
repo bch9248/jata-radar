@@ -60,7 +60,7 @@ git push -u origin main
 1. repo → **Settings → Actions → General**：啟用 Actions，Workflow permissions 選 **Read and write permissions**。組織政策可能限制權限。
 2. repo → **Settings → Secrets and variables → Actions → New repository secret**，新增 `BRAVE_API_KEY`。不需要額外建立 PAT；workflow 使用 repo 的 `GITHUB_TOKEN`。
 3. repo → **Actions → Update internship board → Run workflow**，先執行一次。
-4. workflow 每天 **22:00 UTC** 排程（洛杉磯夏令時間 15:00、冬令時間 14:00；日本／台灣隔日早上）。GitHub 排程可能延遲，且只在 default branch 執行。
+4. workflow 每天 **14:07 UTC** 排程（加州夏令時間早上 7:07、冬令時間 6:07；台灣／日本晚上）。要改時間就編輯 `.github/workflows/update.yml` 的 `cron`（只能用 UTC）。GitHub 排程可能延遲，且只在 default branch 執行。
 5. 成功更新後 workflow 自動 commit `data/`、`job-postings/` 和 README。請在本機修改前先 `git pull`。
 
 沒有 Brave key，Actions 仍執行直接來源；search health 會寫明 skipped。定期同步每次也執行到期 URL 檢查；人工變更以 `review` 的稽核記錄保留。私人 repo 可避免公開你關注的職缺，但 GitHub 的 Actions 額度依方案而定。
@@ -101,7 +101,7 @@ python3 -m tracker notify
 
 ## 常見問題
 
-- **README 空白**：先看 review queue；2027 暑期資訊尚未明確時，保留候選而不是假設。
+- **README 空白**：先看 Source health；所有找到的職缺都直接列在 README（依日期新到舊），Notes 欄會標出尚未寫明的暑期日期等資訊。
 - **403 / 429 / robots.txt**：來源限制或頻率限制；不視為職缺關閉。降低頻率、人工加入，或使用該平台官方通知。
 - **DNS resolution failed**：工具需先解析公網 hostname。此建置環境只有 HTTP 代理能連線，完整 CLI 同步因 DNS 檢查而未完成；請在自己的正常網路／GitHub Actions 驗證第一次同步。詳見 `docs/VALIDATION.md`。
 - **Workday endpoint 改版**：`sources.json` 的 board URL 和 `tracker/sources.py` 的 adapter 可調整；查看 health，暫時關閉故障來源。

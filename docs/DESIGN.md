@@ -18,7 +18,8 @@
 - Imported candidates are unverified, even if they contain text saying summer 2027; manual confirmation is required.
 - Search result URLs without an independently fetchable page are transient; manually add an inaccessible role if you want it retained.
 - Cross-platform semantic deduplication is not guaranteed. The same requisition on 104 and an employer ATS may appear twice. Manual rejection can suppress a duplicate; it survives future sync.
-- A successful detail request marks a listing open, but a site returning a 200 “job closed” HTML page can remain uncertain. `check` requires two consecutive HTTP 404/410 checks to close; network errors/403/429 never close. Expired structured `validThrough` dates can close after `check`. Manual closure is available.
+- A successful detail request marks a listing open, but a site returning a 200 “job closed” HTML page can remain uncertain. `check` requires two consecutive HTTP 404/410 checks to close; network errors/403/429 never close. Expired structured `validThrough` dates close a listing on any fetch (`sync`, `check` or `add`). Manual `close` is sticky until `close JOB_ID auto`.
+- Pages on `aggregator_hosts` (config) are discovery hints: their JSON-LD is never trusted detail, and an employer link in it is fetched for verification. The same posting found on different hosts (matching company, title and country) is merged into one record, preferring the employer URL; the other URLs are kept as `alias_urls`.
 - A manual classification decision persists; live fetches may refresh link availability. `review reset` restores automatic classification.
 - Per-source pagination and per-run detail/search budgets protect cost/runtime. Exhausted pages are marked truncated. Details rotate to reduce starvation; query groups rotate across runs. Broader discovery isn't exhaustive.
 
@@ -26,7 +27,7 @@
 
 | Path | Contents |
 |---|---|
-| `config.json` | Target and budgets, optional AI model |
+| `config.json` | Target and budgets, aggregator hosts, optional AI model |
 | `sources.json` | Direct discovery adapters |
 | `search-queries.json` | Multilingual regional query rotation |
 | `data/jobs.json` | Public job evidence, timestamps, source names, decisions and manual review |

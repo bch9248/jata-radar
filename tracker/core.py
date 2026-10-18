@@ -6,7 +6,7 @@ import json
 import os
 import re
 import unicodedata
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 
@@ -39,6 +39,8 @@ def config(root=ROOT):
             raise ValueError(f'{key} must be a positive integer')
     if not isinstance(c.get('request_delay_seconds'), (int, float)) or c['request_delay_seconds'] < 0:
         raise ValueError('request_delay_seconds must be nonnegative')
+    if not isinstance(c.setdefault('aggregator_hosts', []), list):
+        raise ValueError('aggregator_hosts must be a list of hostnames')
     return c
 
 def env(root=ROOT):
@@ -80,11 +82,23 @@ def job_id(url):
 def normalized(s):
     return unicodedata.normalize('NFKC', html.unescape(str(s or ''))).lower()
 
-INTERN = r'\bintern(?:ship)?\b|\bco-?op\b|實習|实习|インターン'
-ML = r'\b(?:ml|mle|ai|llm|nlp)\b|machine[ -]learning|deep[ -]learning|artificial intelligence|computer vision|data scien(?:ce|tist)|機械学習|深層学習|人工知能|機器學習|深度學習|人工智慧|大語言模型|自然語言|資料科學|データサイエンス|データサイエンティスト|自然言語|大規模言語|生成ai|ディープラーニング'
-SWE = r'\b(?:swe|software|backend|back-end|frontend|front-end|full.?stack|devops|sre)\b|ソフトウェア|バックエンド|フロントエンド|フルスタック|webエンジニア|軟體|软件|程式|platform engineer|systems? engineer|web develop|cloud engineer'
+INTERN = r'\binterns?(?:hips?)?\b|\bco-?op\b|實習|实习|インターン'
+# ASCII-only boundaries so 'AIエンジニア' still matches (katakana counts as \w).
+ML = r'(?<![a-z0-9])(?:ml|mle|ai|llm|nlp)(?![a-z0-9])|machine[ -]learning|deep[ -]learning|artificial intelligence|computer vision|data scien(?:ce|tist)|機械学習|深層学習|人工知能|機器學習|深度學習|人工智慧|大語言模型|自然語言|資料科學|データサイエンス|データサイエンティスト|自然言語|大規模言語|生成ai|ディープラーニング'
+SWE = r'(?<![a-z0-9])(?:swe|software|backend|back-end|frontend|front-end|full.?stack|devops|sre)(?![a-z0-9])|ソフトウェア|バックエンド|フロントエンド|フルスタック|webエンジニア|軟體|软件|程式|platform engineer|web develop|cloud engineer'
 SUMMER = r'\bsummer\b|暑期|暑假|夏季|サマー|夏期|夏の'
 OTHER_SEASON = r'\b(?:winter|spring|fall|autumn)\b|寒假|寒期|冬季|春季|秋季|冬期'
+
+JAPAN = r'\bjapan\b|\bjp\b|\btokyo\b|\bosaka\b|\bkyoto\b|\bfukuoka\b|日本|東京|大阪|京都|福岡'
+TAIWAN = r'\btaiwan\b|\btw\b|\btaipei\b|\bhsinchu\b|\btaichung\b|\btainan\b|\bkaohsiung\b|台灣|台湾|臺灣|台北|臺北|新竹|台中|臺中|台南|高雄'
+
+def outside_targets(location):
+    """Names a place, but none in Japan/Taiwan (e.g. 'China, Beijing; China, Shanghai').
+    Bare 'Remote' or '2 Locations' says nothing and is not treated as outside."""
+    s = normalized(location)
+    if re.search(JAPAN, s) or re.search(TAIWAN, s):
+        return False
+    return bool(re.sub(r'remote|anywhere|global|worldwide|hybrid|\d+ locations|multiple locations|[\W\d_]+', '', s))
 
 def country_of(location):
     s = normalized(location)
@@ -135,9 +149,8 @@ def classify(job, c):
         reasons.append('SWE / MLE-AI role unclear')
     if country is None:
         reasons.append('Workplace country missing, ambiguous or outside Japan/Taiwan')
-        if job.get('location') and not any(country_of(x) for x in re.split(r'[;/]', job['location'])):
-            # Keep unknown locations for human review instead of guessing.
-            pass
+        if outside_targets(job.get('location', '')):
+            decision = 'rejected'
     elif country not in c['countries']:
         reasons.append('Country excluded by config')
         decision = 'rejected'
@@ -168,15 +181,102 @@ def classify(job, c):
                 year=year, season=season, decision=decision, reasons=reasons,
                 evidence=evidence[:6], flags=flags)
 
+def aggregator(url, c):
+    """Third-party job boards: useful discovery, never employer-verified detail."""
+    host = urlsplit(url).hostname or ''
+    return any(host == h or host.endswith('.' + h) for h in c.get('aggregator_hosts', []))
+
+def find(jobs, ident):
+    """Look up by ID or by a merged duplicate's alias URL."""
+    return next((j for j in jobs if j['id'] == ident or
+                 any(job_id(u) == ident for u in j.get('alias_urls', []))), None)
+
+def dedup_key(job):
+    country = country_of(job.get('location', ''))
+    company = re.sub(r'[^\w]+', ' ', normalized(job.get('company'))).strip()
+    title = re.sub(r'[^\w]+', ' ', normalized(job.get('title'))).strip()
+    return (company, title, country) if company and title and country else None
+
+def merge_duplicates(jobs, c):
+    """Merge the same posting found under different hosts (employer vs aggregator).
+    Same-host records are never merged: one employer may post identical titles."""
+    def rank(j):
+        return (not j.get('trusted_detail'), aggregator(j['url'], c), j.get('first_seen', ''))
+    groups = {}
+    for j in jobs:
+        key = dedup_key(j)
+        if key:
+            groups.setdefault(key, []).append(j)
+    removed = set()
+    for group in groups.values():
+        merged = False
+        group.sort(key=rank)
+        keep = group[0]
+        hosts = {urlsplit(keep['url']).hostname} | {urlsplit(u).hostname for u in keep.get('alias_urls', [])}
+        for dup in group[1:]:
+            host = urlsplit(dup['url']).hostname
+            if host in hosts:
+                continue
+            hosts.add(host)
+            keep.setdefault('alias_urls', [])
+            for u in [dup['url'], *dup.get('alias_urls', [])]:
+                if u not in keep['alias_urls'] and u != keep['url']:
+                    keep['alias_urls'].append(u)
+            keep['sources'] = keep.get('sources', []) + [s for s in dup.get('sources', []) if s not in keep.get('sources', [])]
+            keep['first_seen'] = min(keep['first_seen'], dup['first_seen'])
+            for k in ('manual_review', 'manual_status'):
+                if dup.get(k) and not keep.get(k):
+                    keep[k] = dup[k]
+            removed.add(id(dup))
+            merged = True
+        if merged:
+            refresh(keep, c)
+    jobs[:] = [j for j in jobs if id(j) not in removed]
+    return len(removed)
+
+def deadline_passed(deadline):
+    try:
+        text = str(deadline)
+        dt = datetime.fromisoformat(text.replace('Z', '+00:00'))
+    except ValueError:
+        return False
+    if len(text) == 10:
+        # Date-only validThrough: open through the end of that day.
+        dt += timedelta(days=1)
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt < datetime.now(timezone.utc)
+
+def settle_status(job):
+    """Status precedence: manual override > passed deadline > fetched status."""
+    if job.get('deadline') and deadline_passed(job['deadline']):
+        job['status'] = 'closed'
+    if job.get('manual_status'):
+        job['status'] = job['manual_status']['status']
+
+def refresh(job, c):
+    job.update(classify(job, c))
+    if job.get('manual_review'):
+        r = job['manual_review']
+        job.update({k: r[k] for k in ('decision', 'country', 'category', 'year', 'season') if k in r})
+        job['reasons'] = [r['reason']]
+    settle_status(job)
+
 def upsert(jobs, candidate, c):
     candidate = dict(candidate)
     candidate['url'] = canonical(candidate['url'])
     ident = job_id(candidate['url'])
-    old = next((j for j in jobs if j['id'] == ident), None)
+    old = find(jobs, ident)
     created = old is None
     if old is None:
         old = {'id': ident, 'first_seen': now(), 'sources': [], 'status': 'unknown'}
         jobs.append(old)
+    elif old['id'] != ident and candidate['url'] != old['url']:
+        # Alias hit: keep the surviving record's URL unless this one is better evidence.
+        if candidate.get('trusted_detail') and not old.get('trusted_detail'):
+            old['alias_urls'] = [u for u in old.get('alias_urls', []) if u != candidate['url']] + [old['url']]
+        else:
+            candidate['url'] = old['url']
     # Never erase fetched details with poorer community/search hints.
     for key in ('url', 'company', 'title', 'location', 'description', 'employment_type',
                 'trusted_detail', 'posted_at', 'deadline', 'detail_method'):
@@ -185,6 +285,9 @@ def upsert(jobs, candidate, c):
             if key in ('title', 'location', 'description', 'company') and old.get('trusted_detail') and not candidate.get('trusted_detail'):
                 continue
             old[key] = value
+    if candidate.get('detail_method') == 'jsonld-aggregator':
+        # Downgrade records verified before aggregator pages were recognized.
+        old['trusted_detail'] = False
     source = candidate.get('source', 'manual')
     if source not in old['sources']:
         old['sources'].append(source)
@@ -193,9 +296,5 @@ def upsert(jobs, candidate, c):
         old['last_checked'] = now()
         old['status'] = 'open'
         old['missing_count'] = 0
-    old.update(classify(old, c))
-    if old.get('manual_review'):
-        r = old['manual_review']
-        old.update({k: r[k] for k in ('decision', 'country', 'category', 'year', 'season') if k in r})
-        old['reasons'] = [r['reason']]
+    refresh(old, c)
     return old, created

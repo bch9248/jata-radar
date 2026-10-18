@@ -8,10 +8,14 @@ import sys
 from datetime import datetime, timezone, timedelta
 from email.message import EmailMessage
 from pathlib import Path
-from .core import ROOT, config, env, load, save, now, upsert, canonical, job_id, CATEGORIES, COUNTRIES, APPLICATION_STATES
+from .core import (ROOT, config, env, load, save, now, upsert, canonical, job_id, find, aggregator, merge_duplicates,
+                   refresh, settle_status, CATEGORIES, COUNTRIES, APPLICATION_STATES)
 from .network import Client, FetchError
 from .sources import COLLECTORS, detail, search_candidates
 from .render import render
+
+# Parser/adapter failures on one job or source must not abort the whole run.
+ITEM_ERRORS = (FetchError, ValueError, KeyError, TypeError, AttributeError)
 
 
 def store(root, jobs):
@@ -24,6 +28,12 @@ def sync(root, c, args):
         render(root, c)
         print('Offline render complete; no network requests.')
         return 0
+    for j in jobs:
+        # Records verified from aggregator pages before they were recognized as such.
+        if aggregator(j['url'], c) and j.get('trusted_detail'):
+            j.update(trusted_detail=False, detail_method='jsonld-aggregator')
+            refresh(j, c)
+    merge_duplicates(jobs, c)
     client = Client(c)
     health = {'started_at': now(), 'sources': [], 'search_queries': []}
     candidates = []
@@ -38,7 +48,7 @@ def sync(root, c, args):
             candidates.extend(found)
             health['sources'].append({'id': s['id'], 'status': 'truncated' if truncated else 'ok',
                                       'candidates': len(found), 'error': 'Pagination limit reached; increase max_pages' if truncated else ''})
-        except (FetchError, ValueError, KeyError, TypeError) as e:
+        except ITEM_ERRORS as e:
             health['sources'].append({'id': s['id'], 'status': 'error', 'candidates': 0, 'error': str(e)})
     state = load(root / 'data/state.json', {'search_cursor': 0, 'detail_cursor': 0})
     if not args.no_search and not args.source:
@@ -59,40 +69,59 @@ def sync(root, c, args):
             unique[ident] = candidate
         except (ValueError, KeyError):
             continue
-    pending = []
+    pending = {}
     added = 0
     for ident, candidate in unique.items():
-        existing = next((j for j in jobs if j['id'] == ident), None)
+        existing = find(jobs, ident)
         # Search-only URLs with no independently fetched page aren't persisted.
         if candidate.get('title') or candidate.get('trusted_detail'):
             j, created = upsert(jobs, candidate, c)
             added += created
             if candidate.get('trusted_detail'):
                 continue
-        if not existing or due(existing, c.get('recheck_after_days', 7)) or not existing.get('trusted_detail'):
-            pending.append(candidate)
+        # Unverified pages are retried on the same schedule, not every run.
+        if not existing:
+            pending.setdefault(ident, candidate)
+        elif due(existing, c.get('recheck_after_days', 7)):
+            # An alias hit rechecks the surviving record's (employer) URL.
+            pending.setdefault(existing['id'], dict(candidate, url=existing['url']))
+    pending = list(pending.values())
     health['detail_errors'] = []
     # Rotate detail requests to prevent starvation when discovery exceeds budget.
     pending.sort(key=lambda j: canonical(j['url']))
     cursor = state.get('detail_cursor', 0) % max(1, len(pending))
     pending = pending[cursor:] + pending[:cursor]
     n = min(len(pending), c['max_detail_requests'])
-    for candidate in pending[:n]:
+    queue = pending[:n]
+    attempted = 0
+    while queue and attempted < c['max_detail_requests']:
+        candidate = queue.pop(0)
+        attempted += 1
         try:
-            full = detail(client, candidate)
+            full = detail(client, candidate, c)
             j, created = upsert(jobs, full, c)
             added += created
+            employer = full.get('employer_url')
+            if employer and not find(jobs, job_id(employer)):
+                # Verify the aggregator listing against the employer's own page.
+                queue.append({'url': employer, 'source': candidate.get('source', 'manual'), 'company': full.get('company', '')})
             if c.get('ai_enabled') and j.get('description'):
                 from .ai import enrich
                 try:
                     enrich(client, j, c)
                 except (ValueError, FetchError) as e:
                     health['detail_errors'].append({'id': j['id'], 'error': 'AI: ' + str(e)})
-        except (FetchError, ValueError, KeyError, TypeError) as e:
-            health['detail_errors'].append({'id': job_id(candidate['url']), 'error': str(e)})
+        except ITEM_ERRORS as e:
+            ident = job_id(candidate['url'])
+            health['detail_errors'].append({'id': ident, 'error': str(e)})
+            failed = find(jobs, ident)
+            if failed:
+                # Record the attempt so blocked pages wait for the recheck interval.
+                failed.update(last_checked=now(), last_check_error=str(e))
+    merge_duplicates(jobs, c)
     state['detail_cursor'] = (cursor + n) % max(1, len(pending))
     health.update(finished_at=now(), requests=client.requests, new_jobs=added,
-                  detail_candidates=len(pending), details_attempted=n, details_deferred=len(pending) - n)
+                  detail_candidates=len(pending), details_attempted=attempted, details_deferred=len(pending) - n)
     save(root / 'data/state.json', state)
     store(root, jobs)
     save(root / 'data/source-health.json', health)
@@ -121,17 +150,8 @@ def check(root, c, args):
     report = []
     for j in selected[:c['max_detail_requests']]:
         try:
-            full = detail(client, j)
-            updated, _ = upsert(jobs, full, c)
-            if full.get('deadline'):
-                try:
-                    dt = datetime.fromisoformat(full['deadline'].replace('Z', '+00:00'))
-                    if dt.tzinfo is None:
-                        dt = dt.replace(tzinfo=timezone.utc)
-                    if dt < datetime.now(timezone.utc):
-                        updated['status'] = 'closed'
-                except ValueError:
-                    pass
+            # upsert applies deadline and manual-status precedence.
+            updated, _ = upsert(jobs, detail(client, j, c), c)
             report.append({'id': j['id'], 'status': updated['status']})
         except FetchError as e:
             j['last_checked'] = now()
@@ -143,6 +163,11 @@ def check(root, c, args):
             else:
                 # Consecutive missing checks only; unrelated errors break the streak.
                 j['missing_count'] = 0
+            settle_status(j)
+            report.append({'id': j['id'], 'status': j.get('status', 'unknown'), 'error': str(e)})
+        except ITEM_ERRORS as e:
+            # Parser/shape failures say nothing about whether the posting still exists.
+            j.update(last_checked=now(), last_check_error=str(e), missing_count=0)
             report.append({'id': j['id'], 'status': j.get('status', 'unknown'), 'error': str(e)})
     store(root, jobs)
     save(root / 'data/check-health.json', {'finished_at': now(), 'checks': report, 'deferred': max(0, len(selected) - c['max_detail_requests'])})
@@ -155,7 +180,7 @@ def add(root, c, args):
                  'company': args.company or '', 'location': args.location or ''}
     if not args.no_fetch:
         try:
-            candidate = detail(Client(c), candidate)
+            candidate = detail(Client(c), candidate, c)
         except FetchError as e:
             print(f'Detail unavailable; stored for review: {e}', file=sys.stderr)
     jobs = load(root / 'data/jobs.json', [])
@@ -310,9 +335,9 @@ def main(argv=None):
     s = sub.add_parser('check', help='Recheck job URLs; 404/410 require consecutive checks')
     s.add_argument('--force', action='store_true')
     s.add_argument('--id')
-    s = sub.add_parser('close', help='Manually close/reopen a job')
+    s = sub.add_parser('close', help='Manually close/reopen a job; "auto" clears the override')
     s.add_argument('id')
-    s.add_argument('status', choices=['closed', 'open', 'unknown'])
+    s.add_argument('status', choices=['closed', 'open', 'unknown', 'auto'])
     s.add_argument('--reason', required=True)
     s = sub.add_parser('application', help='Save private application progress')
     s.add_argument('id')
@@ -352,7 +377,14 @@ def main(argv=None):
                 print(json.dumps(find_job(jobs, args.id), ensure_ascii=False, indent=2))
             elif cmd == 'close':
                 j = find_job(jobs, args.id)
-                j.update(status=args.status, status_note=args.reason, last_checked=now())
+                if args.status == 'auto':
+                    j.pop('manual_status', None)
+                else:
+                    # Sticky: later fetches and deadlines do not override a manual status.
+                    j['manual_status'] = {'status': args.status, 'reason': args.reason, 'at': now()}
+                    j['status'] = args.status
+                j['status_note'] = args.reason
+                settle_status(j)
                 store(root, jobs)
                 render(root, c)
             else:

@@ -1,7 +1,8 @@
 name: Update internship board
 on:
   schedule:
-    - cron: '0 22 * * *'
+    # 14:07 UTC = 7:07am PDT / 6:07am PST (GitHub cron is UTC-only, no DST).
+    - cron: '7 14 * * *'
   workflow_dispatch:
     inputs:
       no_search:
@@ -20,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.repository.default_branch }}
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -52,6 +53,6 @@ jobs:
           git add README.md data job-postings
           if ! git diff --cached --quiet; then
             git commit -m "Update internship board and source health"
-            git pull --rebase origin "${{ github.event.repository.default_branch }}"
-            git push origin "HEAD:${{ github.event.repository.default_branch }}"
+            git pull --rebase origin "${{ github.ref_name }}"
+            git push origin "HEAD:${{ github.ref_name }}"
           fi

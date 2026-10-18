@@ -9,7 +9,7 @@ import unittest
 from contextlib import redirect_stdout, redirect_stderr
 from pathlib import Path
 from unittest.mock import patch, Mock
-from tracker.core import ROOT, canonical, job_id, classify, config, upsert, load, save, env
+from tracker.core import ROOT, canonical, job_id, classify, config, upsert, load, save, env, merge_duplicates
 from tracker.sources import (parse_page, parse_community, collect_workday, collect_greenhouse,
                              collect_lever, detail, workday_parts, search_candidates, likely_job_url)
 from tracker.network import Client, FetchError, public_url
@@ -192,7 +192,7 @@ class WorkflowTests(unittest.TestCase):
         with patch('tracker.__main__.Client') as network:
             self.assertEqual(self.call('sync','--offline'), 0)
             network.assert_not_called()
-        self.assertIn('SWE — Software Engineering', (self.root/'README.md').read_text())
+        self.assertIn('The List', (self.root/'README.md').read_text())
         self.assertTrue((self.root/'data/jobs.csv').exists())
     def test_complete_sync_and_repeat_dedup(self):
         source = {'id':'nvidia','type':'workday','company':'NVIDIA','enabled':True,'url':'https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite'}
@@ -366,6 +366,124 @@ class MoreLiveShapeTests(unittest.TestCase):
         self.assertIsNone(r['category'])
     def test_google_slug_identity(self):
         self.assertEqual(job_id('https://www.google.com/about/careers/applications/jobs/results/123456789'),job_id('https://www.google.com/about/careers/applications/jobs/results/123456789-software-intern?hl=en'))
+
+class ReviewFixTests(unittest.TestCase):
+    AGG = 'https://www.dreamworkhq.com/job/abc'
+    WD = 'https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/X_JR1'
+    def test_workday_total_only_on_first_page(self):
+        row = {'title':'Software Intern','locationsText':'Tokyo, Japan','externalPath':'/job/Tokyo/X_JR1'}
+        pages = [{'total':50,'jobPostings':[row]*20}, {'total':0,'jobPostings':[row]*20}, {'total':0,'jobPostings':[row]*10}]
+        client = Mock()
+        client.json.side_effect = pages
+        rows, truncated = collect_workday(client, {'id':'s','company':'S','url':'https://s.wd1.myworkdayjobs.com/Careers'}, C)
+        self.assertEqual(client.json.call_count, 3)
+        self.assertEqual(len(rows), 50)
+        self.assertFalse(truncated)
+    def test_aggregator_jsonld_not_trusted(self):
+        raw = (FIX / 'job.html').read_text()
+        a = parse_page(raw, {'url': self.AGG}, C)
+        self.assertFalse(a['trusted_detail'])
+        self.assertEqual(a['detail_method'], 'jsonld-aggregator')
+        self.assertNotEqual(classify(a, C)['decision'], 'confirmed')
+    def test_aggregator_employer_link(self):
+        ld = {'@type':'JobPosting','title':'Software Intern Summer 2027','url':self.WD}
+        raw = '<script type="application/ld+json">' + json.dumps(ld) + '</script>'
+        self.assertEqual(parse_page(raw, {'url': self.AGG}, C)['employer_url'], canonical(self.WD))
+    def test_cross_host_duplicates_merge_and_alias(self):
+        jobs = []
+        upsert(jobs, job(url=self.AGG, company='Nvidia', location='Taiwan, Taipei, TW', trusted_detail=False, source='dreamwork'), C)
+        upsert(jobs, job(url=self.WD, company='NVIDIA', location='Taiwan, Taipei', source='nvidia'), C)
+        self.assertEqual(merge_duplicates(jobs, C), 1)
+        self.assertEqual(len(jobs), 1)
+        self.assertEqual(jobs[0]['url'], canonical(self.WD))
+        self.assertEqual(set(jobs[0]['sources']), {'dreamwork', 'nvidia'})
+        # A later aggregator hint maps onto the survivor without replacing its URL.
+        j, created = upsert(jobs, job(url=self.AGG, company='Nvidia', trusted_detail=False, source='dreamwork'), C)
+        self.assertFalse(created)
+        self.assertEqual(j['url'], canonical(self.WD))
+    def test_same_host_same_title_not_merged(self):
+        jobs = []
+        upsert(jobs, job(url='https://example.org/jobs/1'), C)
+        upsert(jobs, job(url='https://example.org/jobs/2'), C)
+        self.assertEqual(merge_duplicates(jobs, C), 0)
+        self.assertEqual(len(jobs), 2)
+    def test_passed_deadline_closes_on_upsert(self):
+        jobs = []
+        j, _ = upsert(jobs, job(deadline='2020-01-01'), C)
+        self.assertEqual(j['status'], 'closed')
+        j, _ = upsert(jobs, job(url='https://example.org/jobs/2', deadline='2999-01-01'), C)
+        self.assertEqual(j['status'], 'open')
+    def test_manual_status_sticky(self):
+        jobs = []
+        j, _ = upsert(jobs, job(), C)
+        j['manual_status'] = {'status': 'closed', 'reason': 'closed per recruiter', 'at': '2026-01-01'}
+        j, _ = upsert(jobs, job(), C)
+        self.assertEqual(j['status'], 'closed')
+    def test_location_outside_targets_rejected(self):
+        self.assertEqual(classify(job(location='China, Beijing; China, Shanghai'), C)['decision'], 'rejected')
+        self.assertEqual(classify(job(location='Germany, Remote; France, Remote'), C)['decision'], 'rejected')
+        self.assertNotEqual(classify(job(location='Taiwan, Taipei; China, Shanghai'), C)['decision'], 'rejected')
+        self.assertEqual(classify(job(location='Remote'), C)['decision'], 'review')
+        self.assertEqual(classify(job(location=''), C)['decision'], 'review')
+    def test_classification_regexes(self):
+        self.assertTrue(classify(job(title='Software Engineering Interns Summer 2027'), C)['internship'])
+        self.assertEqual(classify(job(title='AIエンジニア インターン 2027 夏'), C)['category'], 'MLE_AI')
+        self.assertIsNone(classify(job(title='Hardware Systems Engineer Intern Summer 2027'), C)['category'])
+        self.assertIsNone(classify(job(title='Intern, Taipei office'), C)['category'])
+
+class ReviewFixWorkflowTests(unittest.TestCase):
+    setUp, tearDown, call = WorkflowTests.setUp, WorkflowTests.tearDown, WorkflowTests.call
+    def test_close_survives_sync_and_auto_clears(self):
+        jobs = []
+        j, _ = upsert(jobs, job(), C)
+        save(self.root/'data/jobs.json', jobs)
+        self.assertEqual(self.call('close', j['id'], 'closed', '--reason', 'Recruiter said closed'), 0)
+        with patch('tracker.__main__.detail', return_value=job()):
+            self.call('check', '--force')
+        self.assertEqual(load(self.root/'data/jobs.json')[0]['status'], 'closed')
+        self.assertEqual(self.call('close', j['id'], 'auto', '--reason', 'Back to automatic'), 0)
+        with patch('tracker.__main__.detail', return_value=job()):
+            self.call('check', '--force')
+        self.assertEqual(load(self.root/'data/jobs.json')[0]['status'], 'open')
+    def test_check_survives_parser_errors(self):
+        jobs = []
+        upsert(jobs, job(), C)
+        upsert(jobs, job(url='https://example.org/jobs/2'), C)
+        save(self.root/'data/jobs.json', jobs)
+        with patch('tracker.__main__.detail', side_effect=[TypeError('bad shape'), job(url='https://example.org/jobs/2')]):
+            self.assertEqual(self.call('check', '--force'), 0)
+        checks = load(self.root/'data/check-health.json')['checks']
+        self.assertEqual(len(checks), 2)
+        self.assertIn('bad shape', checks[0]['error'])
+    def test_blocked_page_not_refetched_every_sync(self):
+        save(self.root/'sources.json', [{'id':'c','type':'community','enabled':True,'url':'https://example.org/list.md'}])
+        client = Mock(requests=1)
+        client.request.return_value = (FIX/'community.md').read_text()
+        with patch('tracker.__main__.Client', return_value=client), \
+             patch('tracker.__main__.detail', side_effect=FetchError('robots.txt disallows page fetching')) as d:
+            self.call('sync', '--no-search')
+            first = d.call_count
+            self.call('sync', '--no-search')
+            self.assertGreater(first, 0)
+            self.assertEqual(d.call_count, first)
+    def test_board_lists_everything_newest_first(self):
+        jobs = []
+        upsert(jobs, job(url='https://example.org/jobs/old', title='Old Software Intern', posted_at='2026-09-01'), C)
+        upsert(jobs, job(url='https://example.org/jobs/new', title='New Software Intern', posted_at='2026-10-15T00:00:00Z'), C)
+        upsert(jobs, job(url='https://example.org/jobs/out', title='Software Intern Summer 2026'), C)
+        save(self.root/'data/jobs.json', jobs)
+        render(self.root, C)
+        readme = (self.root/'README.md').read_text()
+        self.assertIn('>Oct 15</td>', readme)
+        self.assertLess(readme.index('New Software Intern'), readme.index('Old Software Intern'))
+        self.assertIn('>↳</td>', readme)  # same company collapses like JobRadar
+        self.assertIn('summer not stated', readme)  # unconfirmed roles are listed, not held back
+        self.assertNotIn('Summer 2026', readme)  # out-of-scope year stays off the board
+        self.assertFalse((self.root/'job-postings/review.md').exists())
+    def test_zero_candidates_render_as_zero(self):
+        save(self.root/'data/source-health.json', {'sources':[{'id':'rakuten','status':'ok','candidates':0,'error':''}]})
+        render(self.root, C)
+        self.assertIn('| rakuten | ok | 0 | — |', (self.root/'README.md').read_text())
 
 if __name__ == '__main__':
     unittest.main()
