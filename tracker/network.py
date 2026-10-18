@@ -30,6 +30,20 @@ def public_url(url):
     if not addresses or any(not ipaddress.ip_address(a[4][0]).is_global for a in addresses):
         raise FetchError('Private/local address is not allowed')
 
+def api_detail(error, headers):
+    """A JSON API's short error message (e.g. which parameter failed validation).
+    HTML error pages are skipped; credential values are masked if echoed back."""
+    if 'json' not in (error.headers.get('Content-Type') or ''):
+        return ''
+    try:
+        detail = ' '.join(error.read(600).decode('utf-8', errors='replace').split())
+    except (OSError, AttributeError):
+        return ''
+    for value in (headers or {}).values():
+        if len(value) >= 8:
+            detail = detail.replace(value, '***')
+    return f': {detail[:240]}' if detail else ''
+
 class Client:
     def __init__(self, c):
         self.c = c
@@ -77,7 +91,7 @@ class Client:
                 if e.code in (429, 500, 502, 503, 504) and attempt < 2:
                     time.sleep(min(8, 2 ** (attempt + 1)))
                     continue
-                raise FetchError(f'HTTP {e.code}', e.code) from e
+                raise FetchError(f'HTTP {e.code}' + api_detail(e, headers), e.code) from e
             except (URLError, TimeoutError, OSError) as e:
                 if attempt < 2:
                     time.sleep(2 ** (attempt + 1))

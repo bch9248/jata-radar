@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-18T06:46:53+00:00",
+  "started_at": "2026-10-18T06:48:52+00:00",
   "sources": [
     {
       "id": "nvidia",
@@ -34,71 +34,96 @@
   ],
   "search_queries": [
     {
-      "id": "tw-swe",
-      "status": "error",
-      "error": "HTTP 422"
+      "id": "jp-swe",
+      "status": "ok",
+      "candidates": 4
     },
     {
-      "id": "tw-ml",
-      "status": "error",
-      "error": "HTTP 422"
+      "id": "jp-ml",
+      "status": "ok",
+      "candidates": 4
     },
     {
-      "id": "tw-cn-swe",
-      "status": "error",
-      "error": "HTTP 422"
+      "id": "jp-local-swe",
+      "status": "ok",
+      "candidates": 2
     },
     {
-      "id": "tw-cn-ai",
-      "status": "error",
-      "error": "HTTP 422"
+      "id": "jp-local-ml",
+      "status": "ok",
+      "candidates": 1
     },
     {
-      "id": "104-swe",
-      "status": "error",
-      "error": "HTTP 422"
+      "id": "mercari",
+      "status": "ok",
+      "candidates": 1
     },
     {
-      "id": "104-ai",
-      "status": "error",
-      "error": "HTTP 422"
+      "id": "pfn",
+      "status": "ok",
+      "candidates": 4
     },
     {
-      "id": "cake",
-      "status": "error",
-      "error": "HTTP 422"
+      "id": "rakuten",
+      "status": "ok",
+      "candidates": 0
     },
     {
-      "id": "yourator",
-      "status": "error",
-      "error": "HTTP 422"
+      "id": "sony",
+      "status": "ok",
+      "candidates": 6
     },
     {
-      "id": "google-tw",
-      "status": "error",
-      "error": "HTTP 422"
+      "id": "wantedly",
+      "status": "ok",
+      "candidates": 10
     },
     {
-      "id": "line-tw",
-      "status": "error",
-      "error": "HTTP 422"
+      "id": "japan-dev",
+      "status": "ok",
+      "candidates": 10
     },
     {
-      "id": "amazon-tw",
-      "status": "error",
-      "error": "HTTP 422"
+      "id": "tokyodev",
+      "status": "ok",
+      "candidates": 10
     },
     {
-      "id": "taiwan-companies",
-      "status": "error",
-      "error": "HTTP 422"
+      "id": "jp-global",
+      "status": "ok",
+      "candidates": 6
     }
   ],
-  "detail_errors": [],
-  "finished_at": "2026-10-18T06:47:45+00:00",
-  "requests": 45,
-  "new_jobs": 0,
-  "detail_candidates": 0,
-  "details_attempted": 0,
+  "detail_errors": [
+    {
+      "id": "ba2294d2f32c2fbe",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "168219724cbe7cd2",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "16b68b80406fdeeb",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "9ad90a495b40e622",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "c9c599d1fa3e3b4d",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "3198af93152b89c3",
+      "error": "HTTP 404"
+    }
+  ],
+  "finished_at": "2026-10-18T06:51:36+00:00",
+  "requests": 117,
+  "new_jobs": 49,
+  "detail_candidates": 55,
+  "details_attempted": 55,
   "details_deferred": 0
 }
