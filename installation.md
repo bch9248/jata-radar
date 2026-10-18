@@ -60,7 +60,7 @@ git push -u origin main
 1. repo → **Settings → Actions → General**：啟用 Actions，Workflow permissions 選 **Read and write permissions**。組織政策可能限制權限。
 2. repo → **Settings → Secrets and variables → Actions → New repository secret**，新增 `BRAVE_API_KEY`。不需要額外建立 PAT；workflow 使用 repo 的 `GITHUB_TOKEN`。
 3. repo → **Actions → Update internship board → Run workflow**，先執行一次。
-4. workflow 每天 **22:00 UTC** 排程（洛杉磯夏令時間 15:00、冬令時間 14:00；日本／台灣隔日早上）。GitHub 排程可能延遲，且只在 default branch 執行。
+4. workflow 每天 **14:07 UTC** 排程（加州夏令時間早上 7:07、冬令時間 6:07；台灣／日本晚上）。要改時間就編輯 `.github/workflows/update.yml` 的 `cron`（只能用 UTC）。GitHub 排程可能延遲，且只在 default branch 執行。
 5. 成功更新後 workflow 自動 commit `data/`、`job-postings/` 和 README。請在本機修改前先 `git pull`。
 
 沒有 Brave key，Actions 仍執行直接來源；search health 會寫明 skipped。定期同步每次也執行到期 URL 檢查；人工變更以 `review` 的稽核記錄保留。私人 repo 可避免公開你關注的職缺，但 GitHub 的 Actions 額度依方案而定。

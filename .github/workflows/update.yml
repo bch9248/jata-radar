@@ -1,7 +1,8 @@
 name: Update internship board
 on:
   schedule:
-    - cron: '0 22 * * *'
+    # 14:07 UTC = 7:07am PDT / 6:07am PST (GitHub cron is UTC-only, no DST).
+    - cron: '7 14 * * *'
   workflow_dispatch:
     inputs:
       no_search:
