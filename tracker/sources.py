@@ -295,7 +295,7 @@ def search_candidates(client, queries, c, cursor):
         try:
             d = client.json('https://api.search.brave.com/res/v1/web/search?' + urlencode(
                 {'q': query, 'count': min(20, c.get('search_results_per_query', 10)), 'country': q['country_code']}),
-                headers={'X-Subscription-Token': key})
+                headers={'X-Subscription-Token': key, 'Accept': 'application/json'})
             found = 0
             # Discard search titles and snippets: only navigate to result URLs.
             for item in d.get('web', {}).get('results', []):

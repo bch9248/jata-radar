@@ -436,6 +436,18 @@ class ReviewFixTests(unittest.TestCase):
         a = parse_page('<title>Software Intern at Example | Board</title><p>hi</p>', {'url': 'https://example.org/jobs/1', 'title': 'Software Intern'})
         self.assertEqual(a['title'], 'Software Intern')
         self.assertEqual(parse_page('<title>Page Title</title>', {'url': 'https://example.org/jobs/2'})['title'], 'Page Title')
+    def test_api_error_detail_masks_key(self):
+        from email.message import Message
+        from urllib.error import HTTPError
+        h = Message(); h['Content-Type'] = 'application/json'
+        body = io.BytesIO(b'{"error": {"code": "VALIDATION", "detail": "bad country", "token": "SECRETKEY123"}}')
+        client = Client(dict(C, request_delay_seconds=0))
+        with patch('tracker.network.public_url'), \
+             patch.object(client.opener, 'open', side_effect=HTTPError('u', 422, 'x', h, body)):
+            with self.assertRaises(FetchError) as e:
+                client.request('https://api.example.org/x', headers={'X-Subscription-Token': 'SECRETKEY123'})
+        self.assertIn('bad country', str(e.exception))
+        self.assertNotIn('SECRETKEY123', str(e.exception))
     def test_summer_from_month_ranges(self):
         for d in ('Internship period: June to August 2027.', '實習期間 2027 年 7 月～8 月', 'Jul - Sep 2027 in Tokyo'):
             r = classify(job(title='Software Intern', description=d), C)
