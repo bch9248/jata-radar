@@ -192,7 +192,7 @@ class WorkflowTests(unittest.TestCase):
         with patch('tracker.__main__.Client') as network:
             self.assertEqual(self.call('sync','--offline'), 0)
             network.assert_not_called()
-        self.assertIn('SWE — Software Engineering', (self.root/'README.md').read_text())
+        self.assertIn('Positions — newest first', (self.root/'README.md').read_text())
         self.assertTrue((self.root/'data/jobs.csv').exists())
     def test_complete_sync_and_repeat_dedup(self):
         source = {'id':'nvidia','type':'workday','company':'NVIDIA','enabled':True,'url':'https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite'}
@@ -460,6 +460,19 @@ class ReviewFixWorkflowTests(unittest.TestCase):
             self.call('sync', '--no-search')
             self.assertGreater(first, 0)
             self.assertEqual(d.call_count, first)
+    def test_board_lists_everything_by_day_newest_first(self):
+        jobs = []
+        upsert(jobs, job(url='https://example.org/jobs/old', title='Old Software Intern', posted_at='2026-09-01'), C)
+        upsert(jobs, job(url='https://example.org/jobs/new', title='New Software Intern', posted_at='2026-10-15T00:00:00Z'), C)
+        upsert(jobs, job(url='https://example.org/jobs/out', title='Software Intern Summer 2026'), C)
+        save(self.root/'data/jobs.json', jobs)
+        render(self.root, C)
+        readme = (self.root/'README.md').read_text()
+        self.assertIn('### 2026-10-15 · 1 position', readme)
+        self.assertLess(readme.index('New Software Intern'), readme.index('Old Software Intern'))
+        self.assertIn('summer not stated', readme)  # unconfirmed roles are listed, not held back
+        self.assertNotIn('Summer 2026', readme)  # out-of-scope year stays off the board
+        self.assertFalse((self.root/'job-postings/review.md').exists())
     def test_zero_candidates_render_as_zero(self):
         save(self.root/'data/source-health.json', {'sources':[{'id':'rakuten','status':'ok','candidates':0,'error':''}]})
         render(self.root, C)

@@ -101,7 +101,7 @@ python3 -m tracker notify
 
 ## 常見問題
 
-- **README 空白**：先看 review queue；2027 暑期資訊尚未明確時，保留候選而不是假設。
+- **README 空白**：先看 Source health；所有找到的職缺都直接列在 README（依日期新到舊），Notes 欄會標出尚未寫明的暑期日期等資訊。
 - **403 / 429 / robots.txt**：來源限制或頻率限制；不視為職缺關閉。降低頻率、人工加入，或使用該平台官方通知。
 - **DNS resolution failed**：工具需先解析公網 hostname。此建置環境只有 HTTP 代理能連線，完整 CLI 同步因 DNS 檢查而未完成；請在自己的正常網路／GitHub Actions 驗證第一次同步。詳見 `docs/VALIDATION.md`。
 - **Workday endpoint 改版**：`sources.json` 的 board URL 和 `tracker/sources.py` 的 adapter 可調整；查看 health，暫時關閉故障來源。

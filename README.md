@@ -1,6 +1,6 @@
 # 🌏 InternRadar — Japan & Taiwan · Summer 2027
 
-**SWE and MLE / AI internships, with separate Japan and Taiwan tables.**
+**SWE and MLE / AI internships in Japan and Taiwan, listed by day, newest first.**
 
 Inspired by [JobRadar-AI](https://github.com/Donkey0322/JobRadar-AI). This is a new, complete Python implementation of the tracking workflow rather than a configuration-only copy of the US tracker. No US jobs, original author's addresses, API keys, or old job database are carried over.
 
@@ -8,7 +8,7 @@ Inspired by [JobRadar-AI](https://github.com/Donkey0322/JobRadar-AI). This is a 
 
 - Automated ATS + international-list discovery, English / Japanese / Chinese web search.
 - Conservative **2027 summer** filtering; Japanese graduation / joining year is not internship year.
-- Persistent deduplication, evidence, first-seen date, source health, manual review and closed-job archive.
+- Persistent deduplication, evidence, posting/first-seen date, source health and closed-job archive.
 - GitHub Actions daily updates; CSV export. Private local application progress; optional explicit email alerts.
 - **Python 3.11+; no third-party runtime packages.** Search and AI are optional and independent.
 
@@ -20,7 +20,7 @@ python3 -m tracker sync
 
 With no API keys, configured ATS and community-list sources still run. Broad regional discovery requires `BRAVE_API_KEY` in `.env` or GitHub Actions Secrets. AI is disabled by default; it only extracts evidence and never approves jobs. See [installation.md](installation.md).
 
-> This ZIP starts with an empty job database. It does not claim that every company has opened 2027 summer hiring. Run a live sync in your environment to populate it. Unknown dates/eligibility remain visible in the review queue. A complete tracker cannot guarantee exhaustive market coverage.
+> The board lists every open Japan/Taiwan internship found, newest first, with no manual review step. A Notes column shows what a posting has not stated yet (for example summer dates); check the posting before applying. A complete tracker cannot guarantee exhaustive market coverage.
 
 <!-- JOBS:START -->
 
@@ -79,8 +79,8 @@ Only a successful job-detail fetch marks a listing open. Source absence, HTTP 40
 
 ## Operating the board
 
-Use `python3 -m tracker list --decision review` to inspect candidates, and `show JOB_ID` to read evidence. Confirm only after verifying the actual 2027 summer internship period. PhD-only titles, Japanese mentions and visa mentions are flagged, not assumed to match your eligibility. There is no citizenship or visa auto-exclusion.
+Each sync adds newly found positions under their day. `show JOB_ID` prints a job's full evidence; `review JOB_ID rejected --reason ...` hides one you don't want, and `close` hides one that is no longer open. PhD-only titles, Japanese mentions and visa mentions are flagged, not assumed to match your eligibility. There is no citizenship or visa auto-exclusion.
 
-Tables exclude closed and rejected listings. All records remain in `data/jobs.json`; `data/jobs.csv` is regenerated automatically. [Closed archive](job-postings/archive.md). Applicant notes live in ignored `.local/` files and never enter the public board.
+Tables exclude closed listings and ones out of scope (another country or year, full-time roles). All records remain in `data/jobs.json`; `data/jobs.csv` is regenerated automatically. [Closed archive](job-postings/archive.md). Applicant notes live in ignored `.local/` files and never enter the public board.
 
 MIT license; see [NOTICE](NOTICE) for attribution. Third-party job postings and data remain subject to their owners' terms.
