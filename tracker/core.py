@@ -89,6 +89,17 @@ SWE = r'(?<![a-z0-9])(?:swe|software|backend|back-end|frontend|front-end|full.?s
 SUMMER = r'\bsummer\b|暑期|暑假|夏季|サマー|夏期|夏の'
 OTHER_SEASON = r'\b(?:winter|spring|fall|autumn)\b|寒假|寒期|冬季|春季|秋季|冬期'
 
+JAPAN = r'\bjapan\b|\bjp\b|\btokyo\b|\bosaka\b|\bkyoto\b|\bfukuoka\b|日本|東京|大阪|京都|福岡'
+TAIWAN = r'\btaiwan\b|\btw\b|\btaipei\b|\bhsinchu\b|\btaichung\b|\btainan\b|\bkaohsiung\b|台灣|台湾|臺灣|台北|臺北|新竹|台中|臺中|台南|高雄'
+
+def outside_targets(location):
+    """Names a place, but none in Japan/Taiwan (e.g. 'China, Beijing; China, Shanghai').
+    Bare 'Remote' or '2 Locations' says nothing and is not treated as outside."""
+    s = normalized(location)
+    if re.search(JAPAN, s) or re.search(TAIWAN, s):
+        return False
+    return bool(re.sub(r'remote|anywhere|global|worldwide|hybrid|\d+ locations|multiple locations|[\W\d_]+', '', s))
+
 def country_of(location):
     s = normalized(location)
     found = []
@@ -138,6 +149,8 @@ def classify(job, c):
         reasons.append('SWE / MLE-AI role unclear')
     if country is None:
         reasons.append('Workplace country missing, ambiguous or outside Japan/Taiwan')
+        if outside_targets(job.get('location', '')):
+            decision = 'rejected'
     elif country not in c['countries']:
         reasons.append('Country excluded by config')
         decision = 'rejected'

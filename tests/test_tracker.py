@@ -192,7 +192,7 @@ class WorkflowTests(unittest.TestCase):
         with patch('tracker.__main__.Client') as network:
             self.assertEqual(self.call('sync','--offline'), 0)
             network.assert_not_called()
-        self.assertIn('Positions — newest first', (self.root/'README.md').read_text())
+        self.assertIn('The List', (self.root/'README.md').read_text())
         self.assertTrue((self.root/'data/jobs.csv').exists())
     def test_complete_sync_and_repeat_dedup(self):
         source = {'id':'nvidia','type':'workday','company':'NVIDIA','enabled':True,'url':'https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite'}
@@ -419,6 +419,12 @@ class ReviewFixTests(unittest.TestCase):
         j['manual_status'] = {'status': 'closed', 'reason': 'closed per recruiter', 'at': '2026-01-01'}
         j, _ = upsert(jobs, job(), C)
         self.assertEqual(j['status'], 'closed')
+    def test_location_outside_targets_rejected(self):
+        self.assertEqual(classify(job(location='China, Beijing; China, Shanghai'), C)['decision'], 'rejected')
+        self.assertEqual(classify(job(location='Germany, Remote; France, Remote'), C)['decision'], 'rejected')
+        self.assertNotEqual(classify(job(location='Taiwan, Taipei; China, Shanghai'), C)['decision'], 'rejected')
+        self.assertEqual(classify(job(location='Remote'), C)['decision'], 'review')
+        self.assertEqual(classify(job(location=''), C)['decision'], 'review')
     def test_classification_regexes(self):
         self.assertTrue(classify(job(title='Software Engineering Interns Summer 2027'), C)['internship'])
         self.assertEqual(classify(job(title='AIエンジニア インターン 2027 夏'), C)['category'], 'MLE_AI')
@@ -460,7 +466,7 @@ class ReviewFixWorkflowTests(unittest.TestCase):
             self.call('sync', '--no-search')
             self.assertGreater(first, 0)
             self.assertEqual(d.call_count, first)
-    def test_board_lists_everything_by_day_newest_first(self):
+    def test_board_lists_everything_newest_first(self):
         jobs = []
         upsert(jobs, job(url='https://example.org/jobs/old', title='Old Software Intern', posted_at='2026-09-01'), C)
         upsert(jobs, job(url='https://example.org/jobs/new', title='New Software Intern', posted_at='2026-10-15T00:00:00Z'), C)
@@ -468,8 +474,9 @@ class ReviewFixWorkflowTests(unittest.TestCase):
         save(self.root/'data/jobs.json', jobs)
         render(self.root, C)
         readme = (self.root/'README.md').read_text()
-        self.assertIn('### 2026-10-15 · 1 position', readme)
+        self.assertIn('>Oct 15</td>', readme)
         self.assertLess(readme.index('New Software Intern'), readme.index('Old Software Intern'))
+        self.assertIn('>↳</td>', readme)  # same company collapses like JobRadar
         self.assertIn('summer not stated', readme)  # unconfirmed roles are listed, not held back
         self.assertNotIn('Summer 2026', readme)  # out-of-scope year stays off the board
         self.assertFalse((self.root/'job-postings/review.md').exists())
