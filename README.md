@@ -48,15 +48,15 @@ Only roles whose title or job description states a summer 2027 internship are li
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">Google</td>
-      <td width="420" align="left" valign="top">Software Engineering Intern - Summer 2027<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan +1</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern, Summer 2027<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan, New Taipei, Banqiao Distric…</td>
       <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/85430979253936838"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 16</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineering Intern - PhD - Summer 2027<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="PhD" src="https://img.shields.io/badge/PhD-a78bfa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan +1</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern, PhD, Summer 2027<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="PhD" src="https://img.shields.io/badge/PhD-a78bfa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan, New Taipei, Banqiao Distric…</td>
       <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/104551723757904582"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 14</td>
     </tr>
@@ -147,9 +147,20 @@ Only roles whose title or job description states a summer 2027 internship are li
 | sony-japan | ok | 9 | — |
 | speedyapply-international | ok | 25 | — |
 | dreamwork-taiwan | ok | 39 | — |
-| brave | skipped | 0 | BRAVE_API_KEY not set |
+| tw-swe | error | — | HTTP 422 |
+| tw-ml | error | — | HTTP 422 |
+| tw-cn-swe | error | — | HTTP 422 |
+| tw-cn-ai | error | — | HTTP 422 |
+| 104-swe | error | — | HTTP 422 |
+| 104-ai | error | — | HTTP 422 |
+| cake | error | — | HTTP 422 |
+| yourator | error | — | HTTP 422 |
+| google-tw | error | — | HTTP 422 |
+| line-tw | error | — | HTTP 422 |
+| amazon-tw | error | — | HTTP 422 |
+| taiwan-companies | error | — | HTTP 422 |
 
-Last sync: 2026-10-18T05:41:56+00:00 · requests: 82
+Last sync: 2026-10-18T06:47:45+00:00 · requests: 45
 
 </details>
 
