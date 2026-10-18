@@ -26,8 +26,8 @@
 - [SWE — Software Engineering](./job-postings/swe.md) — 5 opportunities
 - [MLE / AI — Machine Learning & AI](./job-postings/mle_ai.md) — 0 opportunities
 - [Other Engineering](./job-postings/other.md) — 4 opportunities
-- [Closed](./job-postings/archive.md) — 14 listings
-- [Not stated as summer 2027](./job-postings/not-summer.md) — 83 internships hidden from the list
+- [Closed](./job-postings/archive.md) — 15 listings
+- [Not stated as summer 2027](./job-postings/not-summer.md) — 98 internships hidden from the list
 
 Only roles whose title or job description states a summer 2027 internship are listed. Date is the employer's posting date when published, otherwise the day this tracker first found the role.
 
@@ -160,21 +160,33 @@ Only roles whose title or job description states a summer 2027 internship are li
 | rakuten | truncated | 0 | Pagination limit reached; increase max_pages |
 | sony-japan | ok | 9 | — |
 | speedyapply-international | ok | 25 | — |
-| dreamwork-taiwan | ok | 39 | — |
+| dreamwork-taiwan | ok | 40 | — |
+| tw-swe | ok | 4 | — |
+| tw-ml | ok | 2 | — |
+| tw-cn-swe | ok | 5 | — |
+| tw-cn-ai | ok | 1 | — |
+| 104-swe | ok | 10 | — |
+| 104-ai | ok | 8 | — |
+| cake | ok | 2 | — |
+| yourator | ok | 10 | — |
+| google-tw | ok | 10 | — |
+| line-tw | ok | 8 | — |
+| amazon-tw | ok | 9 | — |
+| taiwan-companies | ok | 1 | — |
 | jp-swe | ok | 4 | — |
 | jp-ml | ok | 4 | — |
 | jp-local-swe | ok | 2 | — |
 | jp-local-ml | ok | 1 | — |
 | mercari | ok | 1 | — |
-| pfn | ok | 4 | — |
+| pfn | ok | 5 | — |
 | rakuten | ok | 0 | — |
 | sony | ok | 6 | — |
 | wantedly | ok | 10 | — |
 | japan-dev | ok | 10 | — |
 | tokyodev | ok | 10 | — |
-| jp-global | ok | 6 | — |
+| jp-global | ok | 5 | — |
 
-Last sync: 2026-10-18T06:51:36+00:00 · requests: 117
+Last sync: 2026-10-18T17:18:50+00:00 · requests: 119
 
 </details>
 
