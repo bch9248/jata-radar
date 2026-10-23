@@ -51,14 +51,7 @@ Open internships whose title and job description do not state a summer period (m
       <td width="120" align="left" valign="top">Oct 22</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Google</td>
-      <td width="420" align="left" valign="top">Hardware Engineering Intern, PhD, Summer 2026<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="PhD" src="https://img.shields.io/badge/PhD-a78bfa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
-      <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/5fdf1cdd-1142-409d-8915-eb1b40bda818"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 22</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">NVIDIA</td>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">System Software Engineer - Base OS (RDSS Intern)<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="RDSS" src="https://img.shields.io/badge/RDSS-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 Taiwan, Taipei</td>
       <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/System-Software-Engineer---Base-OS--RDSS-Intern-_JR2025948"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -770,6 +763,13 @@ Open internships whose title and job description do not state a summer period (m
       <td width="180" align="left" valign="top">🇯🇵 JP</td>
       <td width="120" align="left" valign="top"><a href="https://www.wantedly.com/projects/2035785"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Apr 08</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Aibou</td>
+      <td width="420" align="left" valign="top">Sales Project Internship 市場開發專案實習<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 TW</td>
+      <td width="120" align="left" valign="top"><a href="https://www.cake.me/companies/aibou/jobs/project-internship"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 02</td>
     </tr>
   </tbody>
 </table>

@@ -8,8 +8,8 @@
 
 <p align="center">
   <img height="20" alt="Countries: Japan / Taiwan" src="https://img.shields.io/badge/Countries-Japan%20%2F%20Taiwan-22c55e?style=flat" />
-  <img height="20" alt="Open roles: 9" src="https://img.shields.io/badge/Open%20roles-9-60a5fa?style=flat" />
-  <img height="20" alt="Updated: 2026-10-22" src="https://img.shields.io/badge/Updated-2026--10--22-f97316?style=flat" />
+  <img height="20" alt="Open roles: 10" src="https://img.shields.io/badge/Open%20roles-10-60a5fa?style=flat" />
+  <img height="20" alt="Updated: 2026-10-23" src="https://img.shields.io/badge/Updated-2026--10--23-f97316?style=flat" />
   <img height="20" alt="License: MIT" src="https://img.shields.io/badge/License-MIT-eab308?style=flat" />
 </p>
 
@@ -25,7 +25,7 @@
 
 - [SWE — Software Engineering](./job-postings/swe.md) — 5 opportunities
 - [MLE / AI — Machine Learning & AI](./job-postings/mle_ai.md) — 0 opportunities
-- [Other Engineering](./job-postings/other.md) — 4 opportunities
+- [Other Engineering](./job-postings/other.md) — 5 opportunities
 - [Closed](./job-postings/archive.md) — 16 listings
 - [Not stated as summer 2027](./job-postings/not-summer.md) — 108 internships hidden from the list
 
@@ -122,6 +122,13 @@ Only roles whose title or job description states a summer 2027 internship are li
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Hardware Reliability Intern, PhD, Summer 2027<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="PhD" src="https://img.shields.io/badge/PhD-a78bfa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
+      <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/5fdf1cdd-1142-409d-8915-eb1b40bda818"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 22</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Silicon Engineering Intern, 2027<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 New Taipei, Banqiao District, New Taipei Ci…</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/92ec4629-353c-4b6b-b60d-712fe3eabbdc"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -156,26 +163,26 @@ Only roles whose title or job description states a summer 2027 internship are li
 
 | Source | Last result | Candidates | Note |
 |---|---|---|---|
-| nvidia | truncated | 77 | Pagination limit reached; increase max_pages |
+| nvidia | truncated | 79 | Pagination limit reached; increase max_pages |
 | rakuten | truncated | 0 | Pagination limit reached; increase max_pages |
 | sony-japan | ok | 9 | — |
 | speedyapply-international | ok | 27 | — |
-| dreamwork-taiwan | ok | 41 | — |
+| dreamwork-taiwan | ok | 43 | — |
 | tw-swe | ok | 4 | — |
-| tw-ml | ok | 3 | — |
-| tw-cn-swe | ok | 2 | — |
+| tw-ml | ok | 2 | — |
+| tw-cn-swe | ok | 1 | — |
 | tw-cn-ai | ok | 1 | — |
 | 104-swe | ok | 10 | — |
 | 104-ai | ok | 8 | — |
-| cake | ok | 3 | — |
-| yourator | ok | 8 | — |
+| cake | ok | 4 | — |
+| yourator | ok | 9 | — |
 | google-tw | ok | 10 | — |
 | line-tw | ok | 8 | — |
 | amazon-tw | ok | 9 | — |
 | taiwan-companies | ok | 1 | — |
 | jp-swe | ok | 4 | — |
 | jp-ml | ok | 5 | — |
-| jp-local-swe | ok | 2 | — |
+| jp-local-swe | ok | 1 | — |
 | jp-local-ml | ok | 1 | — |
 | mercari | ok | 1 | — |
 | pfn | ok | 5 | — |
@@ -184,9 +191,9 @@ Only roles whose title or job description states a summer 2027 internship are li
 | wantedly | ok | 10 | — |
 | japan-dev | ok | 10 | — |
 | tokyodev | ok | 10 | — |
-| jp-global | ok | 7 | — |
+| jp-global | ok | 6 | — |
 
-Last sync: 2026-10-22T18:30:27+00:00 · requests: 98
+Last sync: 2026-10-23T18:17:12+00:00 · requests: 92
 
 </details>
 
