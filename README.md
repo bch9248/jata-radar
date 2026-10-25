@@ -9,7 +9,7 @@
 <p align="center">
   <img height="20" alt="Countries: Japan / Taiwan" src="https://img.shields.io/badge/Countries-Japan%20%2F%20Taiwan-22c55e?style=flat" />
   <img height="20" alt="Open roles: 10" src="https://img.shields.io/badge/Open%20roles-10-60a5fa?style=flat" />
-  <img height="20" alt="Updated: 2026-10-24" src="https://img.shields.io/badge/Updated-2026--10--24-f97316?style=flat" />
+  <img height="20" alt="Updated: 2026-10-25" src="https://img.shields.io/badge/Updated-2026--10--25-f97316?style=flat" />
   <img height="20" alt="License: MIT" src="https://img.shields.io/badge/License-MIT-eab308?style=flat" />
 </p>
 
@@ -168,9 +168,9 @@ Only roles whose title or job description states a summer 2027 internship are li
 | sony-japan | ok | 9 | — |
 | speedyapply-international | ok | 27 | — |
 | dreamwork-taiwan | ok | 43 | — |
-| tw-swe | ok | 4 | — |
+| tw-swe | ok | 5 | — |
 | tw-ml | ok | 2 | — |
-| tw-cn-swe | ok | 4 | — |
+| tw-cn-swe | ok | 1 | — |
 | tw-cn-ai | ok | 1 | — |
 | 104-swe | ok | 10 | — |
 | 104-ai | ok | 8 | — |
@@ -180,20 +180,20 @@ Only roles whose title or job description states a summer 2027 internship are li
 | line-tw | ok | 8 | — |
 | amazon-tw | ok | 9 | — |
 | taiwan-companies | ok | 1 | — |
-| jp-swe | ok | 4 | — |
+| jp-swe | ok | 3 | — |
 | jp-ml | ok | 5 | — |
-| jp-local-swe | ok | 2 | — |
+| jp-local-swe | ok | 1 | — |
 | jp-local-ml | ok | 1 | — |
 | mercari | ok | 1 | — |
-| pfn | ok | 5 | — |
+| pfn | ok | 4 | — |
 | rakuten | ok | 0 | — |
-| sony | ok | 6 | — |
+| sony | ok | 5 | — |
 | wantedly | ok | 10 | — |
 | japan-dev | ok | 10 | — |
 | tokyodev | ok | 10 | — |
-| jp-global | ok | 5 | — |
+| jp-global | ok | 6 | — |
 
-Last sync: 2026-10-24T17:24:15+00:00 · requests: 90
+Last sync: 2026-10-25T17:40:25+00:00 · requests: 150
 
 </details>
 
