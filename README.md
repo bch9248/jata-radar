@@ -9,7 +9,7 @@
 <p align="center">
   <img height="20" alt="Countries: Japan / Taiwan" src="https://img.shields.io/badge/Countries-Japan%20%2F%20Taiwan-22c55e?style=flat" />
   <img height="20" alt="Open roles: 10" src="https://img.shields.io/badge/Open%20roles-10-60a5fa?style=flat" />
-  <img height="20" alt="Updated: 2026-10-25" src="https://img.shields.io/badge/Updated-2026--10--25-f97316?style=flat" />
+  <img height="20" alt="Updated: 2026-10-26" src="https://img.shields.io/badge/Updated-2026--10--26-f97316?style=flat" />
   <img height="20" alt="License: MIT" src="https://img.shields.io/badge/License-MIT-eab308?style=flat" />
 </p>
 
@@ -26,8 +26,8 @@
 - [SWE — Software Engineering](./job-postings/swe.md) — 5 opportunities
 - [MLE / AI — Machine Learning & AI](./job-postings/mle_ai.md) — 0 opportunities
 - [Other Engineering](./job-postings/other.md) — 5 opportunities
-- [Closed](./job-postings/archive.md) — 16 listings
-- [Not stated as summer 2027](./job-postings/not-summer.md) — 111 internships hidden from the list
+- [Closed](./job-postings/archive.md) — 17 listings
+- [Not stated as summer 2027](./job-postings/not-summer.md) — 113 internships hidden from the list
 
 Only roles whose title or job description states a summer 2027 internship are listed. Date is the employer's posting date when published, otherwise the day this tracker first found the role.
 
@@ -48,10 +48,10 @@ Only roles whose title or job description states a summer 2027 internship are li
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">Google</td>
-      <td width="420" align="left" valign="top">Software Engineering Intern, Summer 2027<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan, New Taipei, Banqiao Distric…</td>
-      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/85430979253936838"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 16</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern, Summer 2027<br /><img height="18" alt="summer 2027" src="https://img.shields.io/badge/summer%202027-22c55e?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, TW</td>
+      <td width="120" align="left" valign="top"><a href="https://workopia.io/jobs/f3baa50436cb0e36d64314d4a755090e"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 15</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
@@ -168,32 +168,32 @@ Only roles whose title or job description states a summer 2027 internship are li
 | sony-japan | ok | 9 | — |
 | speedyapply-international | ok | 27 | — |
 | dreamwork-taiwan | ok | 43 | — |
-| tw-swe | ok | 5 | — |
+| tw-swe | ok | 6 | — |
 | tw-ml | ok | 2 | — |
-| tw-cn-swe | ok | 1 | — |
+| tw-cn-swe | ok | 2 | — |
 | tw-cn-ai | ok | 1 | — |
 | 104-swe | ok | 10 | — |
 | 104-ai | ok | 8 | — |
-| cake | ok | 3 | — |
+| cake | ok | 2 | — |
 | yourator | ok | 9 | — |
 | google-tw | ok | 10 | — |
 | line-tw | ok | 8 | — |
 | amazon-tw | ok | 9 | — |
 | taiwan-companies | ok | 1 | — |
 | jp-swe | ok | 3 | — |
-| jp-ml | ok | 5 | — |
+| jp-ml | ok | 4 | — |
 | jp-local-swe | ok | 1 | — |
 | jp-local-ml | ok | 1 | — |
 | mercari | ok | 1 | — |
-| pfn | ok | 4 | — |
+| pfn | ok | 5 | — |
 | rakuten | ok | 0 | — |
 | sony | ok | 5 | — |
 | wantedly | ok | 10 | — |
 | japan-dev | ok | 10 | — |
 | tokyodev | ok | 10 | — |
-| jp-global | ok | 6 | — |
+| jp-global | ok | 5 | — |
 
-Last sync: 2026-10-25T17:40:25+00:00 · requests: 150
+Last sync: 2026-10-26T19:54:15+00:00 · requests: 94
 
 </details>
 
