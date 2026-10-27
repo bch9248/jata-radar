@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern, Phd, Summer 2027<br /><img height="18" alt="summer 2027" src="https://img.shields.io/badge/summer%202027-22c55e?style=plastic" /> <img height="18" alt="PhD" src="https://img.shields.io/badge/PhD-a78bfa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, TW</td>
+      <td width="120" align="left" valign="top"><a href="https://workopia.io/jobs/61710035ab84d5d5ebc6b98abbebb6a7"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 19</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">—</td>
       <td width="420" align="left" valign="top">リモートOK &#124; インターン<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇯🇵 JP</td>
