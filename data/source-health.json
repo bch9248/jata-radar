@@ -1,10 +1,10 @@
 {
-  "started_at": "2026-10-27T19:23:48+00:00",
+  "started_at": "2026-10-28T19:28:33+00:00",
   "sources": [
     {
       "id": "nvidia",
       "status": "truncated",
-      "candidates": 82,
+      "candidates": 81,
       "error": "Pagination limit reached; increase max_pages"
     },
     {
@@ -36,12 +36,12 @@
     {
       "id": "tw-swe",
       "status": "ok",
-      "candidates": 6
+      "candidates": 5
     },
     {
       "id": "tw-ml",
       "status": "ok",
-      "candidates": 2
+      "candidates": 1
     },
     {
       "id": "tw-cn-swe",
@@ -66,7 +66,7 @@
     {
       "id": "cake",
       "status": "ok",
-      "candidates": 2
+      "candidates": 1
     },
     {
       "id": "yourator",
@@ -151,12 +151,60 @@
     {
       "id": "jp-global",
       "status": "ok",
-      "candidates": 5
+      "candidates": 6
     }
   ],
   "detail_errors": [
     {
+      "id": "c03ecc1fe0b3abad",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "f4106313326fa135",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "22ad1a088d7b3da4",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "f77a26581cc3fe8e",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "85c836418df7b8cb",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "ebc141f487de13ad",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "b71765460be0cc31",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "6c4f918e6873c27b",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "32427c2069611ba3",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "258543096559d86b",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "899fa1a1947726c7",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
       "id": "d64a7218c7660705",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "d4b4760b5d7acbe0",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -212,10 +260,6 @@
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "30565eee40f653be",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
       "id": "32ee5c2cddb8cbf4",
       "error": "robots.txt disallows page fetching"
     },
@@ -244,7 +288,7 @@
       "error": "HTTP 403"
     },
     {
-      "id": "1aaedb21aea3d29f",
+      "id": "f90fb92444e6c747",
       "error": "HTTP 403"
     },
     {
@@ -294,60 +338,12 @@
     {
       "id": "6d0c4de43eda2c73",
       "error": "DNS resolution failed"
-    },
-    {
-      "id": "c03ecc1fe0b3abad",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "f4106313326fa135",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "22ad1a088d7b3da4",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "f77a26581cc3fe8e",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "85c836418df7b8cb",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "ebc141f487de13ad",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "b71765460be0cc31",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "6c4f918e6873c27b",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "32427c2069611ba3",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "258543096559d86b",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "4e27f9bcfd2ac303",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "899fa1a1947726c7",
-      "error": "robots.txt disallows page fetching"
     }
   ],
-  "finished_at": "2026-10-27T19:25:38+00:00",
-  "requests": 99,
-  "new_jobs": 9,
-  "detail_candidates": 58,
-  "details_attempted": 58,
+  "finished_at": "2026-10-28T19:31:06+00:00",
+  "requests": 134,
+  "new_jobs": 1,
+  "detail_candidates": 92,
+  "details_attempted": 92,
   "details_deferred": 0
 }
