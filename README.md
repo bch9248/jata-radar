@@ -9,7 +9,7 @@
 <p align="center">
   <img height="20" alt="Countries: Japan / Taiwan" src="https://img.shields.io/badge/Countries-Japan%20%2F%20Taiwan-22c55e?style=flat" />
   <img height="20" alt="Open roles: 9" src="https://img.shields.io/badge/Open%20roles-9-60a5fa?style=flat" />
-  <img height="20" alt="Updated: 2026-10-29" src="https://img.shields.io/badge/Updated-2026--10--29-f97316?style=flat" />
+  <img height="20" alt="Updated: 2026-10-30" src="https://img.shields.io/badge/Updated-2026--10--30-f97316?style=flat" />
   <img height="20" alt="License: MIT" src="https://img.shields.io/badge/License-MIT-eab308?style=flat" />
 </p>
 
@@ -26,8 +26,8 @@
 - [SWE — Software Engineering](./job-postings/swe.md) — 4 opportunities
 - [MLE / AI — Machine Learning & AI](./job-postings/mle_ai.md) — 0 opportunities
 - [Other Engineering](./job-postings/other.md) — 5 opportunities
-- [Closed](./job-postings/archive.md) — 21 listings
-- [Not stated as summer 2027](./job-postings/not-summer.md) — 121 internships hidden from the list
+- [Closed](./job-postings/archive.md) — 27 listings
+- [Not stated as summer 2027](./job-postings/not-summer.md) — 135 internships hidden from the list
 
 Only roles whose title or job description states a summer 2027 internship are listed. Date is the employer's posting date when published, otherwise the day this tracker first found the role.
 
@@ -162,31 +162,31 @@ Only roles whose title or job description states a summer 2027 internship are li
 | speedyapply-international | ok | 28 | — |
 | dreamwork-taiwan | ok | 42 | — |
 | tw-swe | ok | 6 | — |
-| tw-ml | ok | 1 | — |
-| tw-cn-swe | ok | 1 | — |
-| tw-cn-ai | ok | 0 | — |
-| 104-swe | ok | 10 | — |
+| tw-ml | ok | 2 | — |
+| tw-cn-swe | ok | 2 | — |
+| tw-cn-ai | ok | 1 | — |
+| 104-swe | ok | 9 | — |
 | 104-ai | ok | 8 | — |
-| cake | ok | 1 | — |
+| cake | ok | 3 | — |
 | yourator | ok | 10 | — |
 | google-tw | ok | 10 | — |
-| line-tw | ok | 8 | — |
-| amazon-tw | ok | 9 | — |
-| taiwan-companies | ok | 1 | — |
+| line-tw | ok | 7 | — |
+| amazon-tw | ok | 10 | — |
+| taiwan-companies | ok | 0 | — |
 | jp-swe | ok | 3 | — |
-| jp-ml | ok | 4 | — |
+| jp-ml | ok | 2 | — |
 | jp-local-swe | ok | 1 | — |
-| jp-local-ml | ok | 1 | — |
-| mercari | ok | 1 | — |
-| pfn | ok | 5 | — |
+| jp-local-ml | ok | 2 | — |
+| mercari | ok | 2 | — |
+| pfn | ok | 3 | — |
 | rakuten | ok | 0 | — |
-| sony | ok | 5 | — |
-| wantedly | ok | 9 | — |
+| sony | ok | 6 | — |
+| wantedly | ok | 10 | — |
 | japan-dev | ok | 10 | — |
 | tokyodev | ok | 10 | — |
-| jp-global | ok | 6 | — |
+| jp-global | ok | 4 | — |
 
-Last sync: 2026-10-29T19:35:21+00:00 · requests: 104
+Last sync: 2026-10-30T19:16:41+00:00 · requests: 125
 
 </details>
 

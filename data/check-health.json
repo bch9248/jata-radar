@@ -1,10 +1,5 @@
 {
-  "finished_at": "2026-10-29T19:35:23+00:00",
-  "checks": [
-    {
-      "id": "177d296f344c8bd0",
-      "status": "open"
-    }
-  ],
+  "finished_at": "2026-10-30T19:16:41+00:00",
+  "checks": [],
   "deferred": 0
 }

@@ -17,6 +17,97 @@ Open internships whose title and job description do not state a summer period (m
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">—</td>
+      <td width="420" align="left" valign="top">AI Internships in 2026: Open Roles, Deadlines and Pay &#124; The AI Rankings<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://theairankings.com/ai-jobs/internships"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">打工探吉<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://tanji.104.com.tw/job/a77b1747-66a5-40ad-897c-5cd2e7534b42"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Security Engineering &#124; Mercari Careers<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.mercari.com/en/jobs/engineering/security-engineering"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Unverified listing<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.linecorp.com/jobs/2471"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Unverified listing<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.linecorp.com/jobs/2092"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">In Person Developer Jobs in Japan &#124; TokyoDev<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.tokyodev.com/jobs/no-remote"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">インターンシップ｜採用情報｜株式会社Preferred Networks<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.preferred.jp/ja/careers/internship"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">インターンシップ &#124; NTT東日本採用・募集<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.ntt-east.co.jp/recruit/internship"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Best Summer 2027 Internships &#124; 100+ Programs &amp; Deadlines  &#124;  Extern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.extern.com/post/internship-guide"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">SDE I Intern , Amazon University Talent Acquisition - Job ID: 10541345 &#124; Amazon.jobs<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.amazon.jobs/en/jobs/10541345/sde-i-intern-amazon-university-talent-acquisition"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Development Engineer Intern, ROBOTICS - 2027 - Job ID: 10535280 &#124; Amazon.jobs<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.amazon.jobs/en/jobs/10535280/software-development-engineer-intern-robotics-2027"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Development Engineer Intern, Annapurna Labs - 2027 - Job ID: 10517567 &#124; Amazon.jobs<br /><img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.amazon.jobs/en/jobs/10517567/software-development-engineer-intern-annapurna-labs-2027"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Development Engineer Intern – May 2027 (2 month), Amazon University Talent Acquisition - Job ID: 10513277 &#124; Amazon.jobs<br /><img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.amazon.jobs/en/jobs/10513277/software-development-engineer-intern-may-2027-2-month-amazon-university-talent-acquisition"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">2027 Software Dev Engineer Intern - Job ID: 10418355 &#124; Amazon.jobs<br /><img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">—</td>
       <td width="120" align="left" valign="top"><a href="https://www.amazon.jobs/en/jobs/10418355/2027-software-dev-engineer-intern"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -833,6 +924,13 @@ Open internships whose title and job description do not state a summer period (m
       <td width="180" align="left" valign="top">🇯🇵 Tokyo - Osaki</td>
       <td width="120" align="left" valign="top"><a href="https://sonyglobal.wd1.myworkdayjobs.com/SonyJapanCareers/job/Tokyo---Osaki/Internship---Research-engineer-for-data-science-and-machine-learning-KDD_JR-116890"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Dec 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="420" align="left" valign="top">AIエンジニア<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 JP</td>
+      <td width="120" align="left" valign="top"><a href="https://en-jp.wantedly.com/projects/2222156"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 07</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Appier</td>
