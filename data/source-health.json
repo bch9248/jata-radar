@@ -1,10 +1,10 @@
 {
-  "started_at": "2026-10-30T19:14:18+00:00",
+  "started_at": "2026-10-31T18:28:18+00:00",
   "sources": [
     {
       "id": "nvidia",
       "status": "truncated",
-      "candidates": 83,
+      "candidates": 82,
       "error": "Pagination limit reached; increase max_pages"
     },
     {
@@ -22,13 +22,13 @@
     {
       "id": "speedyapply-international",
       "status": "ok",
-      "candidates": 28,
+      "candidates": 20,
       "error": ""
     },
     {
       "id": "dreamwork-taiwan",
       "status": "ok",
-      "candidates": 42,
+      "candidates": 43,
       "error": ""
     }
   ],
@@ -36,7 +36,7 @@
     {
       "id": "tw-swe",
       "status": "ok",
-      "candidates": 6
+      "candidates": 5
     },
     {
       "id": "tw-ml",
@@ -46,7 +46,7 @@
     {
       "id": "tw-cn-swe",
       "status": "ok",
-      "candidates": 2
+      "candidates": 3
     },
     {
       "id": "tw-cn-ai",
@@ -66,7 +66,7 @@
     {
       "id": "cake",
       "status": "ok",
-      "candidates": 3
+      "candidates": 4
     },
     {
       "id": "yourator",
@@ -81,7 +81,7 @@
     {
       "id": "line-tw",
       "status": "ok",
-      "candidates": 7
+      "candidates": 8
     },
     {
       "id": "amazon-tw",
@@ -96,7 +96,7 @@
     {
       "id": "jp-swe",
       "status": "ok",
-      "candidates": 3
+      "candidates": 4
     },
     {
       "id": "jp-ml",
@@ -106,7 +106,7 @@
     {
       "id": "jp-local-swe",
       "status": "ok",
-      "candidates": 1
+      "candidates": 2
     },
     {
       "id": "jp-local-ml",
@@ -116,7 +116,7 @@
     {
       "id": "mercari",
       "status": "ok",
-      "candidates": 2
+      "candidates": 1
     },
     {
       "id": "pfn",
@@ -131,7 +131,7 @@
     {
       "id": "sony",
       "status": "ok",
-      "candidates": 6
+      "candidates": 7
     },
     {
       "id": "wantedly",
@@ -151,38 +151,10 @@
     {
       "id": "jp-global",
       "status": "ok",
-      "candidates": 4
+      "candidates": 5
     }
   ],
   "detail_errors": [
-    {
-      "id": "ca4a69094b88de69",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "899fa1a1947726c7",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "f9db71deb3bd3f22",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "2be6200386e524a7",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "a5d6f9980b1fa717",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "e3fe6d1e1e2e3813",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "d09a5a8643868140",
-      "error": "HTTP 404"
-    },
     {
       "id": "c9e7f070354247ae",
       "error": "HTTP 404"
@@ -196,11 +168,7 @@
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "0f40de5250e4bed6",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "dac0728a34f8cb3d",
+      "id": "1e0fd31935fc7b67",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -208,7 +176,15 @@
       "error": "robots.txt disallows page fetching"
     },
     {
+      "id": "d5549b6e270158c7",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
       "id": "46557515f9a4c882",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "48ce322b04c204b2",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -220,23 +196,31 @@
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "4815a0d328757fbb",
+      "id": "f6711366c23247db",
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "f6711366c23247db",
+      "id": "97e7390364259d34",
       "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "a477d3dcdbaaac42",
+      "error": "robots.txt unavailable; page fetch skipped"
+    },
+    {
+      "id": "a3e0f8750efb0a4a",
+      "error": "robots.txt unavailable; page fetch skipped"
     },
     {
       "id": "3198af93152b89c3",
       "error": "HTTP 404"
     },
     {
-      "id": "f71cf21b56105ae4",
+      "id": "54fa898ec70f1ade",
       "error": "HTTP 403"
     },
     {
-      "id": "c1f319eca22e63c3",
+      "id": "2bc0842c01a3cdc0",
       "error": "HTTP 403"
     },
     {
@@ -264,11 +248,15 @@
       "error": "HTTP 403"
     },
     {
+      "id": "bdf072d1472d1240",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
       "id": "7ebdb9fc46b9ca9c",
       "error": "HTTP 403"
     },
     {
-      "id": "663766340f16e533",
+      "id": "16bb52a82ef842c4",
       "error": "HTTP 403"
     },
     {
@@ -282,6 +270,10 @@
     {
       "id": "7035119aa5748cdb",
       "error": "HTTP 403"
+    },
+    {
+      "id": "c545864648bc9553",
+      "error": "robots.txt disallows page fetching"
     },
     {
       "id": "6d0c4de43eda2c73",
@@ -304,10 +296,6 @@
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "1ab615cbb994fde2",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
       "id": "f77a26581cc3fe8e",
       "error": "robots.txt disallows page fetching"
     },
@@ -322,12 +310,44 @@
     {
       "id": "fd43aa2c95f5beeb",
       "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "ca4a69094b88de69",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "899fa1a1947726c7",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "f9db71deb3bd3f22",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "2be6200386e524a7",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "a5d6f9980b1fa717",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "e3fe6d1e1e2e3813",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "430cb1b5a0b76021",
+      "error": "HTTP 404"
+    },
+    {
+      "id": "d09a5a8643868140",
+      "error": "HTTP 404"
     }
   ],
-  "finished_at": "2026-10-30T19:16:41+00:00",
-  "requests": 125,
-  "new_jobs": 25,
-  "detail_candidates": 70,
-  "details_attempted": 70,
+  "finished_at": "2026-10-31T18:30:06+00:00",
+  "requests": 105,
+  "new_jobs": 9,
+  "detail_candidates": 57,
+  "details_attempted": 57,
   "details_deferred": 0
 }

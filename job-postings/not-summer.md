@@ -17,6 +17,34 @@ Open internships whose title and job description do not state a summer period (m
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">—</td>
+      <td width="420" align="left" valign="top">Technical Program Manager Intern 2027 - Job ID: 10589099 &#124; Amazon.jobs<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.amazon.jobs/en/jobs/10589099/technical-program-manager-intern-2027"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 31</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Unverified listing<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /> <img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.linecorp.com/jobs/2939"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 31</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Developer Jobs in Japan Requiring English Skills &#124; TokyoDev<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /> <img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.tokyodev.com/jobs/english-required"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 31</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Seagate Technology</td>
+      <td width="420" align="left" valign="top">Edge IoT Engineering Intern, Electronics Design Engineering<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
+      <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/b974ccce-284b-4e5c-bfb8-aaef91ea211b"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 31</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">—</td>
       <td width="420" align="left" valign="top">AI Internships in 2026: Open Roles, Deadlines and Pay &#124; The AI Rankings<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">—</td>
       <td width="120" align="left" valign="top"><a href="https://theairankings.com/ai-jobs/internships"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
