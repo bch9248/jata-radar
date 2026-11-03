@@ -49,6 +49,13 @@
       <td width="120" align="left" valign="top">Jul 25</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">Omakase.ai</td>
+      <td width="420" align="left" valign="top">Full Stack Engineer<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
+      <td width="120" align="left" valign="top"><a href="https://japan-dev.com/jobs/omakase-ai/omakaseai-full-stack-engineer-uczhkz"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Apr 11</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">HENNGE</td>
       <td width="420" align="left" valign="top">Product Designer / UI/UX Designer<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
