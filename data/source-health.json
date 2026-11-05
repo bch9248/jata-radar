@@ -1,10 +1,10 @@
 {
-  "started_at": "2026-11-04T20:46:53+00:00",
+  "started_at": "2026-11-05T21:01:44+00:00",
   "sources": [
     {
       "id": "nvidia",
       "status": "truncated",
-      "candidates": 79,
+      "candidates": 77,
       "error": "Pagination limit reached; increase max_pages"
     },
     {
@@ -28,7 +28,7 @@
     {
       "id": "dreamwork-taiwan",
       "status": "ok",
-      "candidates": 44,
+      "candidates": 45,
       "error": ""
     }
   ],
@@ -36,7 +36,7 @@
     {
       "id": "tw-swe",
       "status": "ok",
-      "candidates": 6
+      "candidates": 7
     },
     {
       "id": "tw-ml",
@@ -46,7 +46,7 @@
     {
       "id": "tw-cn-swe",
       "status": "ok",
-      "candidates": 2
+      "candidates": 3
     },
     {
       "id": "tw-cn-ai",
@@ -96,17 +96,17 @@
     {
       "id": "jp-swe",
       "status": "ok",
-      "candidates": 5
+      "candidates": 4
     },
     {
       "id": "jp-ml",
       "status": "ok",
-      "candidates": 4
+      "candidates": 3
     },
     {
       "id": "jp-local-swe",
       "status": "ok",
-      "candidates": 3
+      "candidates": 1
     },
     {
       "id": "jp-local-ml",
@@ -131,7 +131,7 @@
     {
       "id": "sony",
       "status": "ok",
-      "candidates": 8
+      "candidates": 7
     },
     {
       "id": "wantedly",
@@ -151,12 +151,16 @@
     {
       "id": "jp-global",
       "status": "ok",
-      "candidates": 5
+      "candidates": 4
     }
   ],
   "detail_errors": [
     {
       "id": "896caf183dbc8615",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "9d2c81f571e7c1bc",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -196,7 +200,7 @@
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "ac274e096204a6a6",
+      "id": "8cfc7fa5ce680746",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -218,10 +222,6 @@
     {
       "id": "e3fe6d1e1e2e3813",
       "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "430cb1b5a0b76021",
-      "error": "HTTP 404"
     },
     {
       "id": "d09a5a8643868140",
@@ -248,7 +248,7 @@
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "d5549b6e270158c7",
+      "id": "46557515f9a4c882",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -256,19 +256,15 @@
       "error": "robots.txt disallows page fetching"
     },
     {
+      "id": "50d7d5c6fcbd042c",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
       "id": "3373da43e47ce442",
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "9ad90a495b40e622",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
       "id": "93148c10a96a49ff",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "c9c599d1fa3e3b4d",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -280,24 +276,8 @@
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "a477d3dcdbaaac42",
-      "error": "robots.txt unavailable; page fetch skipped"
-    },
-    {
-      "id": "3c90edcb4ce41c5a",
-      "error": "robots.txt unavailable; page fetch skipped"
-    },
-    {
-      "id": "476e0f8c820e99d2",
-      "error": "robots.txt unavailable; page fetch skipped"
-    },
-    {
       "id": "3198af93152b89c3",
       "error": "HTTP 404"
-    },
-    {
-      "id": "f71cf21b56105ae4",
-      "error": "HTTP 403"
     },
     {
       "id": "c1f319eca22e63c3",
@@ -305,6 +285,10 @@
     },
     {
       "id": "2bc0842c01a3cdc0",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "ef8af4bc2702a409",
       "error": "HTTP 403"
     },
     {
@@ -332,7 +316,7 @@
       "error": "HTTP 403"
     },
     {
-      "id": "3ccd71cbb854508e",
+      "id": "663766340f16e533",
       "error": "HTTP 403"
     },
     {
@@ -358,12 +342,16 @@
     {
       "id": "ef0023d79a592131",
       "error": "DNS resolution failed"
+    },
+    {
+      "id": "e3e55d19e741330d",
+      "error": "HTTP 403"
     }
   ],
-  "finished_at": "2026-11-04T20:49:41+00:00",
-  "requests": 141,
-  "new_jobs": 6,
-  "detail_candidates": 100,
-  "details_attempted": 100,
+  "finished_at": "2026-11-05T21:03:59+00:00",
+  "requests": 111,
+  "new_jobs": 9,
+  "detail_candidates": 69,
+  "details_attempted": 69,
   "details_deferred": 0
 }
