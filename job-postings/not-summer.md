@@ -17,6 +17,27 @@ Open internships whose title and job description do not state a summer period (m
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">—</td>
+      <td width="420" align="left" valign="top">Software Development Engineer Intern - Summer 2027 (USA) - Job ID: 10552937 &#124; Amazon.jobs<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 06</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">129 Internships in Taiwan &#124; iAgora.com<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.iagora.com/work/en/internships/taiwan"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 06</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">NVIDIA</td>
+      <td width="420" align="left" valign="top">System Software Intern, Embedded Power Management - 2027<br /><img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Taiwan, Taipei</td>
+      <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/System-Software-Intern--Embedded-Power-Management---2027_JR2029153"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 06</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">—</td>
       <td width="420" align="left" valign="top">TypeScript jobs in Japan &#124; TokyoDev<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">—</td>
       <td width="120" align="left" valign="top"><a href="https://www.tokyodev.com/jobs/typescript"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -98,13 +119,6 @@ Open internships whose title and job description do not state a summer period (m
       <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/b974ccce-284b-4e5c-bfb8-aaef91ea211b"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Logitech</td>
-      <td width="420" align="left" valign="top">AI Automation Test Intern Engineer, 2027<br /><img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Hsinchu, Taiwan</td>
-      <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/4768bc45-8f20-42b5-a068-850a9a45b1fe"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 30</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">—</td>
@@ -240,7 +254,14 @@ Open internships whose title and job description do not state a summer period (m
       <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">↳</td>
+      <td width="180" align="left" valign="top">增你強股份有限公司</td>
+      <td width="420" align="left" valign="top">【2027 實習計畫】優先獲得畢業預聘機會]軟體開發組實習(一年制/學期制)<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Neihu District, Taipei City, Taiwan, TW</td>
+      <td width="120" align="left" valign="top"><a href="https://freehire.me/jobs/2027-shi-xi-ji-hua-you-xian-huo-de-bi-ye-yu-pin-ji-hui-ruan-ti-kai-fa-zu-shi-xi-yi-nian-zhi-xue-qi-zhi-zeng-ni-qiang-gu-fen-you-xian-gong-si-zictd4dp"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 27</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">—</td>
       <td width="420" align="left" valign="top">Engineering &#124; 株式会社メルカリ - 採用情報<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">—</td>
       <td width="120" align="left" valign="top"><a href="https://careers.mercari.com/jobs/engineering"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>

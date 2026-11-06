@@ -70,11 +70,25 @@
       <td width="120" align="left" valign="top">Feb 13</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">lowiro</td>
+      <td width="420" align="left" valign="top">Server Engineer<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
+      <td width="120" align="left" valign="top"><a href="https://japan-dev.com/jobs/lowiro/lowiro-server-engineer-bpaqq7"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Dec 08</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">HENNGE</td>
       <td width="420" align="left" valign="top">Software Engineer (Go / Web Dev)<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /> <img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
       <td width="120" align="left" valign="top"><a href="https://japan-dev.com/jobs/hennge/hennge-junior-software-engineer-go-wen-ssoq2l"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Dec 02</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Money Forward</td>
+      <td width="420" align="left" valign="top">Security Specialist (Product Security - Digital Bank)<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
+      <td width="120" align="left" valign="top"><a href="https://japan-dev.com/jobs/money-forward/money-forward-security-specialist---product-security-digital-bank-tokyojapandev-aiv46f"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 26</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">TECH CREW</td>
