@@ -17,6 +17,41 @@ Open internships whose title and job description do not state a summer period (m
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">—</td>
+      <td width="420" align="left" valign="top">Software Development Engineer Intern - Summer 2027 (CAN) - Job ID: 10553947 &#124; Amazon.jobs<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10553947/software-development-engineer-intern-summer-2027-can"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 07</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">38 IT Internships in Taiwan &#124; iAgora.com<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.iagora.com/work/en/internships/it/taiwan"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 07</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Development Engineer Intern, Machine Learning/Automated Reasoning- Summer 2027 - Job ID: 10593521 &#124; Amazon.jobs<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.amazon.jobs/en/jobs/10593521/software-development-engineer-intern-machine-learning-automated-reasoning-summer-2027"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 07</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Amazon</td>
+      <td width="420" align="left" valign="top">Cloud Hardware Dev Engineer Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, TPE, TW</td>
+      <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/4540b5f7-77ec-4bc1-b79d-b062e6b5e69d"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 06</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Logitech</td>
+      <td width="420" align="left" valign="top">AI-Assisted Materials Engineering Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Hsinchu, TW</td>
+      <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/2d5f75d1-1388-4fa8-b57d-73bff33a05f9"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 06</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">—</td>
       <td width="420" align="left" valign="top">Software Development Engineer Intern - Summer 2027 (USA) - Job ID: 10552937 &#124; Amazon.jobs<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">—</td>
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>

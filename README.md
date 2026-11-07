@@ -9,7 +9,7 @@
 <p align="center">
   <img height="20" alt="Countries: Japan / Taiwan" src="https://img.shields.io/badge/Countries-Japan%20%2F%20Taiwan-22c55e?style=flat" />
   <img height="20" alt="Open roles: 10" src="https://img.shields.io/badge/Open%20roles-10-60a5fa?style=flat" />
-  <img height="20" alt="Updated: 2026-11-06" src="https://img.shields.io/badge/Updated-2026--11--06-f97316?style=flat" />
+  <img height="20" alt="Updated: 2026-11-07" src="https://img.shields.io/badge/Updated-2026--11--07-f97316?style=flat" />
   <img height="20" alt="License: MIT" src="https://img.shields.io/badge/License-MIT-eab308?style=flat" />
 </p>
 
@@ -27,7 +27,7 @@
 - [MLE / AI — Machine Learning & AI](./job-postings/mle_ai.md) — 0 opportunities
 - [Other Engineering](./job-postings/other.md) — 6 opportunities
 - [Closed](./job-postings/archive.md) — 41 listings
-- [Not stated as summer 2027](./job-postings/not-summer.md) — 152 internships hidden from the list
+- [Not stated as summer 2027](./job-postings/not-summer.md) — 157 internships hidden from the list
 
 Only roles whose title or job description states a summer 2027 internship are listed. Date is the employer's posting date when published, otherwise the day this tracker first found the role.
 
@@ -167,10 +167,10 @@ Only roles whose title or job description states a summer 2027 internship are li
 | rakuten | truncated | 0 | Pagination limit reached; increase max_pages |
 | sony-japan | ok | 9 | — |
 | speedyapply-international | ok | 14 | — |
-| dreamwork-taiwan | ok | 49 | — |
+| dreamwork-taiwan | ok | 52 | — |
 | tw-swe | ok | 7 | — |
 | tw-ml | ok | 2 | — |
-| tw-cn-swe | ok | 3 | — |
+| tw-cn-swe | ok | 2 | — |
 | tw-cn-ai | ok | 1 | — |
 | 104-swe | ok | 10 | — |
 | 104-ai | ok | 9 | — |
@@ -181,8 +181,8 @@ Only roles whose title or job description states a summer 2027 internship are li
 | amazon-tw | ok | 10 | — |
 | taiwan-companies | ok | 0 | — |
 | jp-swe | ok | 4 | — |
-| jp-ml | ok | 2 | — |
-| jp-local-swe | ok | 1 | — |
+| jp-ml | ok | 3 | — |
+| jp-local-swe | ok | 2 | — |
 | jp-local-ml | ok | 2 | — |
 | mercari | ok | 1 | — |
 | pfn | ok | 3 | — |
@@ -191,9 +191,9 @@ Only roles whose title or job description states a summer 2027 internship are li
 | wantedly | ok | 10 | — |
 | japan-dev | ok | 10 | — |
 | tokyodev | ok | 10 | — |
-| jp-global | ok | 5 | — |
+| jp-global | ok | 4 | — |
 
-Last sync: 2026-11-06T20:27:16+00:00 · requests: 129
+Last sync: 2026-11-07T18:43:23+00:00 · requests: 99
 
 </details>
 
