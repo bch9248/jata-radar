@@ -1,39 +1,5 @@
 {
-  "finished_at": "2026-11-07T18:43:39+00:00",
-  "checks": [
-    {
-      "id": "c1ffab4a4cf7aba5",
-      "status": "open"
-    },
-    {
-      "id": "d11e03fcd2738a33",
-      "status": "open"
-    },
-    {
-      "id": "79d2629c1185917c",
-      "status": "open",
-      "error": "HTTP 404"
-    },
-    {
-      "id": "ce62b91c80d615a1",
-      "status": "closed"
-    },
-    {
-      "id": "bbdf3481ac9fb003",
-      "status": "open"
-    },
-    {
-      "id": "1391f6499d8bb723",
-      "status": "closed"
-    },
-    {
-      "id": "b918e4b823686a5d",
-      "status": "open"
-    },
-    {
-      "id": "cfa2b4c216f477e1",
-      "status": "open"
-    }
-  ],
+  "finished_at": "2026-11-08T18:48:50+00:00",
+  "checks": [],
   "deferred": 0
 }
