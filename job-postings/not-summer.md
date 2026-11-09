@@ -17,6 +17,34 @@ Open internships whose title and job description do not state a summer period (m
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">—</td>
+      <td width="420" align="left" valign="top">ソニーグループ株式会社 l 採用情報 l 長期有給インターンシップ &#124; ソニーグループポータルサイト内検索ボタンこのページのトップへ<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.sony.com/ja/SonyInfo/Jobs/sgc-recruit/newgrads/internship/master-doctor-internship/02"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 09</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">インターンシップ &#124; 長期有給インターン　～プロフェッショナルと生み出す、最先端技術～ &#124; ソニーグループポータルサイト内検索ボタン<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.sony.com/ja/SonyInfo/Jobs/internship/master-doctor-internship/en"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 09</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Technical Program Manager Intern 2027 - Job ID: 10530151 &#124; Amazon.jobs<br /><img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.amazon.jobs/en/jobs/10530151/technical-program-manager-intern-2027"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 09</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">[Summer 2027] TSMC AZ Internship Opportunities - Engineering Roles Job Details &#124; TSMC<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://ro.careers.tsmc.com/job/Phoenix-Summer-2027-TSMC-AZ-Internship-Opportunities-Engineering-Roles-AZ-85001/1361003166"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 09</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Software Development Engineer Intern - Summer 2027 (CAN) - Job ID: 10553947 &#124; Amazon.jobs<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">—</td>
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10553947/software-development-engineer-intern-summer-2027-can"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -332,7 +360,7 @@ Open internships whose title and job description do not state a summer period (m
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Internship Openings &#124; Mitsubishi Electric Research Laboratories<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="420" align="left" valign="top">Internship Openings &#124; Mitsubishi Electric Research Laboratories<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">—</td>
       <td width="120" align="left" valign="top"><a href="https://www.merl.com/employment/internship-openings"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 26</td>
@@ -454,13 +482,6 @@ Open internships whose title and job description do not state a summer period (m
       <td width="420" align="left" valign="top">Software Development Engineer Intern (Embedded Systems) - Summer 2027 (USA) - Job ID: 10567914 &#124; Amazon.jobs<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">—</td>
       <td width="120" align="left" valign="top"><a href="https://www.amazon.jobs/en/jobs/10567914/software-development-engineer-intern-embedded-systems-summer-2027-usa"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 18</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA) - Job ID: 10559762 &#124; Amazon.jobs<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">—</td>
-      <td width="120" align="left" valign="top"><a href="https://www.amazon.jobs/en/jobs/10559762/software-development-engineer-intern-amazon-leo-summer-2027-usa"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 18</td>
     </tr>
     <tr>
@@ -675,7 +696,7 @@ Open internships whose title and job description do not state a summer period (m
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Internship Openings &#124; Mitsubishi Electric Research Laboratories<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
+      <td width="420" align="left" valign="top">Internship Openings &#124; Mitsubishi Electric Research Laboratories<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">—</td>
       <td width="120" align="left" valign="top"><a href="https://www.merl.com/employment/internship-openings.php?ml=on"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 18</td>
@@ -689,7 +710,7 @@ Open internships whose title and job description do not state a summer period (m
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Big Tech Summer 2027 Internships India — Google, Microsoft, Amazon, Adobe<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="420" align="left" valign="top">Big Tech Summer 2027 Internships India — Google, Microsoft, Amazon, Adobe<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">—</td>
       <td width="120" align="left" valign="top"><a href="https://myinternships.in/internships/big-tech-summer-2027"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 18</td>
@@ -1040,7 +1061,7 @@ Open internships whose title and job description do not state a summer period (m
     <tr>
       <td width="180" align="left" valign="top">Appier</td>
       <td width="420" align="left" valign="top">Technical Solution Engineer Intern (Ad cloud)<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, TW</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/a86fecca-f496-4b3a-97b5-096187a67539"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">May 20</td>
     </tr>
