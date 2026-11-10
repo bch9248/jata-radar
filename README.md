@@ -9,7 +9,7 @@
 <p align="center">
   <img height="20" alt="Countries: Japan / Taiwan" src="https://img.shields.io/badge/Countries-Japan%20%2F%20Taiwan-22c55e?style=flat" />
   <img height="20" alt="Open roles: 10" src="https://img.shields.io/badge/Open%20roles-10-60a5fa?style=flat" />
-  <img height="20" alt="Updated: 2026-11-09" src="https://img.shields.io/badge/Updated-2026--11--09-f97316?style=flat" />
+  <img height="20" alt="Updated: 2026-11-10" src="https://img.shields.io/badge/Updated-2026--11--10-f97316?style=flat" />
   <img height="20" alt="License: MIT" src="https://img.shields.io/badge/License-MIT-eab308?style=flat" />
 </p>
 
@@ -26,8 +26,8 @@
 - [SWE — Software Engineering](./job-postings/swe.md) — 4 opportunities
 - [MLE / AI — Machine Learning & AI](./job-postings/mle_ai.md) — 0 opportunities
 - [Other Engineering](./job-postings/other.md) — 6 opportunities
-- [Closed](./job-postings/archive.md) — 42 listings
-- [Not stated as summer 2027](./job-postings/not-summer.md) — 160 internships hidden from the list
+- [Closed](./job-postings/archive.md) — 44 listings
+- [Not stated as summer 2027](./job-postings/not-summer.md) — 163 internships hidden from the list
 
 Only roles whose title or job description states a summer 2027 internship are listed. Date is the employer's posting date when published, otherwise the day this tracker first found the role.
 
@@ -163,9 +163,9 @@ Only roles whose title or job description states a summer 2027 internship are li
 
 | Source | Last result | Candidates | Note |
 |---|---|---|---|
-| nvidia | truncated | 82 | Pagination limit reached; increase max_pages |
+| nvidia | truncated | 81 | Pagination limit reached; increase max_pages |
 | rakuten | truncated | 0 | Pagination limit reached; increase max_pages |
-| sony-japan | ok | 9 | — |
+| sony-japan | ok | 8 | — |
 | speedyapply-international | ok | 11 | — |
 | dreamwork-taiwan | ok | 51 | — |
 | tw-swe | ok | 7 | — |
@@ -173,15 +173,15 @@ Only roles whose title or job description states a summer 2027 internship are li
 | tw-cn-swe | ok | 3 | — |
 | tw-cn-ai | ok | 1 | — |
 | 104-swe | ok | 10 | — |
-| 104-ai | ok | 9 | — |
-| cake | ok | 4 | — |
+| 104-ai | ok | 10 | — |
+| cake | ok | 5 | — |
 | yourator | ok | 10 | — |
 | google-tw | ok | 10 | — |
-| line-tw | ok | 8 | — |
+| line-tw | ok | 7 | — |
 | amazon-tw | ok | 10 | — |
 | taiwan-companies | ok | 1 | — |
-| jp-swe | ok | 5 | — |
-| jp-ml | ok | 2 | — |
+| jp-swe | ok | 4 | — |
+| jp-ml | ok | 3 | — |
 | jp-local-swe | ok | 0 | — |
 | jp-local-ml | ok | 2 | — |
 | mercari | ok | 2 | — |
@@ -191,9 +191,9 @@ Only roles whose title or job description states a summer 2027 internship are li
 | wantedly | ok | 10 | — |
 | japan-dev | ok | 10 | — |
 | tokyodev | ok | 10 | — |
-| jp-global | ok | 5 | — |
+| jp-global | ok | 6 | — |
 
-Last sync: 2026-11-09T23:27:05+00:00 · requests: 149
+Last sync: 2026-11-10T20:48:43+00:00 · requests: 101
 
 </details>
 
