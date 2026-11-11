@@ -175,6 +175,13 @@
       <td width="120" align="left" valign="top">Apr 02</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">LY Corporation</td>
+      <td width="420" align="left" valign="top">Messaging Backend Engineer・Distributed Systems / LINE Platform<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
+      <td width="120" align="left" valign="top"><a href="https://japan-dev.com/jobs/ly-corporation/ly-corporation-distributed-database-engineer-messaging-service--line-platform-0479zc"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Mar 18</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Block River Technologies</td>
       <td width="420" align="left" valign="top">Smart Contract Engineer<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 TW</td>
