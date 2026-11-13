@@ -9,7 +9,7 @@
 <p align="center">
   <img height="20" alt="Countries: Japan / Taiwan" src="https://img.shields.io/badge/Countries-Japan%20%2F%20Taiwan-22c55e?style=flat" />
   <img height="20" alt="Open roles: 10" src="https://img.shields.io/badge/Open%20roles-10-60a5fa?style=flat" />
-  <img height="20" alt="Updated: 2026-11-12" src="https://img.shields.io/badge/Updated-2026--11--12-f97316?style=flat" />
+  <img height="20" alt="Updated: 2026-11-13" src="https://img.shields.io/badge/Updated-2026--11--13-f97316?style=flat" />
   <img height="20" alt="License: MIT" src="https://img.shields.io/badge/License-MIT-eab308?style=flat" />
 </p>
 
@@ -26,8 +26,8 @@
 - [SWE — Software Engineering](./job-postings/swe.md) — 4 opportunities
 - [MLE / AI — Machine Learning & AI](./job-postings/mle_ai.md) — 0 opportunities
 - [Other Engineering](./job-postings/other.md) — 6 opportunities
-- [Closed](./job-postings/archive.md) — 46 listings
-- [Not stated as summer 2027](./job-postings/not-summer.md) — 167 internships hidden from the list
+- [Closed](./job-postings/archive.md) — 48 listings
+- [Not stated as summer 2027](./job-postings/not-summer.md) — 169 internships hidden from the list
 
 Only roles whose title or job description states a summer 2027 internship are listed. Date is the employer's posting date when published, otherwise the day this tracker first found the role.
 
@@ -57,7 +57,7 @@ Only roles whose title or job description states a summer 2027 internship are li
       <td width="180" align="left" valign="top">NVIDIA</td>
       <td width="420" align="left" valign="top">System Software Engineering Intern, GPU and SOC - Summer 2027<br /><img height="18" alt="summer 2027" src="https://img.shields.io/badge/summer%202027-22c55e?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 Taiwan, Taipei</td>
-      <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/System-Software-Engineering-Intern--GPU-and-SOC---Summer-2027_JR2026406"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Taiwan-Taipei/System-Software-Engineering-Intern--GPU-and-SOC---Summer-2027_JR2026406"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 12</td>
     </tr>
     <tr>
@@ -163,13 +163,13 @@ Only roles whose title or job description states a summer 2027 internship are li
 
 | Source | Last result | Candidates | Note |
 |---|---|---|---|
-| nvidia | truncated | 82 | Pagination limit reached; increase max_pages |
+| nvidia | error | 0 | Connection failed: TimeoutError |
 | rakuten | truncated | 0 | Pagination limit reached; increase max_pages |
 | sony-japan | ok | 8 | — |
-| speedyapply-international | ok | 34 | — |
+| speedyapply-international | ok | 36 | — |
 | dreamwork-taiwan | ok | 52 | — |
-| tw-swe | ok | 7 | — |
-| tw-ml | ok | 3 | — |
+| tw-swe | ok | 8 | — |
+| tw-ml | ok | 2 | — |
 | tw-cn-swe | ok | 4 | — |
 | tw-cn-ai | ok | 1 | — |
 | 104-swe | ok | 10 | — |
@@ -185,15 +185,15 @@ Only roles whose title or job description states a summer 2027 internship are li
 | jp-local-swe | ok | 0 | — |
 | jp-local-ml | ok | 2 | — |
 | mercari | ok | 2 | — |
-| pfn | ok | 3 | — |
+| pfn | ok | 2 | — |
 | rakuten | ok | 0 | — |
-| sony | ok | 6 | — |
+| sony | ok | 7 | — |
 | wantedly | ok | 10 | — |
 | japan-dev | ok | 10 | — |
 | tokyodev | ok | 10 | — |
 | jp-global | ok | 6 | — |
 
-Last sync: 2026-11-12T21:28:19+00:00 · requests: 103
+Last sync: 2026-11-13T20:56:08+00:00 · requests: 113
 
 </details>
 

@@ -1,11 +1,11 @@
 {
-  "started_at": "2026-11-12T21:26:16+00:00",
+  "started_at": "2026-11-13T20:52:06+00:00",
   "sources": [
     {
       "id": "nvidia",
-      "status": "truncated",
-      "candidates": 82,
-      "error": "Pagination limit reached; increase max_pages"
+      "status": "error",
+      "candidates": 0,
+      "error": "Connection failed: TimeoutError"
     },
     {
       "id": "rakuten",
@@ -22,7 +22,7 @@
     {
       "id": "speedyapply-international",
       "status": "ok",
-      "candidates": 34,
+      "candidates": 36,
       "error": ""
     },
     {
@@ -36,12 +36,12 @@
     {
       "id": "tw-swe",
       "status": "ok",
-      "candidates": 7
+      "candidates": 8
     },
     {
       "id": "tw-ml",
       "status": "ok",
-      "candidates": 3
+      "candidates": 2
     },
     {
       "id": "tw-cn-swe",
@@ -121,7 +121,7 @@
     {
       "id": "pfn",
       "status": "ok",
-      "candidates": 3
+      "candidates": 2
     },
     {
       "id": "rakuten",
@@ -131,7 +131,7 @@
     {
       "id": "sony",
       "status": "ok",
-      "candidates": 6
+      "candidates": 7
     },
     {
       "id": "wantedly",
@@ -155,18 +155,6 @@
     }
   ],
   "detail_errors": [
-    {
-      "id": "c9c599d1fa3e3b4d",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "b4bea7644a5b93e3",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "d4630cfc58f40971",
-      "error": "robots.txt disallows page fetching"
-    },
     {
       "id": "43cd951cd8ec9e37",
       "error": "robots.txt disallows page fetching"
@@ -208,6 +196,10 @@
       "error": "HTTP 403"
     },
     {
+      "id": "36585e4bcc532941",
+      "error": "HTTP 404"
+    },
+    {
       "id": "7ebdb9fc46b9ca9c",
       "error": "HTTP 403"
     },
@@ -244,14 +236,6 @@
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "07209a4b4247ae1a",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "0aab7c037762414f",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
       "id": "f4106313326fa135",
       "error": "robots.txt disallows page fetching"
     },
@@ -269,10 +253,6 @@
     },
     {
       "id": "527fb9e9fb92a8d7",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "14a8f495d2c685f8",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -296,6 +276,10 @@
       "error": "robots.txt disallows page fetching"
     },
     {
+      "id": "58c692ac5e0645ed",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
       "id": "2be6200386e524a7",
       "error": "robots.txt disallows page fetching"
     },
@@ -310,10 +294,6 @@
     {
       "id": "93d7c6643ef310d8",
       "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "430cb1b5a0b76021",
-      "error": "HTTP 404"
     },
     {
       "id": "1495ee9d577d4214",
@@ -340,6 +320,10 @@
       "error": "robots.txt disallows page fetching"
     },
     {
+      "id": "0f40de5250e4bed6",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
       "id": "af44feaf91644d54",
       "error": "robots.txt disallows page fetching"
     },
@@ -348,26 +332,30 @@
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "46557515f9a4c882",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
       "id": "3373da43e47ce442",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "9ad90a495b40e622",
       "error": "robots.txt disallows page fetching"
     },
     {
       "id": "93148c10a96a49ff",
       "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "c9c599d1fa3e3b4d",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "b4bea7644a5b93e3",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "d4630cfc58f40971",
+      "error": "robots.txt disallows page fetching"
     }
   ],
-  "finished_at": "2026-11-12T21:28:19+00:00",
-  "requests": 103,
-  "new_jobs": 4,
-  "detail_candidates": 69,
-  "details_attempted": 69,
+  "finished_at": "2026-11-13T20:56:08+00:00",
+  "requests": 113,
+  "new_jobs": 5,
+  "detail_candidates": 71,
+  "details_attempted": 71,
   "details_deferred": 0
 }
