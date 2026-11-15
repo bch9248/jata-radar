@@ -21,7 +21,14 @@
       <td width="120" align="left" valign="top">Nov 06</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">↳</td>
+      <td width="180" align="left" valign="top">TSMC</td>
+      <td width="420" align="left" valign="top">2027 TSMC DNA Internship<br /><img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 新竹市, 新竹市, TW</td>
+      <td width="120" align="left" valign="top"><a href="https://www.cake.me/companies/tsmc/jobs/50249e65-0b5c-421d-ac5c-1fa57aee01d1-2027-tsmc-dna-internship-bb0a956a03e952c1e9b7243a4bf7d6"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 22</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Google</td>
       <td width="420" align="left" valign="top">Hardware Reliability Intern, PhD, Summer 2027<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="PhD" src="https://img.shields.io/badge/PhD-a78bfa?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/5fdf1cdd-1142-409d-8915-eb1b40bda818"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>

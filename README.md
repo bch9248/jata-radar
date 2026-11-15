@@ -8,8 +8,8 @@
 
 <p align="center">
   <img height="20" alt="Countries: Japan / Taiwan" src="https://img.shields.io/badge/Countries-Japan%20%2F%20Taiwan-22c55e?style=flat" />
-  <img height="20" alt="Open roles: 9" src="https://img.shields.io/badge/Open%20roles-9-60a5fa?style=flat" />
-  <img height="20" alt="Updated: 2026-11-14" src="https://img.shields.io/badge/Updated-2026--11--14-f97316?style=flat" />
+  <img height="20" alt="Open roles: 10" src="https://img.shields.io/badge/Open%20roles-10-60a5fa?style=flat" />
+  <img height="20" alt="Updated: 2026-11-15" src="https://img.shields.io/badge/Updated-2026--11--15-f97316?style=flat" />
   <img height="20" alt="License: MIT" src="https://img.shields.io/badge/License-MIT-eab308?style=flat" />
 </p>
 
@@ -25,8 +25,8 @@
 
 - [SWE — Software Engineering](./job-postings/swe.md) — 3 opportunities
 - [MLE / AI — Machine Learning & AI](./job-postings/mle_ai.md) — 0 opportunities
-- [Other Engineering](./job-postings/other.md) — 6 opportunities
-- [Closed](./job-postings/archive.md) — 51 listings
+- [Other Engineering](./job-postings/other.md) — 7 opportunities
+- [Closed](./job-postings/archive.md) — 53 listings
 - [Not stated as summer 2027](./job-postings/not-summer.md) — 169 internships hidden from the list
 
 Only roles whose title or job description states a summer 2027 internship are listed. Date is the employer's posting date when published, otherwise the day this tracker first found the role.
@@ -114,7 +114,14 @@ Only roles whose title or job description states a summer 2027 internship are li
       <td width="120" align="left" valign="top">Nov 06</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">↳</td>
+      <td width="180" align="left" valign="top">TSMC</td>
+      <td width="420" align="left" valign="top">2027 TSMC DNA Internship<br /><img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 新竹市, 新竹市, TW</td>
+      <td width="120" align="left" valign="top"><a href="https://www.cake.me/companies/tsmc/jobs/50249e65-0b5c-421d-ac5c-1fa57aee01d1-2027-tsmc-dna-internship-bb0a956a03e952c1e9b7243a4bf7d6"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 22</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Google</td>
       <td width="420" align="left" valign="top">Hardware Reliability Intern, PhD, Summer 2027<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="PhD" src="https://img.shields.io/badge/PhD-a78bfa?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/5fdf1cdd-1142-409d-8915-eb1b40bda818"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -162,18 +169,18 @@ Only roles whose title or job description states a summer 2027 internship are li
 | speedyapply-international | ok | 36 | — |
 | dreamwork-taiwan | ok | 40 | — |
 | tw-swe | ok | 7 | — |
-| tw-ml | ok | 1 | — |
+| tw-ml | ok | 2 | — |
 | tw-cn-swe | ok | 4 | — |
 | tw-cn-ai | ok | 1 | — |
 | 104-swe | ok | 10 | — |
-| 104-ai | ok | 9 | — |
-| cake | ok | 4 | — |
+| 104-ai | ok | 10 | — |
+| cake | ok | 5 | — |
 | yourator | ok | 10 | — |
 | google-tw | ok | 10 | — |
 | line-tw | ok | 7 | — |
 | amazon-tw | ok | 10 | — |
 | taiwan-companies | ok | 0 | — |
-| jp-swe | ok | 3 | — |
+| jp-swe | ok | 4 | — |
 | jp-ml | ok | 3 | — |
 | jp-local-swe | ok | 0 | — |
 | jp-local-ml | ok | 2 | — |
@@ -184,9 +191,9 @@ Only roles whose title or job description states a summer 2027 internship are li
 | wantedly | ok | 10 | — |
 | japan-dev | ok | 10 | — |
 | tokyodev | ok | 10 | — |
-| jp-global | ok | 5 | — |
+| jp-global | ok | 6 | — |
 
-Last sync: 2026-11-14T19:05:49+00:00 · requests: 96
+Last sync: 2026-11-15T19:44:36+00:00 · requests: 86
 
 </details>
 

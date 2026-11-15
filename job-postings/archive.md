@@ -252,6 +252,13 @@
       <td width="120" align="left" valign="top">Mar 29</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">lowiro</td>
+      <td width="420" align="left" valign="top">Unity Game Developer<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
+      <td width="120" align="left" valign="top"><a href="https://japan-dev.com/jobs/lowiro/lowiro-unity-game-developer-8zfhhm"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Mar 15</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Adventure</td>
       <td width="420" align="left" valign="top">QA Engineer (Quality Assurance Engineer)<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
@@ -281,6 +288,13 @@
     </tr>
     <tr>
       <td width="180" align="left" valign="top">—</td>
+      <td width="420" align="left" valign="top">データサイエンティスト<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 JP</td>
+      <td width="120" align="left" valign="top"><a href="https://www.wantedly.com/projects/1414861"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Aug 04</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">データサイエンティスト<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇯🇵 JP</td>
       <td width="120" align="left" valign="top"><a href="https://www.wantedly.com/projects/1373782"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>

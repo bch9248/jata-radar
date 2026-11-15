@@ -1,51 +1,5 @@
 {
-  "finished_at": "2026-11-14T19:06:05+00:00",
-  "checks": [
-    {
-      "id": "c1ffab4a4cf7aba5",
-      "status": "open"
-    },
-    {
-      "id": "d11e03fcd2738a33",
-      "status": "open"
-    },
-    {
-      "id": "79d2629c1185917c",
-      "status": "closed",
-      "error": "HTTP 404"
-    },
-    {
-      "id": "ce62b91c80d615a1",
-      "status": "closed"
-    },
-    {
-      "id": "1391f6499d8bb723",
-      "status": "closed"
-    },
-    {
-      "id": "b918e4b823686a5d",
-      "status": "open"
-    },
-    {
-      "id": "cfa2b4c216f477e1",
-      "status": "open"
-    },
-    {
-      "id": "6b9ac7482fcf3622",
-      "status": "open"
-    },
-    {
-      "id": "0f6fb3e7fd3310b6",
-      "status": "open"
-    },
-    {
-      "id": "9b2ea3efc5c116c3",
-      "status": "open"
-    },
-    {
-      "id": "fa6fe92cbcc47119",
-      "status": "open"
-    }
-  ],
+  "finished_at": "2026-11-15T19:44:36+00:00",
+  "checks": [],
   "deferred": 0
 }
