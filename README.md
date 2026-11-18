@@ -8,8 +8,8 @@
 
 <p align="center">
   <img height="20" alt="Countries: Japan / Taiwan" src="https://img.shields.io/badge/Countries-Japan%20%2F%20Taiwan-22c55e?style=flat" />
-  <img height="20" alt="Open roles: 8" src="https://img.shields.io/badge/Open%20roles-8-60a5fa?style=flat" />
-  <img height="20" alt="Updated: 2026-11-17" src="https://img.shields.io/badge/Updated-2026--11--17-f97316?style=flat" />
+  <img height="20" alt="Open roles: 9" src="https://img.shields.io/badge/Open%20roles-9-60a5fa?style=flat" />
+  <img height="20" alt="Updated: 2026-11-18" src="https://img.shields.io/badge/Updated-2026--11--18-f97316?style=flat" />
   <img height="20" alt="License: MIT" src="https://img.shields.io/badge/License-MIT-eab308?style=flat" />
 </p>
 
@@ -23,11 +23,11 @@
 
 ## Browse jobs by category
 
-- [SWE — Software Engineering](./job-postings/swe.md) — 4 opportunities
+- [SWE — Software Engineering](./job-postings/swe.md) — 5 opportunities
 - [MLE / AI — Machine Learning & AI](./job-postings/mle_ai.md) — 0 opportunities
 - [Other Engineering](./job-postings/other.md) — 4 opportunities
 - [Closed](./job-postings/archive.md) — 54 listings
-- [Not stated as summer 2027](./job-postings/not-summer.md) — 178 internships hidden from the list
+- [Not stated as summer 2027](./job-postings/not-summer.md) — 180 internships hidden from the list
 
 Only roles whose title or job description states a summer 2027 internship are listed. Date is the employer's posting date when published, otherwise the day this tracker first found the role.
 
@@ -52,6 +52,13 @@ Only roles whose title or job description states a summer 2027 internship are li
       <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan +1</td>
       <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/135021615204180678"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 17</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern - Summer 2027<br /><img height="18" alt="summer 2027" src="https://img.shields.io/badge/summer%202027-22c55e?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 New Taipei City, Taipei, TW; Taipei, Taiwan, TW</td>
+      <td width="120" align="left" valign="top"><a href="https://www.speedyapply.com/jobs/at/google/software-engineering-intern-summer-2027--357t"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">NVIDIA</td>
@@ -149,24 +156,24 @@ Only roles whose title or job description states a summer 2027 internship are li
 
 | Source | Last result | Candidates | Note |
 |---|---|---|---|
-| nvidia | truncated | 87 | Pagination limit reached; increase max_pages |
+| nvidia | truncated | 88 | Pagination limit reached; increase max_pages |
 | rakuten | truncated | 0 | Pagination limit reached; increase max_pages |
 | sony-japan | ok | 9 | — |
 | speedyapply-international | ok | 34 | — |
 | dreamwork-taiwan | ok | 38 | — |
 | tw-swe | ok | 9 | — |
-| tw-ml | ok | 3 | — |
+| tw-ml | ok | 2 | — |
 | tw-cn-swe | ok | 4 | — |
 | tw-cn-ai | ok | 1 | — |
-| 104-swe | ok | 10 | — |
+| 104-swe | ok | 9 | — |
 | 104-ai | ok | 9 | — |
-| cake | ok | 5 | — |
+| cake | ok | 6 | — |
 | yourator | ok | 10 | — |
 | google-tw | ok | 10 | — |
-| line-tw | ok | 6 | — |
+| line-tw | ok | 7 | — |
 | amazon-tw | ok | 10 | — |
 | taiwan-companies | ok | 0 | — |
-| jp-swe | ok | 3 | — |
+| jp-swe | ok | 4 | — |
 | jp-ml | ok | 3 | — |
 | jp-local-swe | ok | 0 | — |
 | jp-local-ml | ok | 2 | — |
@@ -177,9 +184,9 @@ Only roles whose title or job description states a summer 2027 internship are li
 | wantedly | ok | 10 | — |
 | japan-dev | ok | 10 | — |
 | tokyodev | ok | 10 | — |
-| jp-global | ok | 5 | — |
+| jp-global | ok | 6 | — |
 
-Last sync: 2026-11-17T22:15:54+00:00 · requests: 156
+Last sync: 2026-11-18T21:53:41+00:00 · requests: 154
 
 </details>
 

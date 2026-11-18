@@ -19,6 +19,27 @@ Open internships whose title and job description do not state a summer period (m
       <td width="180" align="left" valign="top">NVIDIA</td>
       <td width="420" align="left" valign="top">Test Methodology Engineer (RDSS Intern)<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="RDSS" src="https://img.shields.io/badge/RDSS-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 Taiwan, Hsinchu</td>
+      <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Hsinchu/Test-Methodology-Engineer--RDSS-Intern-_JR2028375-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Test Methodology Engineer (RDSS Intern)<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="RDSS" src="https://img.shields.io/badge/RDSS-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Taiwan, Hsinchu</td>
+      <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Hsinchu/Test-Methodology-Engineer--RDSS-Intern-_JR2028464-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Sony</td>
+      <td width="420" align="left" valign="top">Internship - Audio-Visual AI Research Scientist<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 Tokyo - Osaki</td>
+      <td width="120" align="left" valign="top"><a href="https://sonyglobal.wd1.myworkdayjobs.com/SonyJapanCareers/job/Tokyo---Osaki/Internship---Audio-Visual-AI-Research-Scientist_JR-116503"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">NVIDIA</td>
+      <td width="420" align="left" valign="top">Test Methodology Engineer (RDSS Intern)<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="RDSS" src="https://img.shields.io/badge/RDSS-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Taiwan, Hsinchu</td>
       <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Hsinchu/Test-Methodology-Engineer--RDSS-Intern-_JR2028880"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 17</td>
     </tr>
@@ -45,6 +66,13 @@ Open internships whose title and job description do not state a summer period (m
     </tr>
     <tr>
       <td width="180" align="left" valign="top">NVIDIA</td>
+      <td width="420" align="left" valign="top">Developer Technology Engineer Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 Japan, Tokyo</td>
+      <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Japan-Tokyo/Developer-Technology-Engineer-Intern_JR2029575"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 17</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Product Engineer - Board (RDSS Intern)<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="RDSS" src="https://img.shields.io/badge/RDSS-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 Taiwan, Hsinchu</td>
       <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Hsinchu/Product-Engineer---Board--RDSS-Intern-_JR2024272"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -73,13 +101,6 @@ Open internships whose title and job description do not state a summer period (m
     </tr>
     <tr>
       <td width="180" align="left" valign="top">NVIDIA</td>
-      <td width="420" align="left" valign="top">Developer Technology Engineer Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇯🇵 Japan, Tokyo</td>
-      <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Japan-Tokyo/Developer-Technology-Engineer-Intern_JR2029575"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Technical Program Manager, Deep Learning Enterprise Server Software (RDSS Intern)<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="RDSS" src="https://img.shields.io/badge/RDSS-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 Taiwan, Taipei</td>
       <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Technical-Program-Manager--Deep-Learning-Enterprise-Server-Software--RDSS-Intern-_JR2029595"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -172,7 +193,7 @@ Open internships whose title and job description do not state a summer period (m
     <tr>
       <td width="180" align="left" valign="top">Amazon</td>
       <td width="420" align="left" valign="top">Cloud Hardware Dev Engineer Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 TW, Hsinchu</td>
+      <td width="180" align="left" valign="top">🇹🇼 Taiwan</td>
       <td width="120" align="left" valign="top"><a href="https://www.amazon.jobs/jobs/10598506/apply"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 07</td>
     </tr>
@@ -509,7 +530,7 @@ Open internships whose title and job description do not state a summer period (m
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Client System Firmware Engineer (RDSS Intern)<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="RDSS" src="https://img.shields.io/badge/RDSS-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 Taiwan, Taipei</td>
-      <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Client-System-Firmware-Engineer--RDSS-Intern-_JR2025560"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Taiwan-Taipei/Client-System-Firmware-Engineer--RDSS-Intern-_JR2025560"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 22</td>
     </tr>
     <tr>
@@ -907,7 +928,7 @@ Open internships whose title and job description do not state a summer period (m
     <tr>
       <td width="180" align="left" valign="top">Tomofunfurbo</td>
       <td width="420" align="left" valign="top">Data &amp; AI Engineering Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, TW</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/7b782775-0cce-4bef-a83d-93aca834d425"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 06</td>
     </tr>
@@ -963,7 +984,7 @@ Open internships whose title and job description do not state a summer period (m
     <tr>
       <td width="180" align="left" valign="top">Philips</td>
       <td width="420" align="left" valign="top">Intern Data Scientist<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei</td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, TW</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/1aa0e9be-aa41-4494-b45c-2b37c4237b1b"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 29</td>
     </tr>
@@ -984,7 +1005,7 @@ Open internships whose title and job description do not state a summer period (m
     <tr>
       <td width="180" align="left" valign="top">Tomofunfurbo</td>
       <td width="420" align="left" valign="top">Backend Engineering Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, TW</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/e4b10c55-3ff0-43c7-be93-659cd65819db"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 21</td>
     </tr>
@@ -1110,7 +1131,7 @@ Open internships whose title and job description do not state a summer period (m
     <tr>
       <td width="180" align="left" valign="top">Shopback 2</td>
       <td width="420" align="left" valign="top">Software Engineer Intern - QA<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, TW</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/3fbd42ad-42df-4972-9c64-766abdc88bdc"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Aug 21</td>
     </tr>
@@ -1144,13 +1165,6 @@ Open internships whose title and job description do not state a summer period (m
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Sony</td>
-      <td width="420" align="left" valign="top">Internship - Audio-Visual AI Research Scientist<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇯🇵 Tokyo - Osaki</td>
-      <td width="120" align="left" valign="top"><a href="https://sonyglobal.wd1.myworkdayjobs.com/SonyJapanCareers/job/Tokyo---Osaki/Internship---Audio-Visual-AI-Research-Scientist_JR-116503"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Jul 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Internship - Researcher / Natural Language Processing (NLP) for Multimodal Machine Learning<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇯🇵 Tokyo - Osaki</td>
       <td width="120" align="left" valign="top"><a href="https://sonyglobal.wd1.myworkdayjobs.com/SonyJapanCareers/job/Tokyo---Osaki/Internship---Researcher---Natural-Language-Processing--NLP--for-Multimodal-Machine-Learning_JR-116491"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -1159,7 +1173,7 @@ Open internships whose title and job description do not state a summer period (m
     <tr>
       <td width="180" align="left" valign="top">Apple</td>
       <td width="420" align="left" valign="top">Product Design Engineering Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei</td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taipei, TW</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/562b8be5-c5ed-44ca-9828-bf6bad59b281"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Jul 30</td>
     </tr>
@@ -1173,7 +1187,7 @@ Open internships whose title and job description do not state a summer period (m
     <tr>
       <td width="180" align="left" valign="top">Appier</td>
       <td width="420" align="left" valign="top">Technical Solution Engineer Intern (Ad cloud)<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, TW</td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/a86fecca-f496-4b3a-97b5-096187a67539"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">May 20</td>
     </tr>
@@ -1215,7 +1229,7 @@ Open internships whose title and job description do not state a summer period (m
     <tr>
       <td width="180" align="left" valign="top">Appier</td>
       <td width="420" align="left" valign="top">Software Engineer Intern, Backend Development<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan (Hybrid)</td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, TW</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/e928c9e3-659f-4f05-a8a0-655610dddb65"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Jun 16</td>
     </tr>

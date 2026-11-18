@@ -21,6 +21,13 @@
       <td width="120" align="left" valign="top">Nov 17</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern - Summer 2027<br /><img height="18" alt="summer 2027" src="https://img.shields.io/badge/summer%202027-22c55e?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 New Taipei City, Taipei, TW; Taipei, Taiwan, TW</td>
+      <td width="120" align="left" valign="top"><a href="https://www.speedyapply.com/jobs/at/google/software-engineering-intern-summer-2027--357t"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">NVIDIA</td>
       <td width="420" align="left" valign="top">System Software Engineering Intern, GPU and SOC - Summer 2027<br /><img height="18" alt="summer 2027" src="https://img.shields.io/badge/summer%202027-22c55e?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 Taiwan, Taipei</td>
