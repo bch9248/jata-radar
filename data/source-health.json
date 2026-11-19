@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-18T21:50:52+00:00",
+  "started_at": "2026-11-19T22:06:06+00:00",
   "sources": [
     {
       "id": "nvidia",
@@ -28,7 +28,7 @@
     {
       "id": "dreamwork-taiwan",
       "status": "ok",
-      "candidates": 38,
+      "candidates": 50,
       "error": ""
     }
   ],
@@ -46,7 +46,7 @@
     {
       "id": "tw-cn-swe",
       "status": "ok",
-      "candidates": 4
+      "candidates": 5
     },
     {
       "id": "tw-cn-ai",
@@ -56,7 +56,7 @@
     {
       "id": "104-swe",
       "status": "ok",
-      "candidates": 9
+      "candidates": 10
     },
     {
       "id": "104-ai",
@@ -106,7 +106,7 @@
     {
       "id": "jp-local-swe",
       "status": "ok",
-      "candidates": 0
+      "candidates": 1
     },
     {
       "id": "jp-local-ml",
@@ -151,58 +151,10 @@
     {
       "id": "jp-global",
       "status": "ok",
-      "candidates": 6
+      "candidates": 5
     }
   ],
   "detail_errors": [
-    {
-      "id": "24d697f4623fa657",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "73602dd1cef2c1b1",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "1aaedb21aea3d29f",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "5b7dbefbc20579a1",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "7ebdb9fc46b9ca9c",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "16bb52a82ef842c4",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "107aea95c9f3206a",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "7035119aa5748cdb",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "895aba4f00d1de8c",
-      "error": "HTTP 404"
-    },
-    {
-      "id": "5c13887c60e5d6df",
-      "error": "DNS resolution failed"
-    },
-    {
-      "id": "85fc39ba30467c36",
-      "error": "DNS resolution failed"
-    },
-    {
-      "id": "ef0023d79a592131",
-      "error": "DNS resolution failed"
-    },
     {
       "id": "896caf183dbc8615",
       "error": "robots.txt disallows page fetching"
@@ -225,6 +177,10 @@
     },
     {
       "id": "527fb9e9fb92a8d7",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "14a8f495d2c685f8",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -268,8 +224,8 @@
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "430cb1b5a0b76021",
-      "error": "HTTP 404"
+      "id": "eaf3f1804c484b9c",
+      "error": "robots.txt disallows page fetching"
     },
     {
       "id": "a60449bb06e5a253",
@@ -292,15 +248,15 @@
       "error": "robots.txt disallows page fetching"
     },
     {
+      "id": "168219724cbe7cd2",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
       "id": "af44feaf91644d54",
       "error": "robots.txt disallows page fetching"
     },
     {
       "id": "46557515f9a4c882",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "50d7d5c6fcbd042c",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -334,12 +290,80 @@
     {
       "id": "3198af93152b89c3",
       "error": "HTTP 404"
+    },
+    {
+      "id": "f71cf21b56105ae4",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "c1f319eca22e63c3",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "4663b53cef79d73e",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "f4b031c3c003aefb",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "24d697f4623fa657",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "73602dd1cef2c1b1",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "1aaedb21aea3d29f",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "5b7dbefbc20579a1",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "7ebdb9fc46b9ca9c",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "16bb52a82ef842c4",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "107aea95c9f3206a",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "7035119aa5748cdb",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "7882cb553db42905",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "5c13887c60e5d6df",
+      "error": "DNS resolution failed"
+    },
+    {
+      "id": "85fc39ba30467c36",
+      "error": "DNS resolution failed"
+    },
+    {
+      "id": "ef0023d79a592131",
+      "error": "DNS resolution failed"
+    },
+    {
+      "id": "b3f3e7d1cd5bbd6e",
+      "error": "HTTP 403: {\"errorCode\":\"S22\",\"errorCaseId\":\"98011FMWO3Q8GC\",\"httpStatus\":403,\"message\":\"permission denied\",\"messageParams\":{}}"
     }
   ],
-  "finished_at": "2026-11-18T21:53:41+00:00",
-  "requests": 154,
-  "new_jobs": 8,
-  "detail_candidates": 104,
-  "details_attempted": 100,
-  "details_deferred": 4
+  "finished_at": "2026-11-19T22:08:16+00:00",
+  "requests": 115,
+  "new_jobs": 12,
+  "detail_candidates": 76,
+  "details_attempted": 76,
+  "details_deferred": 0
 }
