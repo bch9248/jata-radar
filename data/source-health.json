@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-20T21:45:55+00:00",
+  "started_at": "2026-11-21T20:28:20+00:00",
   "sources": [
     {
       "id": "nvidia",
@@ -46,7 +46,7 @@
     {
       "id": "tw-cn-swe",
       "status": "ok",
-      "candidates": 4
+      "candidates": 3
     },
     {
       "id": "tw-cn-ai",
@@ -61,7 +61,7 @@
     {
       "id": "104-ai",
       "status": "ok",
-      "candidates": 10
+      "candidates": 8
     },
     {
       "id": "cake",
@@ -81,7 +81,7 @@
     {
       "id": "line-tw",
       "status": "ok",
-      "candidates": 6
+      "candidates": 7
     },
     {
       "id": "amazon-tw",
@@ -106,7 +106,7 @@
     {
       "id": "jp-local-swe",
       "status": "ok",
-      "candidates": 0
+      "candidates": 1
     },
     {
       "id": "jp-local-ml",
@@ -156,50 +156,6 @@
   ],
   "detail_errors": [
     {
-      "id": "896caf183dbc8615",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "9d2c81f571e7c1bc",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "2224c1b901bba87f",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "f77a26581cc3fe8e",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "527fb9e9fb92a8d7",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "14a8f495d2c685f8",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "85c836418df7b8cb",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "2673888fa7cb5e0c",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "fd43aa2c95f5beeb",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "ac274e096204a6a6",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "899fa1a1947726c7",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
       "id": "58c692ac5e0645ed",
       "error": "robots.txt disallows page fetching"
     },
@@ -208,7 +164,7 @@
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "00c54b40315c8237",
+      "id": "559d949c0ef6d515",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -217,10 +173,6 @@
     },
     {
       "id": "93d7c6643ef310d8",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "6d444b99eb1dcba8",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -244,15 +196,15 @@
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "0f40de5250e4bed6",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
       "id": "af44feaf91644d54",
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "46557515f9a4c882",
+      "id": "f924e175c66283d2",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "50d7d5c6fcbd042c",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -284,15 +236,15 @@
       "error": "HTTP 404"
     },
     {
+      "id": "f71cf21b56105ae4",
+      "error": "HTTP 403"
+    },
+    {
       "id": "c1f319eca22e63c3",
       "error": "HTTP 403"
     },
     {
       "id": "4663b53cef79d73e",
-      "error": "HTTP 403"
-    },
-    {
-      "id": "ef8af4bc2702a409",
       "error": "HTTP 403"
     },
     {
@@ -316,6 +268,10 @@
       "error": "HTTP 403"
     },
     {
+      "id": "7ebdb9fc46b9ca9c",
+      "error": "HTTP 403"
+    },
+    {
       "id": "16bb52a82ef842c4",
       "error": "HTTP 403"
     },
@@ -328,12 +284,8 @@
       "error": "HTTP 403"
     },
     {
-      "id": "aee54542c451e071",
-      "error": "HTTP 404: {\"errorCode\":\"HTTP_404\",\"errorCaseId\":\"046ECFMWPIGIYE\",\"httpStatus\":404,\"message\":\"\",\"messageParams\":{}}"
-    },
-    {
-      "id": "5c13887c60e5d6df",
-      "error": "DNS resolution failed"
+      "id": "7882cb553db42905",
+      "error": "robots.txt disallows page fetching"
     },
     {
       "id": "85fc39ba30467c36",
@@ -342,12 +294,52 @@
     {
       "id": "ef0023d79a592131",
       "error": "DNS resolution failed"
+    },
+    {
+      "id": "896caf183dbc8615",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "2224c1b901bba87f",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "f77a26581cc3fe8e",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "527fb9e9fb92a8d7",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "85c836418df7b8cb",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "2673888fa7cb5e0c",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "fd43aa2c95f5beeb",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "ac274e096204a6a6",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "8cfc7fa5ce680746",
+      "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "899fa1a1947726c7",
+      "error": "robots.txt disallows page fetching"
     }
   ],
-  "finished_at": "2026-11-20T21:48:30+00:00",
-  "requests": 120,
-  "new_jobs": 6,
-  "detail_candidates": 72,
-  "details_attempted": 72,
+  "finished_at": "2026-11-21T20:30:14+00:00",
+  "requests": 97,
+  "new_jobs": 2,
+  "detail_candidates": 53,
+  "details_attempted": 53,
   "details_deferred": 0
 }
