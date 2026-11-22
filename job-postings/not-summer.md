@@ -16,6 +16,13 @@ Open internships whose title and job description do not state a summer period (m
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="420" align="left" valign="top">AIモデルの構築する実践PJに携われる、機械学習エンジニアインターン募集 - 燈株式会社のデータサイエンティストの採用 - Wantedly<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="120" align="left" valign="top"><a href="https://www.wantedly.com/projects/2308223"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 22</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">NVIDIA</td>
       <td width="420" align="left" valign="top">GPU Firmware Intern - 2027<br /><img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 Taiwan, Taipei</td>
@@ -296,9 +303,16 @@ Open internships whose title and job description do not state a summer period (m
       <td width="120" align="left" valign="top">Nov 07</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">Micron Technology</td>
+      <td width="420" align="left" valign="top">2027 Semester Internship<br /><img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 苗栗縣, 苗栗縣, TW</td>
+      <td width="120" align="left" valign="top"><a href="https://www.cake.me/companies/micron-technology/jobs/b75d4feb-4463-4a69-88ba-b45691e1c8a7-2027-semester-internship-ce3b6b307bd1a0f63a0cc18a5d22e1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 06</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Logitech</td>
       <td width="420" align="left" valign="top">AI-Assisted Materials Engineering Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Hsinchu, TW</td>
+      <td width="180" align="left" valign="top">🇹🇼 Hsinchu, Taiwan</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/2d5f75d1-1388-4fa8-b57d-73bff33a05f9"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 06</td>
     </tr>
@@ -1344,6 +1358,13 @@ Open internships whose title and job description do not state a summer period (m
       <td width="180" align="left" valign="top">🇯🇵 JP</td>
       <td width="120" align="left" valign="top"><a href="https://www.wantedly.com/projects/2035785"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Apr 08</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Aiworks</td>
+      <td width="420" align="left" valign="top">AI 研究與課程助理<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 中正區, 台北市, TW</td>
+      <td width="120" align="left" valign="top"><a href="https://www.cake.me/companies/aiworks/jobs/ai-research-and-course-assistant"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Mar 17</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Appier</td>
