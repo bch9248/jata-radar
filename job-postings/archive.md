@@ -325,6 +325,13 @@
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">データサイエンティスト<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇯🇵 JP</td>
+      <td width="120" align="left" valign="top"><a href="https://en-jp.wantedly.com/projects/1373782"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Jun 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">データサイエンティスト<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 JP</td>
       <td width="120" align="left" valign="top"><a href="https://www.wantedly.com/projects/1373782"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Jun 21</td>
     </tr>
@@ -355,6 +362,13 @@
       <td width="180" align="left" valign="top">🇯🇵 Remote, Remote, JP</td>
       <td width="120" align="left" valign="top"><a href="https://japan-dev.com/jobs/hennge/hennge-hennges-global-internship-program-vrqg56"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 03</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Flatt Security</td>
+      <td width="420" align="left" valign="top">Software Engineer - Product Engineering<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
+      <td width="120" align="left" valign="top"><a href="https://japan-dev.com/jobs/flatt-security/flatt-security-software-engineer---product-engineering-z54shf"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 22</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">—</td>
@@ -390,6 +404,13 @@
       <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
       <td width="120" align="left" valign="top"><a href="https://japan-dev.com/jobs/hennge/hennge-software-engineer-go-2y719x"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Jul 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">—</td>
+      <td width="420" align="left" valign="top">機械学習エンジニア<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 JP</td>
+      <td width="120" align="left" valign="top"><a href="https://sg.wantedly.com/projects/465665"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Jun 05</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">鏈星築夢有限公司</td>
