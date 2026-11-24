@@ -26,8 +26,8 @@
 - [SWE — Software Engineering](./job-postings/swe.md) — 5 opportunities
 - [MLE / AI — Machine Learning & AI](./job-postings/mle_ai.md) — 0 opportunities
 - [Other Engineering](./job-postings/other.md) — 4 opportunities
-- [Closed](./job-postings/archive.md) — 61 listings
-- [Not stated as summer 2027](./job-postings/not-summer.md) — 200 internships hidden from the list
+- [Closed](./job-postings/archive.md) — 63 listings
+- [Not stated as summer 2027](./job-postings/not-summer.md) — 202 internships hidden from the list
 
 Only roles whose title or job description states a summer 2027 internship are listed. Date is the employer's posting date when published, otherwise the day this tracker first found the role.
 
@@ -156,13 +156,13 @@ Only roles whose title or job description states a summer 2027 internship are li
 
 | Source | Last result | Candidates | Note |
 |---|---|---|---|
-| nvidia | truncated | 94 | Pagination limit reached; increase max_pages |
+| nvidia | truncated | 92 | Pagination limit reached; increase max_pages |
 | rakuten | truncated | 0 | Pagination limit reached; increase max_pages |
 | sony-japan | ok | 9 | — |
-| speedyapply-international | ok | 35 | — |
+| speedyapply-international | ok | 33 | — |
 | dreamwork-taiwan | ok | 51 | — |
 | tw-swe | ok | 9 | — |
-| tw-ml | ok | 2 | — |
+| tw-ml | ok | 1 | — |
 | tw-cn-swe | ok | 3 | — |
 | tw-cn-ai | ok | 1 | — |
 | 104-swe | ok | 10 | — |
@@ -170,10 +170,10 @@ Only roles whose title or job description states a summer 2027 internship are li
 | cake | ok | 5 | — |
 | yourator | ok | 10 | — |
 | google-tw | ok | 10 | — |
-| line-tw | ok | 7 | — |
+| line-tw | ok | 8 | — |
 | amazon-tw | ok | 10 | — |
 | taiwan-companies | ok | 0 | — |
-| jp-swe | ok | 4 | — |
+| jp-swe | ok | 3 | — |
 | jp-ml | ok | 3 | — |
 | jp-local-swe | ok | 0 | — |
 | jp-local-ml | ok | 1 | — |
@@ -184,9 +184,9 @@ Only roles whose title or job description states a summer 2027 internship are li
 | wantedly | ok | 10 | — |
 | japan-dev | ok | 10 | — |
 | tokyodev | ok | 10 | — |
-| jp-global | ok | 4 | — |
+| jp-global | ok | 5 | — |
 
-Last sync: 2026-11-24T01:38:56+00:00 · requests: 112
+Last sync: 2026-11-24T23:30:48+00:00 · requests: 164
 
 </details>
 

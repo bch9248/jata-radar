@@ -231,6 +231,13 @@
       <td width="120" align="left" valign="top">Jan 23</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">Canner （易開科技）</td>
+      <td width="420" align="left" valign="top">Sr. AI Software Engineer 資深 AI 軟體工程師<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 新北市, 新北市, TW</td>
+      <td width="120" align="left" valign="top"><a href="https://www.cake.me/companies/canner/jobs/861e4a"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Dec 29</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">HENNGE</td>
       <td width="420" align="left" valign="top">Internal Full Stack Developer (Junior)<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
@@ -383,6 +390,13 @@
       <td width="180" align="left" valign="top">🇯🇵 JP</td>
       <td width="120" align="left" valign="top"><a href="https://en-jp.wantedly.com/projects/873846"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Mar 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">TSMC</td>
+      <td width="420" align="left" valign="top">IT AI/ML Engineer<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 台北市, 台北市, TW</td>
+      <td width="120" align="left" valign="top"><a href="https://www.cake.me/companies/tsmc/jobs/ai-ml-engineer-a6fbb6"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Jan 06</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">HENNGE</td>
