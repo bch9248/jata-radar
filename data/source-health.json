@@ -1,10 +1,10 @@
 {
-  "started_at": "2026-11-24T23:27:02+00:00",
+  "started_at": "2026-11-25T23:01:59+00:00",
   "sources": [
     {
       "id": "nvidia",
       "status": "truncated",
-      "candidates": 92,
+      "candidates": 89,
       "error": "Pagination limit reached; increase max_pages"
     },
     {
@@ -28,7 +28,7 @@
     {
       "id": "dreamwork-taiwan",
       "status": "ok",
-      "candidates": 51,
+      "candidates": 64,
       "error": ""
     }
   ],
@@ -46,7 +46,7 @@
     {
       "id": "tw-cn-swe",
       "status": "ok",
-      "candidates": 3
+      "candidates": 2
     },
     {
       "id": "tw-cn-ai",
@@ -61,7 +61,7 @@
     {
       "id": "104-ai",
       "status": "ok",
-      "candidates": 10
+      "candidates": 9
     },
     {
       "id": "cake",
@@ -81,7 +81,7 @@
     {
       "id": "line-tw",
       "status": "ok",
-      "candidates": 8
+      "candidates": 7
     },
     {
       "id": "amazon-tw",
@@ -96,7 +96,7 @@
     {
       "id": "jp-swe",
       "status": "ok",
-      "candidates": 3
+      "candidates": 4
     },
     {
       "id": "jp-ml",
@@ -151,24 +151,28 @@
     {
       "id": "jp-global",
       "status": "ok",
-      "candidates": 5
+      "candidates": 4
     }
   ],
   "detail_errors": [
     {
-      "id": "cdf31cf5faad6316",
-      "error": "HTTP 403"
+      "id": "a6fed5e8f60a8fac",
+      "error": "HTTP 403: {\"errorCode\":\"S22\",\"errorCaseId\":\"1428DDMWWQBVT6\",\"httpStatus\":403,\"message\":\"permission denied\",\"messageParams\":{}}"
     },
     {
-      "id": "304c916158f6ef27",
-      "error": "HTTP 403"
+      "id": "8a1783df4c83043d",
+      "error": "HTTP 403: {\"errorCode\":\"S22\",\"errorCaseId\":\"B420BAMWWQC2AQ\",\"httpStatus\":403,\"message\":\"permission denied\",\"messageParams\":{}}"
+    },
+    {
+      "id": "5e74b6b01c7a089b",
+      "error": "HTTP 403: {\"errorCode\":\"S22\",\"errorCaseId\":\"1F32A6MWWQCAO2\",\"httpStatus\":403,\"message\":\"permission denied\",\"messageParams\":{}}"
+    },
+    {
+      "id": "abe0d60dbb4c7eab",
+      "error": "HTTP 403: {\"errorCode\":\"S22\",\"errorCaseId\":\"637420MWWQCBJT\",\"httpStatus\":403,\"message\":\"permission denied\",\"messageParams\":{}}"
     },
     {
       "id": "896caf183dbc8615",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "9d2c81f571e7c1bc",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -208,10 +212,6 @@
       "error": "robots.txt unavailable; page fetch skipped"
     },
     {
-      "id": "58c692ac5e0645ed",
-      "error": "robots.txt unavailable; page fetch skipped"
-    },
-    {
       "id": "3920ca8ac7b0b744",
       "error": "robots.txt unavailable; page fetch skipped"
     },
@@ -220,7 +220,7 @@
       "error": "robots.txt unavailable; page fetch skipped"
     },
     {
-      "id": "9f5f080529a0447f",
+      "id": "559d949c0ef6d515",
       "error": "robots.txt unavailable; page fetch skipped"
     },
     {
@@ -228,11 +228,11 @@
       "error": "robots.txt unavailable; page fetch skipped"
     },
     {
-      "id": "93d7c6643ef310d8",
+      "id": "e3fe6d1e1e2e3813",
       "error": "robots.txt unavailable; page fetch skipped"
     },
     {
-      "id": "e3fe6d1e1e2e3813",
+      "id": "9b28714e718fed61",
       "error": "robots.txt unavailable; page fetch skipped"
     },
     {
@@ -244,18 +244,6 @@
       "error": "HTTP 404"
     },
     {
-      "id": "69f89f6fcd9aef6d",
-      "error": "HTTP 410"
-    },
-    {
-      "id": "4243317b829c51fb",
-      "error": "HTTP 410"
-    },
-    {
-      "id": "91a7684d5c0e974f",
-      "error": "HTTP 410"
-    },
-    {
       "id": "ba2294d2f32c2fbe",
       "error": "robots.txt disallows page fetching"
     },
@@ -264,19 +252,11 @@
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "677e7009bdf45bb7",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
-      "id": "46557515f9a4c882",
-      "error": "robots.txt disallows page fetching"
-    },
-    {
       "id": "3373da43e47ce442",
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "9ad90a495b40e622",
+      "id": "11bde8009c9fe938",
       "error": "robots.txt disallows page fetching"
     },
     {
@@ -296,14 +276,82 @@
       "error": "robots.txt disallows page fetching"
     },
     {
-      "id": "43cd951cd8ec9e37",
+      "id": "1d55f944cf48426e",
       "error": "robots.txt disallows page fetching"
+    },
+    {
+      "id": "3198af93152b89c3",
+      "error": "HTTP 404"
+    },
+    {
+      "id": "f71cf21b56105ae4",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "010ac998ee0bd54b",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "c8464612f26f87d7",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "c1f319eca22e63c3",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "4663b53cef79d73e",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "2bc0842c01a3cdc0",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "ef8af4bc2702a409",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "1aaedb21aea3d29f",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "efc2cb36a2761940",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "16bb52a82ef842c4",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "107aea95c9f3206a",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "7035119aa5748cdb",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "895aba4f00d1de8c",
+      "error": "HTTP 404"
+    },
+    {
+      "id": "85fc39ba30467c36",
+      "error": "DNS resolution failed"
+    },
+    {
+      "id": "ef0023d79a592131",
+      "error": "DNS resolution failed"
+    },
+    {
+      "id": "3bb2ebd544a5b886",
+      "error": "HTTP 403: {\"errorCode\":\"S22\",\"errorCaseId\":\"7C8448MWWQEJUR\",\"httpStatus\":403,\"message\":\"permission denied\",\"messageParams\":{}}"
     }
   ],
-  "finished_at": "2026-11-24T23:30:48+00:00",
-  "requests": 164,
-  "new_jobs": 2,
-  "detail_candidates": 139,
-  "details_attempted": 100,
-  "details_deferred": 39
+  "finished_at": "2026-11-25T23:05:12+00:00",
+  "requests": 171,
+  "new_jobs": 8,
+  "detail_candidates": 98,
+  "details_attempted": 98,
+  "details_deferred": 0
 }

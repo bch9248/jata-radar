@@ -70,6 +70,13 @@
       <td width="120" align="left" valign="top">Aug 27</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">Marvell Technology</td>
+      <td width="420" align="left" valign="top">Analog IC Design Intern - Master&#x27;s Degree<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Hsinchu City</td>
+      <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/cb763464-73e5-4334-a63c-a1270bc26e53"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Aug 06</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">—</td>
       <td width="420" align="left" valign="top">アルゴリズム &#124; ソフトウェア<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇯🇵 JP</td>
@@ -106,6 +113,13 @@
     </tr>
     <tr>
       <td width="180" align="left" valign="top">lowiro</td>
+      <td width="420" align="left" valign="top">UI &amp; Graphic Designer<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
+      <td width="120" align="left" valign="top"><a href="https://japan-dev.com/jobs/lowiro/lowiro-ui--graphic-designer-mqutz8"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Dec 08</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Server Engineer<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
       <td width="120" align="left" valign="top"><a href="https://japan-dev.com/jobs/lowiro/lowiro-server-engineer-bpaqq7"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
