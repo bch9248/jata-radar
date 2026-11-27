@@ -8,8 +8,8 @@
 
 <p align="center">
   <img height="20" alt="Countries: Japan / Taiwan" src="https://img.shields.io/badge/Countries-Japan%20%2F%20Taiwan-22c55e?style=flat" />
-  <img height="20" alt="Open roles: 9" src="https://img.shields.io/badge/Open%20roles-9-60a5fa?style=flat" />
-  <img height="20" alt="Updated: 2026-11-26" src="https://img.shields.io/badge/Updated-2026--11--26-f97316?style=flat" />
+  <img height="20" alt="Open roles: 8" src="https://img.shields.io/badge/Open%20roles-8-60a5fa?style=flat" />
+  <img height="20" alt="Updated: 2026-11-27" src="https://img.shields.io/badge/Updated-2026--11--27-f97316?style=flat" />
   <img height="20" alt="License: MIT" src="https://img.shields.io/badge/License-MIT-eab308?style=flat" />
 </p>
 
@@ -25,9 +25,9 @@
 
 - [SWE — Software Engineering](./job-postings/swe.md) — 5 opportunities
 - [MLE / AI — Machine Learning & AI](./job-postings/mle_ai.md) — 0 opportunities
-- [Other Engineering](./job-postings/other.md) — 4 opportunities
-- [Closed](./job-postings/archive.md) — 66 listings
-- [Not stated as summer 2027](./job-postings/not-summer.md) — 205 internships hidden from the list
+- [Other Engineering](./job-postings/other.md) — 3 opportunities
+- [Closed](./job-postings/archive.md) — 70 listings
+- [Not stated as summer 2027](./job-postings/not-summer.md) — 204 internships hidden from the list
 
 Only roles whose title or job description states a summer 2027 internship are listed. Date is the employer's posting date when published, otherwise the day this tracker first found the role.
 
@@ -121,13 +121,6 @@ Only roles whose title or job description states a summer 2027 internship are li
   </thead>
   <tbody>
     <tr>
-      <td width="180" align="left" valign="top">Google</td>
-      <td width="420" align="left" valign="top">Hardware Engineer Intern, Optoelectronics, PhD, Summer 2027<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="PhD" src="https://img.shields.io/badge/PhD-a78bfa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
-      <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/1a67770e-82fd-40c3-a1d7-f6bdb955a565"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 06</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">TSMC</td>
       <td width="420" align="left" valign="top">2027 TSMC DNA Internship<br /><img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 新竹市, 新竹市, TW</td>
@@ -156,7 +149,7 @@ Only roles whose title or job description states a summer 2027 internship are li
 
 | Source | Last result | Candidates | Note |
 |---|---|---|---|
-| nvidia | truncated | 88 | Pagination limit reached; increase max_pages |
+| nvidia | truncated | 87 | Pagination limit reached; increase max_pages |
 | rakuten | truncated | 0 | Pagination limit reached; increase max_pages |
 | sony-japan | ok | 9 | — |
 | speedyapply-international | ok | 30 | — |
@@ -186,7 +179,7 @@ Only roles whose title or job description states a summer 2027 internship are li
 | tokyodev | ok | 10 | — |
 | jp-global | ok | 5 | — |
 
-Last sync: 2026-11-26T22:58:04+00:00 · requests: 122
+Last sync: 2026-11-27T22:41:32+00:00 · requests: 121
 
 </details>
 

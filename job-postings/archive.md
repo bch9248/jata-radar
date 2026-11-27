@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Hardware Engineer Intern, Optoelectronics, PhD, Summer 2027<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="PhD" src="https://img.shields.io/badge/PhD-a78bfa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
+      <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/1a67770e-82fd-40c3-a1d7-f6bdb955a565"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 06</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Seagate Technology</td>
       <td width="420" align="left" valign="top">Edge IoT Engineering Intern, Electronics Design Engineering<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
@@ -28,7 +35,14 @@
       <td width="120" align="left" valign="top">Oct 30</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">↳</td>
+      <td width="180" align="left" valign="top">增你強股份有限公司</td>
+      <td width="420" align="left" valign="top">【2027 實習計畫】優先獲得畢業預聘機會]軟體開發組實習(一年制/學期制)<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇹🇼 Neihu District, Taipei City, Taiwan, TW</td>
+      <td width="120" align="left" valign="top"><a href="https://freehire.me/jobs/2027-shi-xi-ji-hua-you-xian-huo-de-bi-ye-yu-pin-ji-hui-ruan-ti-kai-fa-zu-shi-xi-yi-nian-zhi-xue-qi-zhi-zeng-ni-qiang-gu-fen-you-xian-gong-si-zictd4dp"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 27</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">—</td>
       <td width="420" align="left" valign="top">Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA) - Job ID: 10559762 &#124; Amazon.jobs<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">—</td>
       <td width="120" align="left" valign="top"><a href="https://www.amazon.jobs/en/jobs/10559762/software-development-engineer-intern-amazon-leo-summer-2027-usa"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
@@ -70,6 +84,13 @@
       <td width="120" align="left" valign="top">Aug 27</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">Advanced Micro Devices, Inc</td>
+      <td width="420" align="left" valign="top">2027 Undergrad Machine Learning (ML)/ Artificial Intelligence (AI) intern/co-op<br /><img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Austin, Texas, United States; Boxborough, Massachusetts, United States; Fort Collins, Colorado, United States; Longmont, Colorado, United States; Rochester, New York, United States; Fishkill, New York, United States</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.amd.com/careers-home/jobs/91170?lang=en-us"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Aug 20</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Marvell Technology</td>
       <td width="420" align="left" valign="top">Analog IC Design Intern - Master&#x27;s Degree<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 Hsinchu City</td>
@@ -89,6 +110,13 @@
       <td width="180" align="left" valign="top">🇹🇼 Taiwan, Taipei, TW</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/4f67820b-be98-4e55-8705-39a054cd11ce"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Jul 25</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">abbeal</td>
+      <td width="420" align="left" valign="top">Embedded &amp; Robotics Engineer<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">🇯🇵 Tokyo, Tokyo, JP</td>
+      <td width="120" align="left" valign="top"><a href="https://japan-dev.com/jobs/abbeal/abbeal-embedded--robotics-engineer-camktk"><img height="28" alt="apply" src="https://img.shields.io/badge/Closed-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">May 22</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Omakase.ai</td>

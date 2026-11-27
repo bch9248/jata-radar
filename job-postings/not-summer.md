@@ -137,56 +137,56 @@ Open internships whose title and job description do not state a summer period (m
     <tr>
       <td width="180" align="left" valign="top">Marvell Technology</td>
       <td width="420" align="left" valign="top">Analog Design Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Hsinchu City, TW</td>
+      <td width="180" align="left" valign="top">🇹🇼 Hsinchu City</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/234aae7f-c1e2-4ab2-91c5-70e5163c7207"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 19</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Hardware Engineer Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, TW</td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/2a69db66-df1c-47fa-b7da-fd508a742e3f"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 19</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Product Quality Engineer Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Hsinchu City, TW</td>
+      <td width="180" align="left" valign="top">🇹🇼 Hsinchu City</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/340f2be7-e978-4f05-91d3-755349427fd8"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 19</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Intern, Product and Testing Engineering (SiPho and Optical Module)<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, TW</td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/5e93b522-d42b-457d-a840-eb81bd801678"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 19</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Intern, Firmware Engineer<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, TW</td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/96cd0168-dbc0-4c93-b7ad-71ac08dd6021"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 19</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Hardware Validation Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Hsinchu City, TW</td>
+      <td width="180" align="left" valign="top">🇹🇼 Hsinchu City</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/98b6f957-2d35-4bce-8990-1af9ebe739bf"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 19</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Software Engineer Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, TW</td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/bfd7ca59-56e7-48e7-8e4c-f81f753abb4a"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 19</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Hardware Design Intern<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Taipei, TW</td>
+      <td width="180" align="left" valign="top">🇹🇼 Taipei</td>
       <td width="120" align="left" valign="top"><a href="https://www.dreamworkhq.com/job/cf1f5877-88c6-42a6-a8ae-7fd5853f5e71"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 19</td>
     </tr>
@@ -269,7 +269,7 @@ Open internships whose title and job description do not state a summer period (m
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Appier</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern, Ads Live Testing<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Ads Live Testing<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">🇹🇼 Taipei, Taiwan</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/appier/jobs/8382372"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 13</td>
@@ -388,7 +388,7 @@ Open internships whose title and job description do not state a summer period (m
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">129 Internships in Taiwan &#124; iAgora.com<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /></td>
+      <td width="420" align="left" valign="top">129 Internships in Taiwan &#124; iAgora.com<br /><img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="visa?" src="https://img.shields.io/badge/visa%3F-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">—</td>
       <td width="120" align="left" valign="top"><a href="https://www.iagora.com/work/en/internships/taiwan"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 06</td>
@@ -604,14 +604,7 @@ Open internships whose title and job description do not state a summer period (m
       <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">增你強股份有限公司</td>
-      <td width="420" align="left" valign="top">【2027 實習計畫】優先獲得畢業預聘機會]軟體開發組實習(一年制/學期制)<br /><img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">🇹🇼 Neihu District, Taipei City, Taiwan, TW</td>
-      <td width="120" align="left" valign="top"><a href="https://freehire.me/jobs/2027-shi-xi-ji-hua-you-xian-huo-de-bi-ye-yu-pin-ji-hui-ruan-ti-kai-fa-zu-shi-xi-yi-nian-zhi-xue-qi-zhi-zeng-ni-qiang-gu-fen-you-xian-gong-si-zictd4dp"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">—</td>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Engineering &#124; 株式会社メルカリ - 採用情報<br /><img height="18" alt="intern not in title" src="https://img.shields.io/badge/intern%20not%20in%20title-eab308?style=plastic" /> <img height="18" alt="year not stated" src="https://img.shields.io/badge/year%20not%20stated-eab308?style=plastic" /> <img height="18" alt="summer not stated" src="https://img.shields.io/badge/summer%20not%20stated-eab308?style=plastic" /> <img height="18" alt="details unverified" src="https://img.shields.io/badge/details%20unverified-eab308?style=plastic" /> <img height="18" alt="Japanese?" src="https://img.shields.io/badge/Japanese%3F-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">—</td>
       <td width="120" align="left" valign="top"><a href="https://careers.mercari.com/jobs/engineering"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
